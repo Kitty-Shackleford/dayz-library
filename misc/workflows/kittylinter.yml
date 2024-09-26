@@ -1,0 +1,48 @@
+name: Kitty Linter
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  build:
+    name: Kitty Linter
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml
+
+      - name: Format specific files with Prettier
+        run: |
+          npx prettier --write "**/*.{json,yml,xml}"  # Specify file types to format
+
+      - name: Run Super Linter
+        id: linter
+        uses: super-linter/super-linter@v7.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_LOCAL: false
+          DEFAULT_BRANCH: main
+          DISABLE_LINTING: "false"
+          ENABLE_LINTER: "eslint,LibXML,YamlLint" # Specify linters to use
+          VALIDATE_XML: "true"
+          VALIDATE_JSON: "true"
+          VALIDATE_YAML: "true"
