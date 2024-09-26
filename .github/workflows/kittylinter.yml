@@ -26,11 +26,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Format files with Prettier
+      - name: Format all files with Prettier
         run: |
-          for file in ${{ steps.get_changed_files.outputs.files }}; do
-            npx prettier --write "$file"
-          done
+          npx prettier --write "**/*"  # Format all files in the repository
 
       - name: Run Super Linter
         id: linter
@@ -45,4 +43,5 @@ jobs:
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
         with:
-          GITHUB_WORKSPACE: ${{ steps.get_changed_files.outputs.files }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}  # Provide the workspace path
+
