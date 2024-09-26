@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Prettier and XML Plugin
         run: |
-          npm install --save-dev prettier prettier-plugin-xml
+          npm install --save-dev prettier @prettier/plugin-xml
 
       - name: Format specific files with Prettier
         run: |
