@@ -32,7 +32,11 @@ jobs:
 
       - name: Format specific files with Prettier
         run: |
-          npx prettier --write "**/*.{json,yml,xml}"  # Specify file types to format
+          npx prettier --write "**/*.{json,yml,xml}"
+
+      - name: Check Prettier formatting
+        run: |
+          npx prettier --check "**/*.{json,yml,xml}"
 
       - name: Run Super Linter
         id: linter
@@ -42,7 +46,7 @@ jobs:
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
           DISABLE_LINTING: "false"
-          ENABLE_LINTER: "eslint,LibXML,YamlLint" # Specify linters to use
+          ENABLE_LINTER: "eslint,LibXML,YamlLint"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
