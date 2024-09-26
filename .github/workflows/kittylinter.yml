@@ -8,8 +8,6 @@ on:
     branches:
       - main
 
-permissions: {}
-
 jobs:
   build:
     name: Kitty Linter
@@ -19,6 +17,7 @@ jobs:
       contents: write
       packages: read
       statuses: write
+      workflows: write
 
     steps:
       - name: Checkout code
@@ -50,13 +49,18 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
-          
+
       - name: Commit formatted changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
           git add .
-          git commit -m "Format files with Prettier" || echo "No changes to commit"
-          git push
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Format files with Prettier"
+            git push
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
