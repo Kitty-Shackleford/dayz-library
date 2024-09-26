@@ -50,3 +50,13 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
+          
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Format files with Prettier" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

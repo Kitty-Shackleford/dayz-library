@@ -34,6 +34,10 @@ jobs:
         run: |
           npx prettier --write "**/*.{json,yml,xml}"
 
+      - name: Check Prettier formatting
+        run: |
+          npx prettier --check "**/*.{json,yml,xml}"
+
       - name: Run Super Linter
         id: linter
         uses: super-linter/super-linter@v7.1.0
@@ -46,3 +50,13 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
+          
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Format files with Prettier" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
