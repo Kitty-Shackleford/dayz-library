@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+	<group name="Land_Castle_Wall1_20_nolc" pos="11892.740234 331.720703 6573.110352" rpy="-0.000000 -0.000000 89.999954" a="4.57764e-05"/>
+	<group name="Land_Castle_Wall1_20_nolc" pos="11892.700195 331.562012 6588.959961" rpy="0.000000 0.000000 89.499985" a="0.500015"/>
+	<group name="Land_Castle_Wall1_20_nolc" pos="11861.000000 331.014008 6554.089844" rpy="0.000000 0.000000 -90.000000" a="-180"/>
+	<group name="Land_Castle_Wall1_20_nolc" pos="11871.253906 331.578217 6545.103516" rpy="-0.000000 0.000000 -179.999878" a="-90.0001"/>
+	<group name="Land_Castle_Wall1_20_nolc" pos="11885.500000 331.910004 6545.080078" rpy="0.000000 0.000000 -179.999954" a="-90"/>
+	<group name="Land_Castle_Gate" pos="11895.299805 332.648010 6554.629883" rpy="0.000000 0.000000 90.000000" a="0"/>
+	<group name="Land_Castle_Bergfrit" pos="11882.200195 342.832001 6623.120117" rpy="0.000000 0.000000 -84.746475" a="174.746"/>
+	<group name="Land_Misc_Well_Pump_Yellow" pos="11880.284180 329.559784 6581.203125" rpy="0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_FuelStation_Feed_Enoch" pos="11884.099609 328.984985 6577.279785" rpy="0.000000 0.000000 -90.000206" a="-180"/>
+	<group name="StaticObj_Bridge_Wood_25" pos="11877.200195 360.134003 6591.939941" rpy="0.000000 0.000000 92.999992" a="-2.99999"/>
+</map>

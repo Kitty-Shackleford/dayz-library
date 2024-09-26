@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+	<group name="StaticObj_Furniture_shelf" pos="6310.931152 301.098053 7693.982422" rpy="-0.000000 -0.000000 31.233654" a="58.7663"/>
+	<group name="Land_Misc_Well_Pump_Blue" pos="6296.460449 301.365631 7680.572754" rpy="-0.000000 0.000000 -144.774216" a="-125.226"/>
+	<group name="StaticObj_Furniture_SofaCorner" pos="6297.125977 301.266266 7689.941895" rpy="-0.000000 -0.000000 123.490799" a="-33.4908"/>
+	<group name="StaticObj_Furniture_flowers_02" pos="6297.548340 301.142548 7691.700195" rpy="-0.000000 -0.000000 33.490501" a="56.5095"/>
+	<group name="StaticObj_Furniture_piano" pos="6299.396973 301.296936 7693.182617" rpy="-0.000000 -0.000000 33.490501" a="56.5095"/>
+	<group name="StaticObj_Furniture_anatomy_poster_1" pos="6296.590820 303.242126 7688.818848" rpy="-0.000000 -0.000000 -146.394363" a="-123.606"/>
+	<group name="StaticObj_ammoboxes_big" pos="6306.761719 302.171265 7699.286621" rpy="0.000000 0.000000 -56.509476" a="146.509"/>
+	<group name="StaticObj_PalletTrolley_01_yellow_F" pos="6300.159668 301.785217 7695.555176" rpy="-0.000000 0.000000 -147.091721" a="-122.908"/>
+	<group name="StaticObj_Misc_TirePile" pos="6306.741211 305.351135 7688.437012" rpy="-0.000000 -0.000000 33.490501" a="56.5095"/>
+	<group name="StaticObj_Wall_TinCom_9" pos="6303.480469 301.839355 7701.773438" rpy="-0.000000 0.000000 -56.509560" a="146.51"/>
+	<group name="Land_Airfield_Hangar_Green" pos="6306.449219 307.618164 7694.474121" rpy="0.000000 0.000000 33.490540" a="56.5095"/>
+	<group name="Land_Underground_Entrance" pos="6296.688477 301.144897 7680.548340" rpy="-0.000000 -0.000000 33.490501" a="56.5095"/>
+	<group name="Land_Underground_Storage_Big" pos="6305.942383 301.127808 7694.541016" rpy="0.000000 0.000000 33.960972" a="56.039"/>
+	<group name="Land_Underground_Panel_Lever" pos="6300.375000 302.733490 7681.779297" rpy="-0.000000 0.000000 -146.509201" a="-123.491"/>
+	<group name="Land_Underground_Panel" pos="6290.543457 302.617615 7676.020508" rpy="-0.000000 -0.000000 33.490654" a="56.5093"/>
+	<group name="StaticObj_Furniture_shelf" pos="6311.087402 301.105042 7698.624023" rpy="-0.000000 -0.000000 31.233610" a="58.7664"/>
+	<group name="StaticObj_Furniture_shelf" pos="6312.970215 301.108307 7697.464355" rpy="-0.000000 -0.000000 31.233599" a="58.7664"/>
+	<group name="StaticObj_Wall_Tin7_8" pos="6312.954590 302.384674 7701.681152" rpy="-0.000000 -0.000000 33.490559" a="56.5094"/>
+	<group name="StaticObj_Furniture_shelf" pos="6309.042969 301.094788 7695.137695" rpy="-0.000000 -0.000000 31.233599" a="58.7664"/>
+</map>
