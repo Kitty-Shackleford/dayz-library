@@ -46,5 +46,3 @@ jobs:
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
-        with:
-          GITHUB_WORKSPACE: ${{ github.workspace }}  # Provide the workspace path
