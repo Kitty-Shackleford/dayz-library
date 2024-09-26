@@ -45,4 +45,4 @@ jobs:
           VALIDATE_JSON: "true"
           VALIDATE_YAML: "true"
         with:
-          FILES: ${{ steps.get_changed_files.outputs.files }}
+          GITHUB_WORKSPACE: ${{ steps.get_changed_files.outputs.files }}
