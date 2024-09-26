@@ -2,7 +2,7 @@
 	"spawnWeight": 1,
 	"name": "Player",
 	"characterTypes": [
-		"SurvivorM_Mirek",
+        "SurvivorM_Mirek",
         "SurvivorM_Boris",
         "SurvivorM_Cyril",
         "SurvivorM_Denis",
