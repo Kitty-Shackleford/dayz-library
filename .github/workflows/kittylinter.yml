@@ -26,9 +26,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Format all files with Prettier
+      - name: Install Prettier and XML Plugin
         run: |
-          npx prettier --write "**/*"  # Format all files in the repository
+          npm install --save-dev prettier prettier-plugin-xml
+
+      - name: Format specific files with Prettier
+        run: |
+          npx prettier --write "**/*.{json,yml,xml}"  # Specify file types to format
 
       - name: Run Super Linter
         id: linter
@@ -44,4 +48,3 @@ jobs:
           VALIDATE_YAML: "true"
         with:
           GITHUB_WORKSPACE: ${{ github.workspace }}  # Provide the workspace path
-
