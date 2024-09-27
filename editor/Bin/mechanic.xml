@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+	<group name="StaticObj_Misc_TirePile" pos="3529.597656 247.641129 9928.413086" rpy="-0.000000 -0.000000 -45.299160" a="135.299"/>
+	<group name="Land_Castle_Stairs" pos="3538.499268 236.217422 9930.810547" rpy="-0.000000 0.000000 -136.027161" a="-133.973"/>
+	<group name="Land_Bilboard_vodka" pos="3527.392578 239.882950 9923.408203" rpy="0.000000 0.000000 44.910999" a="45.089"/>
+	<group name="Land_FuelStation_Feed" pos="3524.990723 240.466629 9931.235352" rpy="-0.000000 -0.000000 -46.405594" a="136.406"/>
+	<group name="Land_Misc_Well_Pump_Yellow" pos="3526.943604 239.877884 9932.606445" rpy="-0.000000 -0.000000 45.044109" a="44.9559"/>
+	<group name="Land_Wall_Gate_Tin6_2" pos="3531.471680 240.446793 9923.010742" rpy="-0.000000 0.000000 -46.027859" a="136.028"/>
+	<group name="Land_Workshop_FuelStation" pos="3531.877197 240.941238 9926.458984" rpy="0.000000 0.000000 -45.299316" a="135.299"/>
+</map>
