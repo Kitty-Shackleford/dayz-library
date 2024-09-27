@@ -8,15 +8,13 @@ on:
     branches:
       - main
 
-permissions: {}
-
 jobs:
   build:
     name: Kitty Linter
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
+      contents: write
       packages: read
       statuses: write
 
@@ -24,7 +22,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
+          token: ${{ secrets.WORKFLOW_TOKEN }}
 
       - name: Install Prettier and XML Plugin
         run: |
@@ -49,14 +49,23 @@ jobs:
           ENABLE_LINTER: 'eslint,LibXML,YamlLint'
           VALIDATE_XML: 'true'
           VALIDATE_JSON: 'true'
-          VALIDATE_YAML: 'true'
+          VALIDATE_YAML: 'true' # optional
 
       - name: Commit formatted changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
           git add .
-          git commit -m "Format files with Prettier" || echo "No changes to commit"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Format files with Prettier"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/dayz-library
+          force_with_lease: true
