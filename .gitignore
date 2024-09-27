@@ -1,0 +1,6 @@
+.github/**
+super-linter-output/**
+node_modules/**
+.prettierrc
+package.json
+package-lock.json
