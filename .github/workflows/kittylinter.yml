@@ -62,3 +62,10 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/dayz-library
+          force_with_lease: true
