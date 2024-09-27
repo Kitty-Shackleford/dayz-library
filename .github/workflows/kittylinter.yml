@@ -69,3 +69,6 @@ jobs:
           github_token: ${{ secrets.WORKFLOW_TOKEN }}
           repository: Kitty-Shackleford/dayz-library
           force_with_lease: true
+
+      - name: Clean up
+        run: rm -rf node_modules/ super-linter-output/
