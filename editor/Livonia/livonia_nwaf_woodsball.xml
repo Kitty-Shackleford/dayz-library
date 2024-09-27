@@ -1,40 +1,225 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Land_Castle_Bergfrit2" pos="3645.451416 242.273453 10258.730469" rpy="-0.000000 -0.000000 71.999977" a="18"/>
-	<group name="Land_Castle_Bergfrit2" pos="3710.584717 238.136368 10297.351563" rpy="-0.000000 0.000000 170.999863" a="-80.9999"/>
-	<group name="Land_Castle_WallS_End_nolc" pos="3732.313721 235.273544 10347.743164" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Land_Misc_DeerStand1" pos="3705.778809 236.069214 10341.106445" rpy="-0.000000 -0.000000 35.999992" a="54"/>
-	<group name="Land_Misc_DeerStand2" pos="3647.986084 239.053970 10302.114258" rpy="-0.000000 0.000000 -98.999931" a="-171"/>
-	<group name="Land_Misc_DeerStand2" pos="3669.418213 242.670990 10211.001953" rpy="-0.000000 0.000000 -162.000092" a="-108"/>
-	<group name="Land_Misc_DeerStand2" pos="3725.588379 244.443161 10253.490234" rpy="-0.000000 0.000000 98.999962" a="-8.99996"/>
-	<group name="Land_Slum_House3" pos="3710.088623 235.277634 10307.967773" rpy="-0.000000 -0.000000 89.999931" a="6.86646e-05"/>
-	<group name="Land_Slum_House4" pos="3667.894043 237.471436 10312.511719" rpy="-0.000000 0.000000 162.000092" a="-72.0001"/>
-	<group name="Land_Slum_House6" pos="3636.782227 241.373627 10252.088867" rpy="0.000000 0.000000 62.818645" a="27.1814"/>
-	<group name="Land_Slum_House2" pos="3670.203125 240.905441 10238.074219" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="Land_Slum_House7" pos="3704.868896 240.025665 10213.810547" rpy="0.000000 0.000000 -71.999947" a="162"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3680.060547 237.362396 10292.589844" rpy="-0.000000 -0.000000 146.094055" a="-56.0941"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3679.196533 237.512741 10295.334961" rpy="-0.000000 -0.000000 1.893984" a="88.106"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3681.967041 237.372757 10290.746094" rpy="-0.000000 -0.000000 121.695671" a="-31.6957"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3710.863281 240.388916 10246.776367" rpy="-0.000000 -0.000000 151.783371" a="-61.7834"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3710.272461 240.539261 10249.592773" rpy="-0.000000 -0.000000 7.583507" a="82.4165"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3712.572754 240.399277 10244.750000" rpy="-0.000000 -0.000000 127.384705" a="-37.3847"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3652.307861 239.732040 10247.275391" rpy="-0.000000 -0.000000 -4.609382" a="94.6094"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3651.719727 239.882385 10244.460938" rpy="-0.000000 -0.000000 -148.809479" a="-121.191"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3651.550049 239.742401 10249.820313" rpy="-0.000000 -0.000000 -29.007887" a="119.008"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3650.428711 239.964325 10251.067383" rpy="-0.000000 -0.000000 -56.578365" a="146.578"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3647.960205 239.974686 10252.040039" rpy="-0.000000 -0.000000 -80.976921" a="170.977"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3663.161865 237.983994 10273.083008" rpy="-0.000000 -0.000000 -42.729137" a="132.729"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3664.437500 238.134338 10270.508789" rpy="-0.000000 -0.000000 173.070679" a="-83.0707"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3660.999512 237.994354 10274.618164" rpy="-0.000000 -0.000000 -67.127701" a="157.128"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3688.070801 236.165970 10241.485352" rpy="-0.000000 -0.000000 106.357750" a="-16.3577"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3685.654785 236.316315 10243.035156" rpy="-0.000000 -0.000000 -37.841751" a="127.842"/>
-	<group name="StaticObj_Misc_ConcretePipe" pos="3690.714111 236.176331 10241.279297" rpy="-0.000000 -0.000000 81.959236" a="8.04076"/>
-	<group name="StaticObj_Target_Concrete2" pos="3714.404297 240.689285 10265.714844" rpy="-0.000000 0.000000 -152.999832" a="-117"/>
-	<group name="StaticObj_Target_Concrete2" pos="3658.713623 240.233978 10229.451172" rpy="-0.000000 0.000000 -152.999817" a="-117"/>
-	<group name="StaticObj_Target_Concrete2" pos="3686.204346 240.141724 10220.337891" rpy="-0.000000 0.000000 148.720551" a="-58.7206"/>
-	<group name="StaticObj_Target_Concrete2" pos="3692.361816 237.373169 10280.617188" rpy="-0.000000 0.000000 9.801267" a="80.1987"/>
-	<group name="Land_Lunapark_Carousel_Small" pos="3752.398438 243.847076 10285.906250" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Land_Lunapark_Bumper_Car" pos="3697.014893 232.792297 10345.248047" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Land_Lunapark_Shooting_Gallery" pos="3633.701904 241.445053 10258.810547" rpy="0.000000 0.000000 -18.000000" a="108"/>
-	<group name="Land_Lunapark_Bumper_Car" pos="3604.590820 239.067184 10239.083984" rpy="-0.000000 -0.000000 0.000000" a="90"/>
+  <group
+    name="Land_Castle_Bergfrit2"
+    pos="3645.451416 242.273453 10258.730469"
+    rpy="-0.000000 -0.000000 71.999977"
+    a="18"
+  />
+  <group
+    name="Land_Castle_Bergfrit2"
+    pos="3710.584717 238.136368 10297.351563"
+    rpy="-0.000000 0.000000 170.999863"
+    a="-80.9999"
+  />
+  <group
+    name="Land_Castle_WallS_End_nolc"
+    pos="3732.313721 235.273544 10347.743164"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="3705.778809 236.069214 10341.106445"
+    rpy="-0.000000 -0.000000 35.999992"
+    a="54"
+  />
+  <group
+    name="Land_Misc_DeerStand2"
+    pos="3647.986084 239.053970 10302.114258"
+    rpy="-0.000000 0.000000 -98.999931"
+    a="-171"
+  />
+  <group
+    name="Land_Misc_DeerStand2"
+    pos="3669.418213 242.670990 10211.001953"
+    rpy="-0.000000 0.000000 -162.000092"
+    a="-108"
+  />
+  <group
+    name="Land_Misc_DeerStand2"
+    pos="3725.588379 244.443161 10253.490234"
+    rpy="-0.000000 0.000000 98.999962"
+    a="-8.99996"
+  />
+  <group
+    name="Land_Slum_House3"
+    pos="3710.088623 235.277634 10307.967773"
+    rpy="-0.000000 -0.000000 89.999931"
+    a="6.86646e-05"
+  />
+  <group
+    name="Land_Slum_House4"
+    pos="3667.894043 237.471436 10312.511719"
+    rpy="-0.000000 0.000000 162.000092"
+    a="-72.0001"
+  />
+  <group
+    name="Land_Slum_House6"
+    pos="3636.782227 241.373627 10252.088867"
+    rpy="0.000000 0.000000 62.818645"
+    a="27.1814"
+  />
+  <group
+    name="Land_Slum_House2"
+    pos="3670.203125 240.905441 10238.074219"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="Land_Slum_House7"
+    pos="3704.868896 240.025665 10213.810547"
+    rpy="0.000000 0.000000 -71.999947"
+    a="162"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3680.060547 237.362396 10292.589844"
+    rpy="-0.000000 -0.000000 146.094055"
+    a="-56.0941"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3679.196533 237.512741 10295.334961"
+    rpy="-0.000000 -0.000000 1.893984"
+    a="88.106"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3681.967041 237.372757 10290.746094"
+    rpy="-0.000000 -0.000000 121.695671"
+    a="-31.6957"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3710.863281 240.388916 10246.776367"
+    rpy="-0.000000 -0.000000 151.783371"
+    a="-61.7834"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3710.272461 240.539261 10249.592773"
+    rpy="-0.000000 -0.000000 7.583507"
+    a="82.4165"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3712.572754 240.399277 10244.750000"
+    rpy="-0.000000 -0.000000 127.384705"
+    a="-37.3847"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3652.307861 239.732040 10247.275391"
+    rpy="-0.000000 -0.000000 -4.609382"
+    a="94.6094"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3651.719727 239.882385 10244.460938"
+    rpy="-0.000000 -0.000000 -148.809479"
+    a="-121.191"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3651.550049 239.742401 10249.820313"
+    rpy="-0.000000 -0.000000 -29.007887"
+    a="119.008"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3650.428711 239.964325 10251.067383"
+    rpy="-0.000000 -0.000000 -56.578365"
+    a="146.578"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3647.960205 239.974686 10252.040039"
+    rpy="-0.000000 -0.000000 -80.976921"
+    a="170.977"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3663.161865 237.983994 10273.083008"
+    rpy="-0.000000 -0.000000 -42.729137"
+    a="132.729"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3664.437500 238.134338 10270.508789"
+    rpy="-0.000000 -0.000000 173.070679"
+    a="-83.0707"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3660.999512 237.994354 10274.618164"
+    rpy="-0.000000 -0.000000 -67.127701"
+    a="157.128"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3688.070801 236.165970 10241.485352"
+    rpy="-0.000000 -0.000000 106.357750"
+    a="-16.3577"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3685.654785 236.316315 10243.035156"
+    rpy="-0.000000 -0.000000 -37.841751"
+    a="127.842"
+  />
+  <group
+    name="StaticObj_Misc_ConcretePipe"
+    pos="3690.714111 236.176331 10241.279297"
+    rpy="-0.000000 -0.000000 81.959236"
+    a="8.04076"
+  />
+  <group
+    name="StaticObj_Target_Concrete2"
+    pos="3714.404297 240.689285 10265.714844"
+    rpy="-0.000000 0.000000 -152.999832"
+    a="-117"
+  />
+  <group
+    name="StaticObj_Target_Concrete2"
+    pos="3658.713623 240.233978 10229.451172"
+    rpy="-0.000000 0.000000 -152.999817"
+    a="-117"
+  />
+  <group
+    name="StaticObj_Target_Concrete2"
+    pos="3686.204346 240.141724 10220.337891"
+    rpy="-0.000000 0.000000 148.720551"
+    a="-58.7206"
+  />
+  <group
+    name="StaticObj_Target_Concrete2"
+    pos="3692.361816 237.373169 10280.617188"
+    rpy="-0.000000 0.000000 9.801267"
+    a="80.1987"
+  />
+  <group
+    name="Land_Lunapark_Carousel_Small"
+    pos="3752.398438 243.847076 10285.906250"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Land_Lunapark_Bumper_Car"
+    pos="3697.014893 232.792297 10345.248047"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Land_Lunapark_Shooting_Gallery"
+    pos="3633.701904 241.445053 10258.810547"
+    rpy="0.000000 0.000000 -18.000000"
+    a="108"
+  />
+  <group
+    name="Land_Lunapark_Bumper_Car"
+    pos="3604.590820 239.067184 10239.083984"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
 </map>

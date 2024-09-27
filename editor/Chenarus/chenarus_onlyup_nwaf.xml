@@ -1,83 +1,483 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Land_Garage_Big" pos="6992.908691 295.655151 7607.268555" rpy="-0.000000 0.000000 -108.000046" a="-162"/>
-	<group name="Land_Container_1Moh_DE" pos="4090.018799 340.150574 10645.378906" rpy="0.000000 0.000000 -26.999989" a="117"/>
-	<group name="StaticObj_Container_2D" pos="4086.332275 341.631317 10648.134766" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_BusStation_building" pos="4081.677246 339.722961 10653.932617" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="Land_Train_Wagon_Box" pos="4080.848145 339.792297 10649.684570" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="Land_Train_Wagon_Box" pos="4080.848145 342.249023 10649.684570" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="Land_Wreck_S1023_Blue" pos="4085.622559 340.249359 10654.122070" rpy="-0.000000 0.000000 152.999893" a="-62.9999"/>
-	<group name="Land_Garage_Tall" pos="4074.117920 342.334930 10647.625977" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="Land_Wreck_Mining_HaulTruck" pos="4068.985107 342.284149 10659.129883" rpy="-0.000000 0.000000 143.999893" a="-53.9999"/>
-	<group name="Land_Wreck_Tractor_DE" pos="4070.362549 345.331543 10652.242188" rpy="0.000000 12.499861 152.999939" a="-62.9999"/>
-	<group name="Land_Boat_Small4" pos="4077.337402 339.723267 10639.129883" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4070.828857 348.246796 10643.352539" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4071.883545 349.012177 10641.264648" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4068.688721 346.562103 10647.516602" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4069.745850 347.447021 10645.428711" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4072.957764 349.770996 10639.176758" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4074.012451 350.560211 10637.088867" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4075.096436 351.490356 10635.012695" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4076.152100 352.245697 10632.942383" rpy="0.000000 0.000000 -117.000000" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4079.392090 354.878540 10626.642578" rpy="0.000000 0.000000 -117.000000" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4080.447754 355.884827 10624.528320" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4077.253662 353.018158 10630.780273" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4078.309326 353.914185 10628.692383" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4081.521973 357.010834 10622.442383" rpy="0.000000 0.000000 -117.000000" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4082.576660 358.152466 10620.352539" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4083.662598 359.060089 10618.242188" rpy="0.000000 0.000000 -117.000000" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4084.716309 360.121338 10616.188477" rpy="-0.000000 0.000000 -116.999962" a="-153"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4102.878906 366.598267 10623.574219" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4104.977539 367.494293 10624.611328" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4111.251953 370.590942 10627.781250" rpy="0.000000 0.000000 153.441376" a="-63.4414"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4113.350586 371.732574 10628.817383" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4115.467773 372.640198 10629.881836" rpy="0.000000 0.000000 153.441376" a="-63.4414"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4117.530273 373.701447 10630.923828" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4090.259521 361.826904 10617.246094" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4092.357178 362.592285 10618.281250" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4086.079590 360.142212 10615.136719" rpy="-0.000000 0.000000 153.441345" a="-63.4413"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4088.177490 361.027130 10616.177734" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4094.451904 363.351105 10619.337891" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4096.548828 364.140320 10620.379883" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4098.635742 365.070465 10621.449219" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4100.711914 365.825806 10622.488281" rpy="0.000000 0.000000 153.441376" a="-63.4414"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4107.037109 368.458649 10625.678711" rpy="0.000000 0.000000 153.441376" a="-63.4414"/>
-	<group name="Land_Misc_Table_Market_Spawn" pos="4109.161133 369.464935 10626.718750" rpy="-0.000000 0.000000 153.441483" a="-63.4415"/>
-	<group name="StaticObj_Pier_Concrete1_End" pos="4140.405273 350.193726 10644.557617" rpy="-0.000000 0.000000 -120.824684" a="-149.175"/>
-	<group name="Land_Pier_Crane_A" pos="4163.616211 379.479309 10644.153320" rpy="-0.000000 -0.000000 59.425499" a="30.5745"/>
-	<group name="Land_Farm_Hopper" pos="4159.464844 385.831970 10651.350586" rpy="-0.000000 -0.000000 58.716846" a="31.2832"/>
-	<group name="Land_Misc_Scaffolding" pos="4155.828125 395.136719 10658.389648" rpy="0.000000 0.000000 -26.999971" a="117"/>
-	<group name="Land_Tenement_Small" pos="4138.622070 381.578613 10654.000977" rpy="-0.000000 0.000000 152.999893" a="-62.9999"/>
-	<group name="StaticObj_BusStation_roof_big" pos="4107.067871 395.080475 10663.740234" rpy="0.000000 0.000000 -26.999989" a="117"/>
-	<group name="StaticObj_Pipe_Small_L45" pos="4076.749023 344.206116 10653.151367" rpy="0.000000 0.000000 -62.999973" a="153"/>
-	<group name="StaticObj_Shed_Open_SideRoof" pos="4129.032227 388.944763 10664.365234" rpy="0.000000 0.000000 -35.999996" a="126"/>
-	<group name="Land_Mil_Barracks6_Old" pos="4118.196777 392.634521 10657.471680" rpy="0.000000 0.000000 -26.999989" a="117"/>
-	<group name="Land_Tisy_Barracks" pos="4102.631836 401.688965 10680.676758" rpy="0.000000 0.000000 -118.532173" a="-151.468"/>
-	<group name="StaticObj_Misc_Obstacle_Bridge" pos="4091.683594 405.489227 10693.784180" rpy="-0.000000 -0.000000 -87.284981" a="177.285"/>
-	<group name="Wreck_Mi8_Crashed" pos="4082.240723 406.072327 10692.422852" rpy="-0.000000 0.000000 161.999863" a="-71.9999"/>
-	<group name="Land_wreck_truck01_aban1_green" pos="4077.037109 405.501648 10704.421875" rpy="-0.000000 0.000000 153.000061" a="-63.0001"/>
-	<group name="Land_wreck_truck01_aban1_green" pos="4073.051758 405.508484 10705.699219" rpy="-0.000000 -0.000000 62.999973" a="27"/>
-	<group name="StaticObj_Wreck_Mi8_Crashed" pos="4075.268555 406.149384 10707.213867" rpy="-0.000000 0.000000 143.999893" a="-53.9999"/>
-	<group name="Land_Wreck_sed01_aban2_wine" pos="4067.853516 408.574188 10709.517578" rpy="-0.000000 -0.000000 62.999973" a="27"/>
-	<group name="Land_Wreck_sed02_aban2_yellow" pos="4062.976074 409.882813 10710.239258" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="StaticObj_Wreck_Train_Wagon_Tanker" pos="4056.916504 410.008514 10709.251953" rpy="-0.000000 -0.000000 71.999977" a="18"/>
-	<group name="StaticObj_Wreck_BMP1" pos="4049.198730 414.090729 10714.589844" rpy="0.000000 0.000000 -44.999992" a="135"/>
-	<group name="StaticObj_Wreck_BRDM" pos="4047.549805 414.760040 10720.580078" rpy="-0.000000 0.000000 -125.999924" a="-144"/>
-	<group name="StaticObj_Wreck_Trailer_Flat" pos="4046.547852 414.720062 10716.455078" rpy="-0.000000 0.000000 90.000008" a="-7.62939e-06"/>
-	<group name="Land_Wreck_sed01_aban1_police_DE" pos="4047.172852 414.113159 10717.759766" rpy="0.000000 0.000000 -18.000000" a="108"/>
-	<group name="Land_Wreck_sed02_aban2_yellow_DE" pos="4056.427734 412.266998 10710.514648" rpy="-0.000000 -0.000000 80.999977" a="9.00002"/>
-	<group name="Land_Wreck_sed02_aban2_red_DE" pos="4055.052734 413.382019 10711.699219" rpy="0.000000 0.000000 -36.000000" a="126"/>
-	<group name="Land_Wreck_hb01_aban1_white_DE" pos="4052.599121 413.870544 10710.790039" rpy="-0.000000 -0.000000 35.999989" a="54"/>
-	<group name="Land_Wreck_hb02_aban1_black_DE" pos="4065.044434 409.019409 10708.974609" rpy="-0.000000 -0.000000 8.999970" a="81"/>
-	<group name="Land_Wreck_Mining_HaulTruck" pos="4055.984375 417.075134 10726.368164" rpy="-0.000000 -0.000000 54.000053" a="35.9999"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4051.320801 416.982635 10726.740234" rpy="-0.000000 -0.000000 53.999977" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4052.126465 417.189850 10728.413086" rpy="-0.000000 -0.000000 53.999973" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4053.839844 417.505249 10731.813477" rpy="-0.000000 -0.000000 53.999973" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4054.645508 417.712463 10733.486328" rpy="-0.000000 -0.000000 53.999969" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4057.582520 418.016479 10732.839844" rpy="-0.000000 -0.000000 53.999969" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4058.388184 418.223694 10734.512695" rpy="-0.000000 -0.000000 53.999969" a="36"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4063.816895 418.259796 10732.710938" rpy="-0.000000 -0.000000 -31.501173" a="121.501"/>
-	<group name="Land_Wreck_Trailer_Closed_DE" pos="4062.216309 418.467010 10733.644531" rpy="-0.000000 -0.000000 -31.501274" a="121.501"/>
-	<group name="Land_Wreck_V3S_DE" pos="4063.302246 417.426758 10731.590820" rpy="0.000000 0.000000 -35.999977" a="126"/>
-	<group name="Land_Mil_ControlTower" pos="4060.296387 426.649933 10728.541992" rpy="-0.000000 -0.000000 63.000000" a="27"/>
+  <group
+    name="Land_Garage_Big"
+    pos="6992.908691 295.655151 7607.268555"
+    rpy="-0.000000 0.000000 -108.000046"
+    a="-162"
+  />
+  <group
+    name="Land_Container_1Moh_DE"
+    pos="4090.018799 340.150574 10645.378906"
+    rpy="0.000000 0.000000 -26.999989"
+    a="117"
+  />
+  <group
+    name="StaticObj_Container_2D"
+    pos="4086.332275 341.631317 10648.134766"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_BusStation_building"
+    pos="4081.677246 339.722961 10653.932617"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="Land_Train_Wagon_Box"
+    pos="4080.848145 339.792297 10649.684570"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="Land_Train_Wagon_Box"
+    pos="4080.848145 342.249023 10649.684570"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="Land_Wreck_S1023_Blue"
+    pos="4085.622559 340.249359 10654.122070"
+    rpy="-0.000000 0.000000 152.999893"
+    a="-62.9999"
+  />
+  <group
+    name="Land_Garage_Tall"
+    pos="4074.117920 342.334930 10647.625977"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="Land_Wreck_Mining_HaulTruck"
+    pos="4068.985107 342.284149 10659.129883"
+    rpy="-0.000000 0.000000 143.999893"
+    a="-53.9999"
+  />
+  <group
+    name="Land_Wreck_Tractor_DE"
+    pos="4070.362549 345.331543 10652.242188"
+    rpy="0.000000 12.499861 152.999939"
+    a="-62.9999"
+  />
+  <group
+    name="Land_Boat_Small4"
+    pos="4077.337402 339.723267 10639.129883"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4070.828857 348.246796 10643.352539"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4071.883545 349.012177 10641.264648"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4068.688721 346.562103 10647.516602"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4069.745850 347.447021 10645.428711"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4072.957764 349.770996 10639.176758"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4074.012451 350.560211 10637.088867"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4075.096436 351.490356 10635.012695"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4076.152100 352.245697 10632.942383"
+    rpy="0.000000 0.000000 -117.000000"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4079.392090 354.878540 10626.642578"
+    rpy="0.000000 0.000000 -117.000000"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4080.447754 355.884827 10624.528320"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4077.253662 353.018158 10630.780273"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4078.309326 353.914185 10628.692383"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4081.521973 357.010834 10622.442383"
+    rpy="0.000000 0.000000 -117.000000"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4082.576660 358.152466 10620.352539"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4083.662598 359.060089 10618.242188"
+    rpy="0.000000 0.000000 -117.000000"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4084.716309 360.121338 10616.188477"
+    rpy="-0.000000 0.000000 -116.999962"
+    a="-153"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4102.878906 366.598267 10623.574219"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4104.977539 367.494293 10624.611328"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4111.251953 370.590942 10627.781250"
+    rpy="0.000000 0.000000 153.441376"
+    a="-63.4414"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4113.350586 371.732574 10628.817383"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4115.467773 372.640198 10629.881836"
+    rpy="0.000000 0.000000 153.441376"
+    a="-63.4414"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4117.530273 373.701447 10630.923828"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4090.259521 361.826904 10617.246094"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4092.357178 362.592285 10618.281250"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4086.079590 360.142212 10615.136719"
+    rpy="-0.000000 0.000000 153.441345"
+    a="-63.4413"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4088.177490 361.027130 10616.177734"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4094.451904 363.351105 10619.337891"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4096.548828 364.140320 10620.379883"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4098.635742 365.070465 10621.449219"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4100.711914 365.825806 10622.488281"
+    rpy="0.000000 0.000000 153.441376"
+    a="-63.4414"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4107.037109 368.458649 10625.678711"
+    rpy="0.000000 0.000000 153.441376"
+    a="-63.4414"
+  />
+  <group
+    name="Land_Misc_Table_Market_Spawn"
+    pos="4109.161133 369.464935 10626.718750"
+    rpy="-0.000000 0.000000 153.441483"
+    a="-63.4415"
+  />
+  <group
+    name="StaticObj_Pier_Concrete1_End"
+    pos="4140.405273 350.193726 10644.557617"
+    rpy="-0.000000 0.000000 -120.824684"
+    a="-149.175"
+  />
+  <group
+    name="Land_Pier_Crane_A"
+    pos="4163.616211 379.479309 10644.153320"
+    rpy="-0.000000 -0.000000 59.425499"
+    a="30.5745"
+  />
+  <group
+    name="Land_Farm_Hopper"
+    pos="4159.464844 385.831970 10651.350586"
+    rpy="-0.000000 -0.000000 58.716846"
+    a="31.2832"
+  />
+  <group
+    name="Land_Misc_Scaffolding"
+    pos="4155.828125 395.136719 10658.389648"
+    rpy="0.000000 0.000000 -26.999971"
+    a="117"
+  />
+  <group
+    name="Land_Tenement_Small"
+    pos="4138.622070 381.578613 10654.000977"
+    rpy="-0.000000 0.000000 152.999893"
+    a="-62.9999"
+  />
+  <group
+    name="StaticObj_BusStation_roof_big"
+    pos="4107.067871 395.080475 10663.740234"
+    rpy="0.000000 0.000000 -26.999989"
+    a="117"
+  />
+  <group
+    name="StaticObj_Pipe_Small_L45"
+    pos="4076.749023 344.206116 10653.151367"
+    rpy="0.000000 0.000000 -62.999973"
+    a="153"
+  />
+  <group
+    name="StaticObj_Shed_Open_SideRoof"
+    pos="4129.032227 388.944763 10664.365234"
+    rpy="0.000000 0.000000 -35.999996"
+    a="126"
+  />
+  <group
+    name="Land_Mil_Barracks6_Old"
+    pos="4118.196777 392.634521 10657.471680"
+    rpy="0.000000 0.000000 -26.999989"
+    a="117"
+  />
+  <group
+    name="Land_Tisy_Barracks"
+    pos="4102.631836 401.688965 10680.676758"
+    rpy="0.000000 0.000000 -118.532173"
+    a="-151.468"
+  />
+  <group
+    name="StaticObj_Misc_Obstacle_Bridge"
+    pos="4091.683594 405.489227 10693.784180"
+    rpy="-0.000000 -0.000000 -87.284981"
+    a="177.285"
+  />
+  <group
+    name="Wreck_Mi8_Crashed"
+    pos="4082.240723 406.072327 10692.422852"
+    rpy="-0.000000 0.000000 161.999863"
+    a="-71.9999"
+  />
+  <group
+    name="Land_wreck_truck01_aban1_green"
+    pos="4077.037109 405.501648 10704.421875"
+    rpy="-0.000000 0.000000 153.000061"
+    a="-63.0001"
+  />
+  <group
+    name="Land_wreck_truck01_aban1_green"
+    pos="4073.051758 405.508484 10705.699219"
+    rpy="-0.000000 -0.000000 62.999973"
+    a="27"
+  />
+  <group
+    name="StaticObj_Wreck_Mi8_Crashed"
+    pos="4075.268555 406.149384 10707.213867"
+    rpy="-0.000000 0.000000 143.999893"
+    a="-53.9999"
+  />
+  <group
+    name="Land_Wreck_sed01_aban2_wine"
+    pos="4067.853516 408.574188 10709.517578"
+    rpy="-0.000000 -0.000000 62.999973"
+    a="27"
+  />
+  <group
+    name="Land_Wreck_sed02_aban2_yellow"
+    pos="4062.976074 409.882813 10710.239258"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="StaticObj_Wreck_Train_Wagon_Tanker"
+    pos="4056.916504 410.008514 10709.251953"
+    rpy="-0.000000 -0.000000 71.999977"
+    a="18"
+  />
+  <group
+    name="StaticObj_Wreck_BMP1"
+    pos="4049.198730 414.090729 10714.589844"
+    rpy="0.000000 0.000000 -44.999992"
+    a="135"
+  />
+  <group
+    name="StaticObj_Wreck_BRDM"
+    pos="4047.549805 414.760040 10720.580078"
+    rpy="-0.000000 0.000000 -125.999924"
+    a="-144"
+  />
+  <group
+    name="StaticObj_Wreck_Trailer_Flat"
+    pos="4046.547852 414.720062 10716.455078"
+    rpy="-0.000000 0.000000 90.000008"
+    a="-7.62939e-06"
+  />
+  <group
+    name="Land_Wreck_sed01_aban1_police_DE"
+    pos="4047.172852 414.113159 10717.759766"
+    rpy="0.000000 0.000000 -18.000000"
+    a="108"
+  />
+  <group
+    name="Land_Wreck_sed02_aban2_yellow_DE"
+    pos="4056.427734 412.266998 10710.514648"
+    rpy="-0.000000 -0.000000 80.999977"
+    a="9.00002"
+  />
+  <group
+    name="Land_Wreck_sed02_aban2_red_DE"
+    pos="4055.052734 413.382019 10711.699219"
+    rpy="0.000000 0.000000 -36.000000"
+    a="126"
+  />
+  <group
+    name="Land_Wreck_hb01_aban1_white_DE"
+    pos="4052.599121 413.870544 10710.790039"
+    rpy="-0.000000 -0.000000 35.999989"
+    a="54"
+  />
+  <group
+    name="Land_Wreck_hb02_aban1_black_DE"
+    pos="4065.044434 409.019409 10708.974609"
+    rpy="-0.000000 -0.000000 8.999970"
+    a="81"
+  />
+  <group
+    name="Land_Wreck_Mining_HaulTruck"
+    pos="4055.984375 417.075134 10726.368164"
+    rpy="-0.000000 -0.000000 54.000053"
+    a="35.9999"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4051.320801 416.982635 10726.740234"
+    rpy="-0.000000 -0.000000 53.999977"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4052.126465 417.189850 10728.413086"
+    rpy="-0.000000 -0.000000 53.999973"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4053.839844 417.505249 10731.813477"
+    rpy="-0.000000 -0.000000 53.999973"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4054.645508 417.712463 10733.486328"
+    rpy="-0.000000 -0.000000 53.999969"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4057.582520 418.016479 10732.839844"
+    rpy="-0.000000 -0.000000 53.999969"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4058.388184 418.223694 10734.512695"
+    rpy="-0.000000 -0.000000 53.999969"
+    a="36"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4063.816895 418.259796 10732.710938"
+    rpy="-0.000000 -0.000000 -31.501173"
+    a="121.501"
+  />
+  <group
+    name="Land_Wreck_Trailer_Closed_DE"
+    pos="4062.216309 418.467010 10733.644531"
+    rpy="-0.000000 -0.000000 -31.501274"
+    a="121.501"
+  />
+  <group
+    name="Land_Wreck_V3S_DE"
+    pos="4063.302246 417.426758 10731.590820"
+    rpy="0.000000 0.000000 -35.999977"
+    a="126"
+  />
+  <group
+    name="Land_Mil_ControlTower"
+    pos="4060.296387 426.649933 10728.541992"
+    rpy="-0.000000 -0.000000 63.000000"
+    a="27"
+  />
 </map>

@@ -1,79 +1,39 @@
 {
-    "Objects": [
-        {
-            "name": "Land_Mil_Fortified_Nest_Watchtower",
-            "pos": [
-                13450.7998046875,
-                81.4800033569336,
-                13077.599609375
-            ],
-            "ypr": [
-                117.0,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Guardhouse",
-            "pos": [
-                13432.5,
-                81.5,
-                13098.599609375
-            ],
-            "ypr": [
-                26.49989891052246,
-                0.0,
-                0.0
-            ],
-            "scale": 0.999997615814209,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_Well_Pump_Yellow",
-            "pos": [
-                13462.2998046875,
-                80.08380126953125,
-                13065.5
-            ],
-            "ypr": [
-                -60.0,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999942779541016,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_Well_Pump_Yellow",
-            "pos": [
-                13445.55859375,
-                80.00109100341797,
-                13055.720703125
-            ],
-            "ypr": [
-                116.99989318847656,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_FuelStation_Feed",
-            "pos": [
-                13478.7587890625,
-                80.25774383544922,
-                13080.5
-            ],
-            "ypr": [
-                24.000001907348634,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999997615814209,
-            "enableCEPersistency": 0
-        }
-    ]
+  "Objects": [
+    {
+      "name": "Land_Mil_Fortified_Nest_Watchtower",
+      "pos": [13450.7998046875, 81.4800033569336, 13077.599609375],
+      "ypr": [117.0, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Guardhouse",
+      "pos": [13432.5, 81.5, 13098.599609375],
+      "ypr": [26.49989891052246, 0.0, 0.0],
+      "scale": 0.999997615814209,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Yellow",
+      "pos": [13462.2998046875, 80.08380126953125, 13065.5],
+      "ypr": [-60.0, 0.0, 0.0],
+      "scale": 0.9999942779541016,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Yellow",
+      "pos": [13445.55859375, 80.00109100341797, 13055.720703125],
+      "ypr": [116.99989318847656, 0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_FuelStation_Feed",
+      "pos": [13478.7587890625, 80.25774383544922, 13080.5],
+      "ypr": [24.000001907348634, 0.0, 0.0],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0
+    }
+  ]
 }

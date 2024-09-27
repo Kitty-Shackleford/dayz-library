@@ -1,53 +1,303 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Land_Barn_Metal_Big" pos="6460.454102 292.508331 7440.933594" rpy="-0.000000 -0.000000 -84.136147" a="174.136"/>
-	<group name="Land_Misc_Calvary1" pos="6428.950684 290.305939 7414.878418" rpy="-0.000000 -0.000000 89.999954" a="4.57764e-05"/>
-	<group name="Land_Misc_Well_Pump_Blue" pos="6465.680176 287.503021 7428.052246" rpy="-0.000000 0.000000 98.999962" a="-8.99996"/>
-	<group name="Land_misc_chickenCoop" pos="6470.269043 287.364746 7426.738770" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="Land_Misc_TrailRoof_Big" pos="6479.912109 289.009369 7411.524414" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Land_Misc_Through_Static" pos="6479.925781 287.715210 7408.236816" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Land_Misc_Toilet_Mobile" pos="6482.750488 288.287659 7412.839355" rpy="0.000000 0.000000 -90.098473" a="-179.902"/>
-	<group name="Land_Misc_Toilet_Mobile" pos="6482.751953 288.350250 7411.562500" rpy="0.000000 0.000000 -90.098473" a="-179.902"/>
-	<group name="Land_Misc_DogHouse" pos="6456.445801 288.147919 7429.138184" rpy="-0.000000 0.000000 96.281242" a="-6.28124"/>
-	<group name="Land_Misc_Greenhouse" pos="6437.588379 289.971527 7414.804199" rpy="-0.000000 0.000000 91.148109" a="-1.14811"/>
-	<group name="Land_Misc_Greenhouse" pos="6441.887207 289.785461 7414.638184" rpy="-0.000000 0.000000 91.148109" a="-1.14811"/>
-	<group name="Land_Misc_Greenhouse" pos="6446.106934 289.630096 7414.342773" rpy="-0.000000 0.000000 91.148109" a="-1.14811"/>
-	<group name="Land_Misc_Greenhouse" pos="6450.405762 289.444031 7414.176758" rpy="-0.000000 0.000000 91.148109" a="-1.14811"/>
-	<group name="Land_Misc_FeedShack" pos="6491.033691 287.554871 7445.682129" rpy="-0.000000 0.000000 98.999931" a="-8.99993"/>
-	<group name="Land_Misc_Polytunnel" pos="6492.686523 287.237732 7434.021973" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="Land_Misc_Toilet_Dry" pos="6487.245117 284.862640 7436.845703" rpy="-0.000000 0.000000 -170.999863" a="-99.0001"/>
-	<group name="StaticObj_Furniture_case_d" pos="6439.703613 287.049713 7452.541016" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6441.391113 287.045502 7452.441895" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6443.168945 287.027618 7452.132324" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6444.856445 287.023407 7452.033203" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6439.550781 287.043579 7450.607910" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6441.238281 287.039368 7450.508789" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6443.016113 287.021484 7450.199219" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6444.703613 287.017273 7450.100098" rpy="-0.000000 -0.000000 -85.208275" a="175.208"/>
-	<group name="StaticObj_Furniture_metalcrate" pos="6446.517090 287.147705 7452.026855" rpy="-0.000000 -0.000000 8.999931" a="81.0001"/>
-	<group name="StaticObj_Furniture_metalcrate_02" pos="6447.618652 287.113342 7451.925293" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="StaticObj_Furniture_metalcrate_02" pos="6447.376953 287.015228 7450.521973" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="StaticObj_Furniture_metalcrate" pos="6446.275391 287.049591 7450.623535" rpy="-0.000000 -0.000000 8.999930" a="81.0001"/>
-	<group name="StaticObj_Furniture_metalcrate_02" pos="6449.649414 287.060394 7451.682129" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="StaticObj_Furniture_metalcrate_02" pos="6449.407715 286.962280 7450.278809" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="StaticObj_Furniture_metalcrate" pos="6448.306152 286.996643 7450.380371" rpy="-0.000000 -0.000000 8.999929" a="81.0001"/>
-	<group name="StaticObj_Furniture_metalcrate" pos="6448.547852 287.094757 7451.783691" rpy="-0.000000 -0.000000 8.999930" a="81.0001"/>
-	<group name="StaticObj_Furniture_Vojenska_palanda" pos="6452.406250 287.078674 7452.367188" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="StaticObj_Furniture_postel_manz_kov" pos="6451.560547 286.932587 7443.328125" rpy="-0.000000 -0.000000 9.000000" a="81"/>
-	<group name="StaticObj_Furniture_SofaCorner" pos="6437.631836 287.979767 7434.166016" rpy="-0.000000 0.000000 98.999962" a="-8.99996"/>
-	<group name="StaticObj_Furniture_skrin_bar" pos="6436.921875 287.142487 7441.034668" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="StaticObj_Furniture_box_c_multi" pos="6438.224121 287.293488 7436.823730" rpy="0.000000 0.000000 -71.999977" a="162"/>
-	<group name="StaticObj_Furniture_bucket" pos="6439.091309 287.569031 7433.343262" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="StaticObj_Furniture_flowers_01" pos="6436.741699 287.576447 7435.631348" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="StaticObj_Furniture_shelf" pos="6440.746582 286.954773 7448.062012" rpy="0.000000 0.000000 -83.098381" a="173.098"/>
-	<group name="StaticObj_Furniture_shelf" pos="6443.057129 287.054413 7447.766113" rpy="0.000000 0.000000 -83.098381" a="173.098"/>
-	<group name="StaticObj_Furniture_shelf" pos="6445.235352 286.993042 7447.496582" rpy="0.000000 0.000000 -83.098381" a="173.098"/>
-	<group name="StaticObj_Furniture_shelf" pos="6447.431641 286.931580 7447.238770" rpy="0.000000 0.000000 -83.098381" a="173.098"/>
-	<group name="StaticObj_Furniture_pultskasou" pos="6452.985352 287.250092 7448.128906" rpy="0.000000 0.000000 -81.000061" a="171"/>
-	<group name="StaticObj_Furniture_icebox" pos="6455.813477 287.593323 7451.874023" rpy="0.000000 0.000000 5.858218" a="84.1418"/>
-	<group name="StaticObj_Furniture_Dkamna_uhli" pos="6439.638672 287.519989 7433.330566" rpy="0.000000 0.000000 -174.119003" a="-95.881"/>
-	<group name="StaticObj_Furniture_phonebox" pos="6440.580078 287.500000 7433.180176" rpy="0.000000 0.000000 -172.980988" a="-97.019"/>
-	<group name="StaticObj_Furniture_case_sink_a" pos="6442.279297 287.499115 7432.829590" rpy="-0.000000 0.000000 97.180588" a="-7.18059"/>
-	<group name="StaticObj_Furniture_vending_machine" pos="6458.958008 288.096375 7452.076660" rpy="-0.000000 -0.000000 5.615626" a="84.3844"/>
-	<group name="Land_FuelStation_Feed" pos="6438.091309 287.871552 7445.783691" rpy="-0.000000 -0.000000 91.424164" a="-1.42416"/>
+  <group
+    name="Land_Barn_Metal_Big"
+    pos="6460.454102 292.508331 7440.933594"
+    rpy="-0.000000 -0.000000 -84.136147"
+    a="174.136"
+  />
+  <group
+    name="Land_Misc_Calvary1"
+    pos="6428.950684 290.305939 7414.878418"
+    rpy="-0.000000 -0.000000 89.999954"
+    a="4.57764e-05"
+  />
+  <group
+    name="Land_Misc_Well_Pump_Blue"
+    pos="6465.680176 287.503021 7428.052246"
+    rpy="-0.000000 0.000000 98.999962"
+    a="-8.99996"
+  />
+  <group
+    name="Land_misc_chickenCoop"
+    pos="6470.269043 287.364746 7426.738770"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="Land_Misc_TrailRoof_Big"
+    pos="6479.912109 289.009369 7411.524414"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Land_Misc_Through_Static"
+    pos="6479.925781 287.715210 7408.236816"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Land_Misc_Toilet_Mobile"
+    pos="6482.750488 288.287659 7412.839355"
+    rpy="0.000000 0.000000 -90.098473"
+    a="-179.902"
+  />
+  <group
+    name="Land_Misc_Toilet_Mobile"
+    pos="6482.751953 288.350250 7411.562500"
+    rpy="0.000000 0.000000 -90.098473"
+    a="-179.902"
+  />
+  <group
+    name="Land_Misc_DogHouse"
+    pos="6456.445801 288.147919 7429.138184"
+    rpy="-0.000000 0.000000 96.281242"
+    a="-6.28124"
+  />
+  <group
+    name="Land_Misc_Greenhouse"
+    pos="6437.588379 289.971527 7414.804199"
+    rpy="-0.000000 0.000000 91.148109"
+    a="-1.14811"
+  />
+  <group
+    name="Land_Misc_Greenhouse"
+    pos="6441.887207 289.785461 7414.638184"
+    rpy="-0.000000 0.000000 91.148109"
+    a="-1.14811"
+  />
+  <group
+    name="Land_Misc_Greenhouse"
+    pos="6446.106934 289.630096 7414.342773"
+    rpy="-0.000000 0.000000 91.148109"
+    a="-1.14811"
+  />
+  <group
+    name="Land_Misc_Greenhouse"
+    pos="6450.405762 289.444031 7414.176758"
+    rpy="-0.000000 0.000000 91.148109"
+    a="-1.14811"
+  />
+  <group
+    name="Land_Misc_FeedShack"
+    pos="6491.033691 287.554871 7445.682129"
+    rpy="-0.000000 0.000000 98.999931"
+    a="-8.99993"
+  />
+  <group
+    name="Land_Misc_Polytunnel"
+    pos="6492.686523 287.237732 7434.021973"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="Land_Misc_Toilet_Dry"
+    pos="6487.245117 284.862640 7436.845703"
+    rpy="-0.000000 0.000000 -170.999863"
+    a="-99.0001"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6439.703613 287.049713 7452.541016"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6441.391113 287.045502 7452.441895"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6443.168945 287.027618 7452.132324"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6444.856445 287.023407 7452.033203"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6439.550781 287.043579 7450.607910"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6441.238281 287.039368 7450.508789"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6443.016113 287.021484 7450.199219"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6444.703613 287.017273 7450.100098"
+    rpy="-0.000000 -0.000000 -85.208275"
+    a="175.208"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate"
+    pos="6446.517090 287.147705 7452.026855"
+    rpy="-0.000000 -0.000000 8.999931"
+    a="81.0001"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate_02"
+    pos="6447.618652 287.113342 7451.925293"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate_02"
+    pos="6447.376953 287.015228 7450.521973"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate"
+    pos="6446.275391 287.049591 7450.623535"
+    rpy="-0.000000 -0.000000 8.999930"
+    a="81.0001"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate_02"
+    pos="6449.649414 287.060394 7451.682129"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate_02"
+    pos="6449.407715 286.962280 7450.278809"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate"
+    pos="6448.306152 286.996643 7450.380371"
+    rpy="-0.000000 -0.000000 8.999929"
+    a="81.0001"
+  />
+  <group
+    name="StaticObj_Furniture_metalcrate"
+    pos="6448.547852 287.094757 7451.783691"
+    rpy="-0.000000 -0.000000 8.999930"
+    a="81.0001"
+  />
+  <group
+    name="StaticObj_Furniture_Vojenska_palanda"
+    pos="6452.406250 287.078674 7452.367188"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="StaticObj_Furniture_postel_manz_kov"
+    pos="6451.560547 286.932587 7443.328125"
+    rpy="-0.000000 -0.000000 9.000000"
+    a="81"
+  />
+  <group
+    name="StaticObj_Furniture_SofaCorner"
+    pos="6437.631836 287.979767 7434.166016"
+    rpy="-0.000000 0.000000 98.999962"
+    a="-8.99996"
+  />
+  <group
+    name="StaticObj_Furniture_skrin_bar"
+    pos="6436.921875 287.142487 7441.034668"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="StaticObj_Furniture_box_c_multi"
+    pos="6438.224121 287.293488 7436.823730"
+    rpy="0.000000 0.000000 -71.999977"
+    a="162"
+  />
+  <group
+    name="StaticObj_Furniture_bucket"
+    pos="6439.091309 287.569031 7433.343262"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="StaticObj_Furniture_flowers_01"
+    pos="6436.741699 287.576447 7435.631348"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="6440.746582 286.954773 7448.062012"
+    rpy="0.000000 0.000000 -83.098381"
+    a="173.098"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="6443.057129 287.054413 7447.766113"
+    rpy="0.000000 0.000000 -83.098381"
+    a="173.098"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="6445.235352 286.993042 7447.496582"
+    rpy="0.000000 0.000000 -83.098381"
+    a="173.098"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="6447.431641 286.931580 7447.238770"
+    rpy="0.000000 0.000000 -83.098381"
+    a="173.098"
+  />
+  <group
+    name="StaticObj_Furniture_pultskasou"
+    pos="6452.985352 287.250092 7448.128906"
+    rpy="0.000000 0.000000 -81.000061"
+    a="171"
+  />
+  <group
+    name="StaticObj_Furniture_icebox"
+    pos="6455.813477 287.593323 7451.874023"
+    rpy="0.000000 0.000000 5.858218"
+    a="84.1418"
+  />
+  <group
+    name="StaticObj_Furniture_Dkamna_uhli"
+    pos="6439.638672 287.519989 7433.330566"
+    rpy="0.000000 0.000000 -174.119003"
+    a="-95.881"
+  />
+  <group
+    name="StaticObj_Furniture_phonebox"
+    pos="6440.580078 287.500000 7433.180176"
+    rpy="0.000000 0.000000 -172.980988"
+    a="-97.019"
+  />
+  <group
+    name="StaticObj_Furniture_case_sink_a"
+    pos="6442.279297 287.499115 7432.829590"
+    rpy="-0.000000 0.000000 97.180588"
+    a="-7.18059"
+  />
+  <group
+    name="StaticObj_Furniture_vending_machine"
+    pos="6458.958008 288.096375 7452.076660"
+    rpy="-0.000000 -0.000000 5.615626"
+    a="84.3844"
+  />
+  <group
+    name="Land_FuelStation_Feed"
+    pos="6438.091309 287.871552 7445.783691"
+    rpy="-0.000000 -0.000000 91.424164"
+    a="-1.42416"
+  />
 </map>

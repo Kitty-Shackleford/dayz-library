@@ -1,28 +1,153 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Cannibal_Land_Slum_House1" pos="6401.119629 285.616211 5143.899902" rpy="-0.000000 -0.000000 44.999992" a="45"/>
-	<group name="Cannibal_Land_Slum_House3" pos="6401.578125 285.703735 5152.308594" rpy="-0.000000 0.000000 179.999878" a="-89.9999"/>
-	<group name="Cannibal_Land_Slum_House7" pos="6400.803711 284.724213 5158.837891" rpy="-0.000000 -0.000000 0.000000" a="90"/>
-	<group name="Cannibal_Land_Misc_Toilet_Dry" pos="6407.943848 286.117615 5137.458984" rpy="-0.000000 0.000000 -152.999817" a="-117"/>
-	<group name="Cannibal_Land_Misc_Greenhouse" pos="6403.077148 284.972046 5164.194824" rpy="-0.000000 -0.000000 -173.000534" a="-96.9995"/>
-	<group name="Cannibal_Land_Wreck_Volha_Grey" pos="6406.111328 284.856659 5140.364746" rpy="-0.000000 -0.000000 27.000000" a="63"/>
-	<group name="Cannibal_Land_Slum_House2" pos="6404.596680 284.968964 5168.378418" rpy="0.000000 0.000000 -80.999977" a="171"/>
-	<group name="Cannibal_Land_Slum_House4" pos="6404.919434 285.573669 5173.830566" rpy="0.000000 0.000000 -53.999939" a="144"/>
-	<group name="Cannibal_Land_Slum_House5" pos="6427.174316 286.183289 5175.263672" rpy="-0.000000 -0.000000 45.000034" a="45"/>
-	<group name="Cannibal_Land_Slum_House6" pos="6413.179688 287.920776 5124.687012" rpy="-0.000000 0.000000 -175.283920" a="-94.7161"/>
-	<group name="Cannibal_Land_Slum_House7" pos="6966.208008 286.568878 4638.520020" rpy="0.000000 0.000000 -89.999954" a="180"/>
-	<group name="Cannibal_Land_Slum_House7" pos="6962.487305 286.568817 4638.531250" rpy="0.000000 0.000000 -89.999954" a="180"/>
-	<group name="Cannibal_Land_Slum_House1" pos="6953.702148 287.205139 4638.524414" rpy="-0.000000 0.000000 179.999878" a="-89.9999"/>
-	<group name="Cannibal_Land_Slum_House1" pos="6947.180176 287.170807 4631.395020" rpy="-0.000000 0.000000 90.000038" a="-3.8147e-05"/>
-	<group name="Cannibal_Land_Slum_House5" pos="6960.406250 287.011139 4625.522949" rpy="-0.000000 0.000000 179.999878" a="-89.9999"/>
-	<group name="Cannibal_Land_Slum_House6" pos="6969.425293 287.462952 4625.807129" rpy="-0.000000 0.000000 179.999878" a="-89.9999"/>
-	<group name="Cannibal_Land_Slum_House1" pos="6940.269531 275.087463 4596.219238" rpy="-0.000000 0.000000 126.000069" a="-36.0001"/>
-	<group name="Cannibal_Land_Slum_House1" pos="6936.775391 274.806427 4584.748047" rpy="-0.000000 0.000000 90.000069" a="-6.86646e-05"/>
-	<group name="Cannibal_Land_Slum_House1" pos="6951.041016 275.307434 4584.811035" rpy="0.000000 0.000000 -62.999973" a="153"/>
-	<group name="Cannibal_Land_Slum_House5" pos="6945.458496 274.665314 4578.690918" rpy="-0.000000 0.000000 -153.000076" a="-117"/>
-	<group name="Cannibal_Land_Misc_Toilet_Mobile" pos="6941.770020 274.328094 4581.059082" rpy="-0.000000 0.000000 -151.111008" a="-118.889"/>
-	<group name="Cannibal_Land_Misc_Toilet_Mobile" pos="6941.040039 274.322845 4579.811523" rpy="-0.000000 -0.000000 35.999935" a="54.0001"/>
-	<group name="Cannibal_Land_Misc_Toilet_Mobile" pos="6938.296387 286.799500 4640.532715" rpy="-0.000000 0.000000 -60.899693" a="150.9"/>
-	<group name="Cannibal_Land_Misc_Toilet_Mobile" pos="6931.976563 286.520630 4631.392090" rpy="-0.000000 -0.000000 -70.923073" a="160.923"/>
-	<group name="Cannibal_Land_Misc_TrailRoof_Big" pos="6911.583984 331.081329 4652.574707" rpy="-0.000000 -0.000000 0.000000" a="90"/>
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6401.119629 285.616211 5143.899902"
+    rpy="-0.000000 -0.000000 44.999992"
+    a="45"
+  />
+  <group
+    name="Cannibal_Land_Slum_House3"
+    pos="6401.578125 285.703735 5152.308594"
+    rpy="-0.000000 0.000000 179.999878"
+    a="-89.9999"
+  />
+  <group
+    name="Cannibal_Land_Slum_House7"
+    pos="6400.803711 284.724213 5158.837891"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
+  <group
+    name="Cannibal_Land_Misc_Toilet_Dry"
+    pos="6407.943848 286.117615 5137.458984"
+    rpy="-0.000000 0.000000 -152.999817"
+    a="-117"
+  />
+  <group
+    name="Cannibal_Land_Misc_Greenhouse"
+    pos="6403.077148 284.972046 5164.194824"
+    rpy="-0.000000 -0.000000 -173.000534"
+    a="-96.9995"
+  />
+  <group
+    name="Cannibal_Land_Wreck_Volha_Grey"
+    pos="6406.111328 284.856659 5140.364746"
+    rpy="-0.000000 -0.000000 27.000000"
+    a="63"
+  />
+  <group
+    name="Cannibal_Land_Slum_House2"
+    pos="6404.596680 284.968964 5168.378418"
+    rpy="0.000000 0.000000 -80.999977"
+    a="171"
+  />
+  <group
+    name="Cannibal_Land_Slum_House4"
+    pos="6404.919434 285.573669 5173.830566"
+    rpy="0.000000 0.000000 -53.999939"
+    a="144"
+  />
+  <group
+    name="Cannibal_Land_Slum_House5"
+    pos="6427.174316 286.183289 5175.263672"
+    rpy="-0.000000 -0.000000 45.000034"
+    a="45"
+  />
+  <group
+    name="Cannibal_Land_Slum_House6"
+    pos="6413.179688 287.920776 5124.687012"
+    rpy="-0.000000 0.000000 -175.283920"
+    a="-94.7161"
+  />
+  <group
+    name="Cannibal_Land_Slum_House7"
+    pos="6966.208008 286.568878 4638.520020"
+    rpy="0.000000 0.000000 -89.999954"
+    a="180"
+  />
+  <group
+    name="Cannibal_Land_Slum_House7"
+    pos="6962.487305 286.568817 4638.531250"
+    rpy="0.000000 0.000000 -89.999954"
+    a="180"
+  />
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6953.702148 287.205139 4638.524414"
+    rpy="-0.000000 0.000000 179.999878"
+    a="-89.9999"
+  />
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6947.180176 287.170807 4631.395020"
+    rpy="-0.000000 0.000000 90.000038"
+    a="-3.8147e-05"
+  />
+  <group
+    name="Cannibal_Land_Slum_House5"
+    pos="6960.406250 287.011139 4625.522949"
+    rpy="-0.000000 0.000000 179.999878"
+    a="-89.9999"
+  />
+  <group
+    name="Cannibal_Land_Slum_House6"
+    pos="6969.425293 287.462952 4625.807129"
+    rpy="-0.000000 0.000000 179.999878"
+    a="-89.9999"
+  />
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6940.269531 275.087463 4596.219238"
+    rpy="-0.000000 0.000000 126.000069"
+    a="-36.0001"
+  />
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6936.775391 274.806427 4584.748047"
+    rpy="-0.000000 0.000000 90.000069"
+    a="-6.86646e-05"
+  />
+  <group
+    name="Cannibal_Land_Slum_House1"
+    pos="6951.041016 275.307434 4584.811035"
+    rpy="0.000000 0.000000 -62.999973"
+    a="153"
+  />
+  <group
+    name="Cannibal_Land_Slum_House5"
+    pos="6945.458496 274.665314 4578.690918"
+    rpy="-0.000000 0.000000 -153.000076"
+    a="-117"
+  />
+  <group
+    name="Cannibal_Land_Misc_Toilet_Mobile"
+    pos="6941.770020 274.328094 4581.059082"
+    rpy="-0.000000 0.000000 -151.111008"
+    a="-118.889"
+  />
+  <group
+    name="Cannibal_Land_Misc_Toilet_Mobile"
+    pos="6941.040039 274.322845 4579.811523"
+    rpy="-0.000000 -0.000000 35.999935"
+    a="54.0001"
+  />
+  <group
+    name="Cannibal_Land_Misc_Toilet_Mobile"
+    pos="6938.296387 286.799500 4640.532715"
+    rpy="-0.000000 0.000000 -60.899693"
+    a="150.9"
+  />
+  <group
+    name="Cannibal_Land_Misc_Toilet_Mobile"
+    pos="6931.976563 286.520630 4631.392090"
+    rpy="-0.000000 -0.000000 -70.923073"
+    a="160.923"
+  />
+  <group
+    name="Cannibal_Land_Misc_TrailRoof_Big"
+    pos="6911.583984 331.081329 4652.574707"
+    rpy="-0.000000 -0.000000 0.000000"
+    a="90"
+  />
 </map>

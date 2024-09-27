@@ -1,64 +1,32 @@
 {
-    "Objects": [
-        {
-            "name": "Land_Wreck_C130J",
-            "pos": [
-                7477.26904296875,
-                334.16339111328127,
-                7833.927734375
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ],
-            "scale": 0.9999998807907105,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Misc_SupplyBox1_DE",
-            "pos": [
-                7477.76904296875,
-                329.3008728027344,
-                7845.12841796875
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ],
-            "scale": 0.9999998807907105,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Misc_SupplyBox2_DE",
-            "pos": [
-                7477.86572265625,
-                329.82452392578127,
-                7851.6572265625
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ],
-            "scale": 0.9999998807907105,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Misc_SupplyBox3_DE",
-            "pos": [
-                7477.92138671875,
-                329.71075439453127,
-                7848.56494140625
-            ],
-            "ypr": [
-                0.0,
-                -0.0,
-                -0.0
-            ],
-            "scale": 0.9999998807907105,
-            "enableCEPersistency": 0
-        }
-    ]
+  "Objects": [
+    {
+      "name": "Land_Wreck_C130J",
+      "pos": [7477.26904296875, 334.16339111328127, 7833.927734375],
+      "ypr": [0.0, -0.0, -0.0],
+      "scale": 0.9999998807907105,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Misc_SupplyBox1_DE",
+      "pos": [7477.76904296875, 329.3008728027344, 7845.12841796875],
+      "ypr": [0.0, -0.0, -0.0],
+      "scale": 0.9999998807907105,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Misc_SupplyBox2_DE",
+      "pos": [7477.86572265625, 329.82452392578127, 7851.6572265625],
+      "ypr": [0.0, -0.0, -0.0],
+      "scale": 0.9999998807907105,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Misc_SupplyBox3_DE",
+      "pos": [7477.92138671875, 329.71075439453127, 7848.56494140625],
+      "ypr": [0.0, -0.0, -0.0],
+      "scale": 0.9999998807907105,
+      "enableCEPersistency": 0
+    }
+  ]
 }
