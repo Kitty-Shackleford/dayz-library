@@ -1,22 +1,117 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="PVP_Land_City_Stand_Grocery" pos="3948.376953 251.168594 10259.312500" rpy="0.000000 0.000000 -43.388981" a="133.389"/>
-	<group name="PVP_Land_City_Stand_FastFood" pos="3999.441406 251.149002 10308.351563" rpy="-0.000000 0.000000 -42.404949" a="132.405"/>
-	<group name="PVP_Land_City_Stand_Grocery" pos="4006.744629 251.178604 10315.351563" rpy="-0.000000 0.000000 -42.339451" a="132.339"/>
-	<group name="PVP_Land_City_Stand_FastFood" pos="4052.177002 251.053482 10257.206055" rpy="-0.000000 0.000000 48.229664" a="41.7703"/>
-	<group name="PVP_Land_City_Stand_Grocery" pos="4059.091797 251.083084 10249.818359" rpy="-0.000000 0.000000 48.295177" a="41.7048"/>
-	<group name="StaticObj_Wall_Tin6_2_4" pos="3976.701660 239.728348 10282.471680" rpy="0.000000 0.000000 -133.760727" a="-136.239"/>
-	<group name="StaticObj_Wall_Tin6_2_4" pos="3971.544189 239.621658 10284.104492" rpy="-0.000000 0.000000 40.797436" a="49.2026"/>
-	<group name="PVP_Land_Castle_Bergfrit2" pos="4043.786865 240.695023 10222.416016" rpy="0.000000 0.000000 -132.558563" a="-137.441"/>
-	<group name="StaticObj_Furniture_vending_machine" pos="3980.862549 239.784073 10284.036133" rpy="-0.000000 0.000000 94.797318" a="-4.79732"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="3975.300537 238.699539 10289.810547" rpy="-0.000000 0.000000 -135.618286" a="-134.382"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="3973.259033 238.658768 10276.826172" rpy="-0.000000 0.000000 41.359665" a="48.6403"/>
-	<group name="StaticObj_Furniture_vending_machine" pos="3967.420898 239.751785 10282.226563" rpy="-0.000000 0.000000 -84.359612" a="174.36"/>
-	<group name="PVP_Land_Mil_ControlTower" pos="3937.232178 257.077271 10258.331055" rpy="-0.000000 -0.000000 135.951050" a="-45.951"/>
-	<group name="PVP_Land_Mil_ControlTower" pos="4001.162598 256.936279 10320.714844" rpy="-0.000000 -0.000000 -130.617844" a="-139.382"/>
-	<group name="PVP_Land_Mil_ControlTower" pos="4062.334717 256.948364 10254.860352" rpy="0.000000 0.000000 -42.152775" a="132.153"/>
-	<group name="PVP_Land_Mil_ControlTower" pos="3999.778809 256.925476 10196.134766" rpy="-0.000000 -0.000000 48.446644" a="41.5534"/>
-	<group name="PVP_Land_City_Stand_FastFood" pos="4006.132568 251.224991 10199.472656" rpy="-0.000000 0.000000 -131.031219" a="-138.969"/>
-	<group name="PVP_Land_City_Stand_Grocery" pos="3999.315918 251.254593 10206.940430" rpy="-0.000000 0.000000 -130.965668" a="-139.034"/>
-	<group name="PVP_Land_City_Stand_FastFood" pos="3941.180176 251.138565 10252.170898" rpy="-0.000000 0.000000 -43.454479" a="133.454"/>
+  <group
+    name="PVP_Land_City_Stand_Grocery"
+    pos="3948.376953 251.168594 10259.312500"
+    rpy="0.000000 0.000000 -43.388981"
+    a="133.389"
+  />
+  <group
+    name="PVP_Land_City_Stand_FastFood"
+    pos="3999.441406 251.149002 10308.351563"
+    rpy="-0.000000 0.000000 -42.404949"
+    a="132.405"
+  />
+  <group
+    name="PVP_Land_City_Stand_Grocery"
+    pos="4006.744629 251.178604 10315.351563"
+    rpy="-0.000000 0.000000 -42.339451"
+    a="132.339"
+  />
+  <group
+    name="PVP_Land_City_Stand_FastFood"
+    pos="4052.177002 251.053482 10257.206055"
+    rpy="-0.000000 0.000000 48.229664"
+    a="41.7703"
+  />
+  <group
+    name="PVP_Land_City_Stand_Grocery"
+    pos="4059.091797 251.083084 10249.818359"
+    rpy="-0.000000 0.000000 48.295177"
+    a="41.7048"
+  />
+  <group
+    name="StaticObj_Wall_Tin6_2_4"
+    pos="3976.701660 239.728348 10282.471680"
+    rpy="0.000000 0.000000 -133.760727"
+    a="-136.239"
+  />
+  <group
+    name="StaticObj_Wall_Tin6_2_4"
+    pos="3971.544189 239.621658 10284.104492"
+    rpy="-0.000000 0.000000 40.797436"
+    a="49.2026"
+  />
+  <group
+    name="PVP_Land_Castle_Bergfrit2"
+    pos="4043.786865 240.695023 10222.416016"
+    rpy="0.000000 0.000000 -132.558563"
+    a="-137.441"
+  />
+  <group
+    name="StaticObj_Furniture_vending_machine"
+    pos="3980.862549 239.784073 10284.036133"
+    rpy="-0.000000 0.000000 94.797318"
+    a="-4.79732"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="3975.300537 238.699539 10289.810547"
+    rpy="-0.000000 0.000000 -135.618286"
+    a="-134.382"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="3973.259033 238.658768 10276.826172"
+    rpy="-0.000000 0.000000 41.359665"
+    a="48.6403"
+  />
+  <group
+    name="StaticObj_Furniture_vending_machine"
+    pos="3967.420898 239.751785 10282.226563"
+    rpy="-0.000000 0.000000 -84.359612"
+    a="174.36"
+  />
+  <group
+    name="PVP_Land_Mil_ControlTower"
+    pos="3937.232178 257.077271 10258.331055"
+    rpy="-0.000000 -0.000000 135.951050"
+    a="-45.951"
+  />
+  <group
+    name="PVP_Land_Mil_ControlTower"
+    pos="4001.162598 256.936279 10320.714844"
+    rpy="-0.000000 -0.000000 -130.617844"
+    a="-139.382"
+  />
+  <group
+    name="PVP_Land_Mil_ControlTower"
+    pos="4062.334717 256.948364 10254.860352"
+    rpy="0.000000 0.000000 -42.152775"
+    a="132.153"
+  />
+  <group
+    name="PVP_Land_Mil_ControlTower"
+    pos="3999.778809 256.925476 10196.134766"
+    rpy="-0.000000 -0.000000 48.446644"
+    a="41.5534"
+  />
+  <group
+    name="PVP_Land_City_Stand_FastFood"
+    pos="4006.132568 251.224991 10199.472656"
+    rpy="-0.000000 0.000000 -131.031219"
+    a="-138.969"
+  />
+  <group
+    name="PVP_Land_City_Stand_Grocery"
+    pos="3999.315918 251.254593 10206.940430"
+    rpy="-0.000000 0.000000 -130.965668"
+    a="-139.034"
+  />
+  <group
+    name="PVP_Land_City_Stand_FastFood"
+    pos="3941.180176 251.138565 10252.170898"
+    rpy="-0.000000 0.000000 -43.454479"
+    a="133.454"
+  />
 </map>

@@ -1,21 +1,111 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Land_Tenement_Small" pos="1932.420044 213.962997 7291.509766" rpy="0.000000 0.000000 -117.000000" a="-153"/>
-	<group name="Land_Tenement_Small" pos="1984.430054 220.276001 7287.819824" rpy="0.000000 0.000000 -116.999969" a="-153"/>
-	<group name="Land_Tisy_RadarPlatform_Top" pos="2008.000000 228.242004 7252.129883" rpy="0.000000 0.000000 64.499992" a="25.5"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="1992.609985 219.285004 7251.689941" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="1999.010010 219.835007 7240.319824" rpy="0.000000 0.000000 -90.000000" a="-180"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2002.359985 219.404999 7256.569824" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2007.719971 220.001999 7244.609863" rpy="0.000000 0.000000 -90.000000" a="-180"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2015.750244 220.788788 7255.621094" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2021.771973 223.143433 7250.950684" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2015.042847 219.797379 7247.573730" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2017.102905 221.702728 7264.411621" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="Land_DieselPowerPlant_Tank_Small" pos="2008.790039 219.343994 7260.379883" rpy="0.000000 0.000000 60.000000" a="30"/>
-	<group name="StaticObj_Misc_Obstacle_Ramp" pos="2004.109985 234.690002 7243.270020" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="StaticObj_Misc_Obstacle_Ramp" pos="1988.250000 231.628998 7280.020020" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="StaticObj_Target_Concrete_Block" pos="1974.180054 229.757996 7296.470215" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="StaticObj_Target_Concrete_Block" pos="1979.199951 229.931000 7298.970215" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="StaticObj_Misc_Obstacle_Ramp" pos="1937.650024 225.792999 7283.149902" rpy="0.000000 0.000000 -27.000000" a="117"/>
-	<group name="StaticObj_Bridge_Metal_25" pos="1952.189941 212.942001 7302.290039" rpy="0.000000 0.000000 63.000000" a="27"/>
+  <group
+    name="Land_Tenement_Small"
+    pos="1932.420044 213.962997 7291.509766"
+    rpy="0.000000 0.000000 -117.000000"
+    a="-153"
+  />
+  <group
+    name="Land_Tenement_Small"
+    pos="1984.430054 220.276001 7287.819824"
+    rpy="0.000000 0.000000 -116.999969"
+    a="-153"
+  />
+  <group
+    name="Land_Tisy_RadarPlatform_Top"
+    pos="2008.000000 228.242004 7252.129883"
+    rpy="0.000000 0.000000 64.499992"
+    a="25.5"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="1992.609985 219.285004 7251.689941"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="1999.010010 219.835007 7240.319824"
+    rpy="0.000000 0.000000 -90.000000"
+    a="-180"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2002.359985 219.404999 7256.569824"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2007.719971 220.001999 7244.609863"
+    rpy="0.000000 0.000000 -90.000000"
+    a="-180"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2015.750244 220.788788 7255.621094"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2021.771973 223.143433 7250.950684"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2015.042847 219.797379 7247.573730"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2017.102905 221.702728 7264.411621"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="Land_DieselPowerPlant_Tank_Small"
+    pos="2008.790039 219.343994 7260.379883"
+    rpy="0.000000 0.000000 60.000000"
+    a="30"
+  />
+  <group
+    name="StaticObj_Misc_Obstacle_Ramp"
+    pos="2004.109985 234.690002 7243.270020"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="StaticObj_Misc_Obstacle_Ramp"
+    pos="1988.250000 231.628998 7280.020020"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="StaticObj_Target_Concrete_Block"
+    pos="1974.180054 229.757996 7296.470215"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="StaticObj_Target_Concrete_Block"
+    pos="1979.199951 229.931000 7298.970215"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="StaticObj_Misc_Obstacle_Ramp"
+    pos="1937.650024 225.792999 7283.149902"
+    rpy="0.000000 0.000000 -27.000000"
+    a="117"
+  />
+  <group
+    name="StaticObj_Bridge_Metal_25"
+    pos="1952.189941 212.942001 7302.290039"
+    rpy="0.000000 0.000000 63.000000"
+    a="27"
+  />
 </map>

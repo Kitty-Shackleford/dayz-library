@@ -1,203 +1,1203 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6965.301758 342.074524 -6525.109375" rpy="0.000000 0.000000 -151.594025" a="-118.406"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6966.304688 342.101563 -6523.239258" rpy="0.000000 0.000000 -150.791656" a="-119.208"/>
-	<group name="StaticObj_Furniture_case_d" pos="6967.173828 342.191589 -6522.098633" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="6968.451172 342.101563 -6520.862305" rpy="0.000000 0.000000 -151.594025" a="-118.406"/>
-	<group name="StaticObj_Furniture_Anvil" pos="6967.900879 342.701538 -6520.598633" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Furniture_shelf_DZ" pos="6969.565430 341.968933 -6521.485352" rpy="-0.000000 -0.000000 119.129601" a="-29.1296"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6965.789551 342.810608 -6528.748047" rpy="0.000000 0.000000 -61.975677" a="151.976"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6965.789551 346.159119 -6528.748047" rpy="0.000000 0.000000 -61.975677" a="151.976"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6965.789551 349.582520 -6528.748047" rpy="0.000000 0.000000 -61.975677" a="151.976"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6965.789551 352.865784 -6528.748047" rpy="0.000000 0.000000 -61.975677" a="151.976"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6965.789551 356.233521 -6528.748047" rpy="0.000000 0.000000 -61.975677" a="151.976"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.370117 342.591553 -6529.636719" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6977.872070 342.781738 -6533.495117" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.181641 342.560547 -6537.037109" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.181641 346.192444 -6537.037109" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.181641 349.449158 -6537.037109" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.181641 353.083435 -6537.037109" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.181641 356.500854 -6537.037109" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.370117 346.001526 -6529.636719" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6977.887207 346.001526 -6533.487305" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.370117 349.382935 -6529.636719" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.370117 352.751587 -6529.636719" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.370117 356.201599 -6529.636719" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6977.887207 349.497192 -6533.487305" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6977.887207 352.852112 -6533.487305" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6977.887207 356.260193 -6533.487305" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6988.259277 342.601563 -6524.046875" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6988.259277 345.840088 -6524.046875" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6988.259277 349.507629 -6524.046875" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6988.259277 352.859680 -6524.046875" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6988.259277 356.361023 -6524.046875" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6984.806152 342.582520 -6522.117188" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6984.806152 346.046936 -6522.117188" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6984.806152 349.692566 -6522.117188" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6984.806152 352.828186 -6522.117188" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6984.806152 356.396790 -6522.117188" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6976.558594 342.532776 -6517.522461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.847656 342.539124 -6515.609375" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6976.558594 345.935913 -6517.522461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6976.558594 349.529724 -6517.522461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6976.558594 352.878784 -6517.522461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6976.558594 356.380737 -6517.522461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.847656 345.883301 -6515.609375" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.847656 349.410339 -6515.609375" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.847656 352.896240 -6515.609375" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.847656 356.401794 -6515.609375" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.344727 342.637695 -6518.297852" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.344727 346.062805 -6518.297852" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.344727 349.498779 -6518.297852" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.344727 352.967407 -6518.297852" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6981.344727 356.509949 -6518.297852" rpy="0.000000 0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6974.212402 345.982605 -6531.536133" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6974.212402 349.385193 -6531.536133" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6974.212402 352.757080 -6531.536133" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6974.212402 356.071533 -6531.536133" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="6977.985352 342.101563 -6526.582031" rpy="0.000000 0.000000 27.852736" a="62.1473"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="6976.680664 342.101563 -6528.989258" rpy="0.000000 0.000000 27.852736" a="62.1473"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6976.324219 345.451599 -6523.471680" rpy="0.000000 0.000000 -153.140762" a="-116.859"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6977.270508 345.451599 -6521.605469" rpy="0.000000 0.000000 -153.140762" a="-116.859"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6978.268555 345.451599 -6519.762695" rpy="0.000000 0.000000 -153.140762" a="-116.859"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="6980.504883 345.525635 -6523.559570" rpy="-0.000000 -0.000000 -60.514385" a="150.514"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="6979.950195 345.525635 -6524.550781" rpy="-0.000000 -0.000000 -60.514385" a="150.514"/>
-	<group name="StaticObj_Furniture_bag_DZ" pos="6971.992188 343.459045 -6517.799805" rpy="-0.000000 -0.000000 -124.594093" a="-145.406"/>
-	<group name="StaticObj_Furniture_canister_DZ" pos="6969.821777 342.457397 -6517.935547" rpy="-0.000000 -0.000000 124.521744" a="-34.5217"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6975.707520 342.101563 -6517.825195" rpy="0.000000 0.000000 -66.238510" a="156.239"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="6977.557617 342.101563 -6518.621094" rpy="0.000000 0.000000 -66.238510" a="156.239"/>
-	<group name="StaticObj_Statue_Enoch1" pos="6984.025391 350.026550 -6531.608398" rpy="0.000000 0.000000 -150.885300" a="-119.115"/>
-	<group name="StaticObj_Furniture_Couch_Beige84x213x75_DZ" pos="6982.959961 348.868774 -6536.111328" rpy="-0.000000 -0.000000 -151.828506" a="-118.171"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="6986.921875 348.901550 -6528.446289" rpy="0.000000 0.000000 -60.221302" a="150.221"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="6985.911621 348.901550 -6527.931641" rpy="0.000000 0.000000 -60.221302" a="150.221"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6987.374512 342.601563 -6523.538086" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="6985.027344 348.901550 -6527.416992" rpy="0.000000 0.000000 -60.221302" a="150.221"/>
-	<group name="StaticObj_lobby_table" pos="6969.833984 352.301575 -6528.298828" rpy="0.000000 0.000000 29.535578" a="60.4644"/>
-	<group name="StaticObj_lobby_table" pos="6971.233398 352.301575 -6529.067383" rpy="0.000000 0.000000 29.535578" a="60.4644"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="6966.370117 360.624146 -6526.740234" rpy="-0.000000 0.000000 -25.594221" a="115.594"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="6972.002930 360.624146 -6517.036133" rpy="-0.000000 0.000000 91.436523" a="-1.43652"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6968.873535 359.851563 -6519.537109" rpy="0.000000 0.000000 -151.594025" a="-118.406"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6966.989746 359.872314 -6522.871094" rpy="0.000000 0.000000 -151.594025" a="-118.406"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6967.928223 359.872253 -6521.117188" rpy="0.000000 0.000000 -151.594025" a="-118.406"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="6987.819336 360.349365 -6525.424805" rpy="-0.000000 0.000000 152.482330" a="-62.4823"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="6982.509766 360.349365 -6535.312500" rpy="-0.000000 0.000000 -90.488823" a="-179.511"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6985.541992 359.576782 -6532.706055" rpy="0.000000 0.000000 26.476604" a="63.5234"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6987.339844 359.597473 -6529.299805" rpy="0.000000 0.000000 26.476604" a="63.5234"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6986.385742 359.597473 -6531.132813" rpy="0.000000 0.000000 26.476604" a="63.5234"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6985.281250 359.801514 -6522.525391" rpy="0.000000 0.000000 -60.876469" a="150.876"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6982.448242 359.851563 -6520.980469" rpy="0.000000 0.000000 -60.876686" a="150.877"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6978.411621 359.901611 -6518.856445" rpy="0.000000 0.000000 -60.876579" a="150.877"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6975.678711 359.973877 -6517.457031" rpy="-0.000000 -0.000000 -60.876686" a="150.877"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6970.110352 359.651794 -6529.377930" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6972.962402 359.651855 -6530.788086" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6975.802734 359.651855 -6532.272461" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6978.651855 359.651794 -6533.791016" rpy="-0.000000 -0.000000 -61.594158" a="151.594"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="6980.319336 359.901611 -6519.919922" rpy="0.000000 0.000000 -60.876579" a="150.877"/>
-	<group name="Land_Misc_DeerStand1" pos="6967.537109 362.701599 -6526.309570" rpy="0.000000 0.000000 80.619705" a="9.38029"/>
-	<group name="Land_Misc_DeerStand1" pos="6982.638672 362.701599 -6534.309570" rpy="0.000000 0.000000 -25.400196" a="115.4"/>
-	<group name="Land_Misc_DeerStand1" pos="6986.571777 362.901550 -6526.002930" rpy="0.000000 0.000000 -115.594208" a="-154.406"/>
-	<group name="Land_Misc_DeerStand1" pos="6971.988281 362.760254 -6518.384766" rpy="-0.000000 -0.000000 165.469284" a="-75.4693"/>
-	<group name="Land_Misc_Well_Pump_Yellow" pos="6970.067383 342.432922 -6519.379883" rpy="-0.000000 -0.000000 25.932308" a="64.0677"/>
-	<group name="Land_FuelStation_Feed" pos="6970.631348 342.901550 -6516.417969" rpy="0.000000 0.000000 119.212532" a="-29.2125"/>
-	<group name="StaticObj_Platform1_Ramp" pos="6968.155273 338.751587 -6543.119141" rpy="0.000000 0.000000 118.405518" a="-28.4055"/>
-	<group name="Land_Tenement_Small" pos="10250.805664 30.043102 2518.100586" rpy="0.000000 0.000000 133.119675" a="-43.1197"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10247.309570 22.484081 2506.835449" rpy="0.000000 0.000000 133.119812" a="-43.1198"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10245.757813 22.511089 2508.280029" rpy="0.000000 0.000000 133.922180" a="-43.9222"/>
-	<group name="StaticObj_Furniture_case_d" pos="10244.873047 22.601086 2509.407471" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="10244.000977 22.511089 2510.958496" rpy="0.000000 0.000000 133.119812" a="-43.1198"/>
-	<group name="StaticObj_Furniture_Anvil" pos="10243.607422 23.111095 2510.494873" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Furniture_shelf_DZ" pos="10244.884766 22.378431 2511.879883" rpy="-0.000000 -0.000000 43.844467" a="46.1555"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10250.958008 23.220104 2506.377930" rpy="0.000000 0.000000 -137.260345" a="-132.74"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10250.958008 26.568615 2506.377930" rpy="0.000000 0.000000 -137.260345" a="-132.74"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10250.958008 29.992077 2506.377930" rpy="0.000000 0.000000 -137.260345" a="-132.74"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10250.958008 33.275372 2506.377930" rpy="0.000000 0.000000 -137.260345" a="-132.74"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10250.958008 36.643017 2506.377930" rpy="0.000000 0.000000 -137.260345" a="-132.74"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.972656 23.001080 2510.586914" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.614258 23.191296 2516.862549" rpy="-0.000000 -0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10262.877930 22.970104 2519.163330" rpy="0.000000 0.000000 -136.878738" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10262.877930 26.601971 2519.163330" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10262.877930 29.858685 2519.163330" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10262.877930 33.492962 2519.163330" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10262.877930 36.910412 2519.163330" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.972656 26.411085 2510.586914" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.611328 26.411085 2516.877686" rpy="0.000000 0.000000 -136.878708" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.972656 29.792431 2510.586914" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.972656 33.161083 2510.586914" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.972656 36.611095 2510.586914" rpy="0.000000 0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.611328 29.906719 2516.877686" rpy="0.000000 0.000000 -136.878708" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.611328 33.261639 2516.877686" rpy="0.000000 0.000000 -136.878708" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.611328 36.669689 2516.877686" rpy="0.000000 0.000000 -136.878708" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.117188 23.011089 2529.309082" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.117188 26.249615 2529.309082" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.117188 29.917187 2529.309082" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.117188 33.269207 2529.309082" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.117188 36.770550 2529.309082" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.367188 22.992016 2526.459717" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.367188 26.456463 2526.459717" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.367188 30.102062 2526.459717" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.367188 33.237713 2526.459717" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.367188 36.806286 2526.459717" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.824219 22.942303 2519.648682" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10240.038086 22.948681 2516.544189" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.824219 26.345440 2519.648682" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.824219 29.939220 2519.648682" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.824219 33.288311 2519.648682" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.824219 36.790264 2519.648682" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10240.038086 26.292797 2516.544189" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10240.038086 29.819836 2516.544189" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10240.038086 33.305737 2516.544189" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10240.038086 36.811321 2516.544189" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.799805 23.047224 2524.083008" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.799805 26.472334 2524.083008" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.799805 29.908276 2524.083008" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.799805 33.376934 2524.083008" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.799805 36.919415 2524.083008" rpy="0.000000 0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10255.786133 26.392132 2513.822021" rpy="-0.000000 -0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10255.786133 29.794750 2513.822021" rpy="-0.000000 -0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10255.786133 33.166637 2513.822021" rpy="-0.000000 -0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10255.786133 36.481091 2513.822021" rpy="-0.000000 -0.000000 -136.878830" a="-133.121"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="10251.955078 22.511089 2518.725098" rpy="0.000000 0.000000 -47.432293" a="137.432"/>
-	<group name="StaticObj_Furniture_lobby_table" pos="10253.949219 22.511089 2516.851318" rpy="0.000000 0.000000 -47.432293" a="137.432"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10248.527344 25.861095 2517.909668" rpy="0.000000 0.000000 131.573090" a="-41.5731"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10246.966797 25.861095 2519.299805" rpy="0.000000 0.000000 131.573090" a="-41.5731"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10245.432617 25.861095 2520.737549" rpy="0.000000 0.000000 131.573074" a="-41.5731"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="10249.673828 25.935162 2521.932129" rpy="-0.000000 -0.000000 -135.799164" a="-134.201"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="10250.485352 25.935162 2521.145752" rpy="-0.000000 -0.000000 -135.799164" a="-134.201"/>
-	<group name="StaticObj_Furniture_bag_DZ" pos="10241.937500 23.868542 2515.161133" rpy="-0.000000 -0.000000 160.120117" a="-70.1201"/>
-	<group name="StaticObj_Furniture_canister_DZ" pos="10241.518555 22.866924 2513.026611" rpy="-0.000000 -0.000000 49.236431" a="40.7636"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10242.901367 22.511089 2518.751221" rpy="0.000000 0.000000 -141.523026" a="-128.477"/>
-	<group name="StaticObj_Furniture_shelf_1side" pos="10244.144531 22.511089 2520.341553" rpy="0.000000 0.000000 -141.523026" a="-128.477"/>
-	<group name="StaticObj_Statue_Enoch1" pos="10258.353516 30.436077 2523.295166" rpy="0.000000 0.000000 133.828568" a="-43.8286"/>
-	<group name="StaticObj_Furniture_Couch_Beige84x213x75_DZ" pos="10262.435547 29.278271 2521.115967" rpy="-0.000000 -0.000000 132.885345" a="-42.8853"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="10256.033203 29.311077 2526.897217" rpy="0.000000 0.000000 -135.505966" a="-134.494"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="10255.271484 29.311077 2526.054688" rpy="0.000000 0.000000 -135.505966" a="-134.494"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10251.395508 23.011089 2528.582520" rpy="0.000000 0.000000 43.120361" a="46.8796"/>
-	<group name="StaticObj_Furniture_shelfs_small" pos="10254.550781 29.311077 2525.323975" rpy="0.000000 0.000000 -135.505966" a="-134.494"/>
-	<group name="StaticObj_lobby_table" pos="10251.545898 32.711102 2510.403564" rpy="0.000000 0.000000 -45.749527" a="135.75"/>
-	<group name="StaticObj_lobby_table" pos="10252.647461 32.711102 2511.564941" rpy="0.000000 0.000000 -45.749527" a="135.75"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="10249.152344 41.033680 2507.453613" rpy="-0.000000 0.000000 -100.879112" a="-169.121"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="10241.203125 41.033680 2515.361572" rpy="-0.000000 0.000000 16.151285" a="73.8487"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.832031 40.261089 2511.701172" rpy="0.000000 0.000000 133.119812" a="-43.1198"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10245.585938 40.281811 2509.037354" rpy="0.000000 0.000000 133.119812" a="-43.1198"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.121094 40.281780 2510.384766" rpy="0.000000 0.000000 133.119812" a="-43.1198"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="10253.332031 40.758892 2528.535400" rpy="-0.000000 0.000000 77.197174" a="12.8028"/>
-	<group name="StaticObj_Roadblock_Bags_Curve" pos="10261.545898 40.758892 2520.884766" rpy="-0.000000 0.000000 -165.773468" a="-104.227"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10259.798828 39.986309 2524.479248" rpy="0.000000 0.000000 -48.808472" a="138.808"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10256.961914 40.007023 2527.081787" rpy="0.000000 0.000000 -48.808472" a="138.808"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10258.496094 40.007000 2525.699463" rpy="0.000000 0.000000 -48.808472" a="138.808"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10249.887695 40.211102 2526.812988" rpy="0.000000 0.000000 -136.161087" a="-133.839"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10247.666992 40.261089 2524.469238" rpy="0.000000 0.000000 -136.161346" a="-133.839"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10244.589844 40.311108 2521.098389" rpy="0.000000 0.000000 -136.161346" a="-133.839"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10242.540039 40.383404 2518.814697" rpy="-0.000000 -0.000000 -136.161346" a="-133.839"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10252.661133 40.061352 2510.398438" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10254.746094 40.061382 2512.801025" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10256.902344 40.061382 2515.172852" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10259.098633 40.061352 2517.540771" rpy="-0.000000 -0.000000 -136.878891" a="-133.121"/>
-	<group name="StaticObj_Roadblock_Bags_Long" pos="10246.108398 40.311108 2522.675537" rpy="0.000000 0.000000 -136.161346" a="-133.839"/>
-	<group name="Land_Misc_DeerStand1" pos="10249.037109 43.111088 2508.684326" rpy="0.000000 0.000000 5.334536" a="84.6655"/>
-	<group name="Land_Misc_DeerStand1" pos="10260.623047 43.111088 2521.261719" rpy="0.000000 0.000000 -100.684937" a="-169.315"/>
-	<group name="Land_Misc_DeerStand1" pos="10253.572266 43.311077 2527.180420" rpy="0.000000 0.000000 169.120255" a="-79.1203"/>
-	<group name="Land_Misc_DeerStand1" pos="10242.506836 43.169720 2515.005371" rpy="-0.000000 -0.000000 90.183716" a="-0.183716"/>
-	<group name="Land_Misc_Well_Pump_Yellow" pos="10242.975586 22.842449 2512.900879" rpy="-0.000000 -0.000000 -49.352859" a="139.353"/>
-	<group name="Land_FuelStation_Feed" pos="10240.254883 23.311077 2514.196045" rpy="0.000000 0.000000 43.927353" a="46.0726"/>
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6965.301758 342.074524 -6525.109375"
+    rpy="0.000000 0.000000 -151.594025"
+    a="-118.406"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6966.304688 342.101563 -6523.239258"
+    rpy="0.000000 0.000000 -150.791656"
+    a="-119.208"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="6967.173828 342.191589 -6522.098633"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="6968.451172 342.101563 -6520.862305"
+    rpy="0.000000 0.000000 -151.594025"
+    a="-118.406"
+  />
+  <group
+    name="StaticObj_Furniture_Anvil"
+    pos="6967.900879 342.701538 -6520.598633"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_DZ"
+    pos="6969.565430 341.968933 -6521.485352"
+    rpy="-0.000000 -0.000000 119.129601"
+    a="-29.1296"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6965.789551 342.810608 -6528.748047"
+    rpy="0.000000 0.000000 -61.975677"
+    a="151.976"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6965.789551 346.159119 -6528.748047"
+    rpy="0.000000 0.000000 -61.975677"
+    a="151.976"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6965.789551 349.582520 -6528.748047"
+    rpy="0.000000 0.000000 -61.975677"
+    a="151.976"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6965.789551 352.865784 -6528.748047"
+    rpy="0.000000 0.000000 -61.975677"
+    a="151.976"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6965.789551 356.233521 -6528.748047"
+    rpy="0.000000 0.000000 -61.975677"
+    a="151.976"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.370117 342.591553 -6529.636719"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6977.872070 342.781738 -6533.495117"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.181641 342.560547 -6537.037109"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.181641 346.192444 -6537.037109"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.181641 349.449158 -6537.037109"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.181641 353.083435 -6537.037109"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.181641 356.500854 -6537.037109"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.370117 346.001526 -6529.636719"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6977.887207 346.001526 -6533.487305"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.370117 349.382935 -6529.636719"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.370117 352.751587 -6529.636719"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.370117 356.201599 -6529.636719"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6977.887207 349.497192 -6533.487305"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6977.887207 352.852112 -6533.487305"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6977.887207 356.260193 -6533.487305"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6988.259277 342.601563 -6524.046875"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6988.259277 345.840088 -6524.046875"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6988.259277 349.507629 -6524.046875"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6988.259277 352.859680 -6524.046875"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6988.259277 356.361023 -6524.046875"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6984.806152 342.582520 -6522.117188"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6984.806152 346.046936 -6522.117188"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6984.806152 349.692566 -6522.117188"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6984.806152 352.828186 -6522.117188"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6984.806152 356.396790 -6522.117188"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6976.558594 342.532776 -6517.522461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.847656 342.539124 -6515.609375"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6976.558594 345.935913 -6517.522461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6976.558594 349.529724 -6517.522461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6976.558594 352.878784 -6517.522461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6976.558594 356.380737 -6517.522461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.847656 345.883301 -6515.609375"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.847656 349.410339 -6515.609375"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.847656 352.896240 -6515.609375"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.847656 356.401794 -6515.609375"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.344727 342.637695 -6518.297852"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.344727 346.062805 -6518.297852"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.344727 349.498779 -6518.297852"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.344727 352.967407 -6518.297852"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6981.344727 356.509949 -6518.297852"
+    rpy="0.000000 0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6974.212402 345.982605 -6531.536133"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6974.212402 349.385193 -6531.536133"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6974.212402 352.757080 -6531.536133"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6974.212402 356.071533 -6531.536133"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="6977.985352 342.101563 -6526.582031"
+    rpy="0.000000 0.000000 27.852736"
+    a="62.1473"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="6976.680664 342.101563 -6528.989258"
+    rpy="0.000000 0.000000 27.852736"
+    a="62.1473"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6976.324219 345.451599 -6523.471680"
+    rpy="0.000000 0.000000 -153.140762"
+    a="-116.859"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6977.270508 345.451599 -6521.605469"
+    rpy="0.000000 0.000000 -153.140762"
+    a="-116.859"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6978.268555 345.451599 -6519.762695"
+    rpy="0.000000 0.000000 -153.140762"
+    a="-116.859"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="6980.504883 345.525635 -6523.559570"
+    rpy="-0.000000 -0.000000 -60.514385"
+    a="150.514"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="6979.950195 345.525635 -6524.550781"
+    rpy="-0.000000 -0.000000 -60.514385"
+    a="150.514"
+  />
+  <group
+    name="StaticObj_Furniture_bag_DZ"
+    pos="6971.992188 343.459045 -6517.799805"
+    rpy="-0.000000 -0.000000 -124.594093"
+    a="-145.406"
+  />
+  <group
+    name="StaticObj_Furniture_canister_DZ"
+    pos="6969.821777 342.457397 -6517.935547"
+    rpy="-0.000000 -0.000000 124.521744"
+    a="-34.5217"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6975.707520 342.101563 -6517.825195"
+    rpy="0.000000 0.000000 -66.238510"
+    a="156.239"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="6977.557617 342.101563 -6518.621094"
+    rpy="0.000000 0.000000 -66.238510"
+    a="156.239"
+  />
+  <group
+    name="StaticObj_Statue_Enoch1"
+    pos="6984.025391 350.026550 -6531.608398"
+    rpy="0.000000 0.000000 -150.885300"
+    a="-119.115"
+  />
+  <group
+    name="StaticObj_Furniture_Couch_Beige84x213x75_DZ"
+    pos="6982.959961 348.868774 -6536.111328"
+    rpy="-0.000000 -0.000000 -151.828506"
+    a="-118.171"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="6986.921875 348.901550 -6528.446289"
+    rpy="0.000000 0.000000 -60.221302"
+    a="150.221"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="6985.911621 348.901550 -6527.931641"
+    rpy="0.000000 0.000000 -60.221302"
+    a="150.221"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6987.374512 342.601563 -6523.538086"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="6985.027344 348.901550 -6527.416992"
+    rpy="0.000000 0.000000 -60.221302"
+    a="150.221"
+  />
+  <group
+    name="StaticObj_lobby_table"
+    pos="6969.833984 352.301575 -6528.298828"
+    rpy="0.000000 0.000000 29.535578"
+    a="60.4644"
+  />
+  <group
+    name="StaticObj_lobby_table"
+    pos="6971.233398 352.301575 -6529.067383"
+    rpy="0.000000 0.000000 29.535578"
+    a="60.4644"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="6966.370117 360.624146 -6526.740234"
+    rpy="-0.000000 0.000000 -25.594221"
+    a="115.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="6972.002930 360.624146 -6517.036133"
+    rpy="-0.000000 0.000000 91.436523"
+    a="-1.43652"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6968.873535 359.851563 -6519.537109"
+    rpy="0.000000 0.000000 -151.594025"
+    a="-118.406"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6966.989746 359.872314 -6522.871094"
+    rpy="0.000000 0.000000 -151.594025"
+    a="-118.406"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6967.928223 359.872253 -6521.117188"
+    rpy="0.000000 0.000000 -151.594025"
+    a="-118.406"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="6987.819336 360.349365 -6525.424805"
+    rpy="-0.000000 0.000000 152.482330"
+    a="-62.4823"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="6982.509766 360.349365 -6535.312500"
+    rpy="-0.000000 0.000000 -90.488823"
+    a="-179.511"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6985.541992 359.576782 -6532.706055"
+    rpy="0.000000 0.000000 26.476604"
+    a="63.5234"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6987.339844 359.597473 -6529.299805"
+    rpy="0.000000 0.000000 26.476604"
+    a="63.5234"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6986.385742 359.597473 -6531.132813"
+    rpy="0.000000 0.000000 26.476604"
+    a="63.5234"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6985.281250 359.801514 -6522.525391"
+    rpy="0.000000 0.000000 -60.876469"
+    a="150.876"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6982.448242 359.851563 -6520.980469"
+    rpy="0.000000 0.000000 -60.876686"
+    a="150.877"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6978.411621 359.901611 -6518.856445"
+    rpy="0.000000 0.000000 -60.876579"
+    a="150.877"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6975.678711 359.973877 -6517.457031"
+    rpy="-0.000000 -0.000000 -60.876686"
+    a="150.877"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6970.110352 359.651794 -6529.377930"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6972.962402 359.651855 -6530.788086"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6975.802734 359.651855 -6532.272461"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6978.651855 359.651794 -6533.791016"
+    rpy="-0.000000 -0.000000 -61.594158"
+    a="151.594"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="6980.319336 359.901611 -6519.919922"
+    rpy="0.000000 0.000000 -60.876579"
+    a="150.877"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="6967.537109 362.701599 -6526.309570"
+    rpy="0.000000 0.000000 80.619705"
+    a="9.38029"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="6982.638672 362.701599 -6534.309570"
+    rpy="0.000000 0.000000 -25.400196"
+    a="115.4"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="6986.571777 362.901550 -6526.002930"
+    rpy="0.000000 0.000000 -115.594208"
+    a="-154.406"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="6971.988281 362.760254 -6518.384766"
+    rpy="-0.000000 -0.000000 165.469284"
+    a="-75.4693"
+  />
+  <group
+    name="Land_Misc_Well_Pump_Yellow"
+    pos="6970.067383 342.432922 -6519.379883"
+    rpy="-0.000000 -0.000000 25.932308"
+    a="64.0677"
+  />
+  <group
+    name="Land_FuelStation_Feed"
+    pos="6970.631348 342.901550 -6516.417969"
+    rpy="0.000000 0.000000 119.212532"
+    a="-29.2125"
+  />
+  <group
+    name="StaticObj_Platform1_Ramp"
+    pos="6968.155273 338.751587 -6543.119141"
+    rpy="0.000000 0.000000 118.405518"
+    a="-28.4055"
+  />
+  <group
+    name="Land_Tenement_Small"
+    pos="10250.805664 30.043102 2518.100586"
+    rpy="0.000000 0.000000 133.119675"
+    a="-43.1197"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10247.309570 22.484081 2506.835449"
+    rpy="0.000000 0.000000 133.119812"
+    a="-43.1198"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10245.757813 22.511089 2508.280029"
+    rpy="0.000000 0.000000 133.922180"
+    a="-43.9222"
+  />
+  <group
+    name="StaticObj_Furniture_case_d"
+    pos="10244.873047 22.601086 2509.407471"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="10244.000977 22.511089 2510.958496"
+    rpy="0.000000 0.000000 133.119812"
+    a="-43.1198"
+  />
+  <group
+    name="StaticObj_Furniture_Anvil"
+    pos="10243.607422 23.111095 2510.494873"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_DZ"
+    pos="10244.884766 22.378431 2511.879883"
+    rpy="-0.000000 -0.000000 43.844467"
+    a="46.1555"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10250.958008 23.220104 2506.377930"
+    rpy="0.000000 0.000000 -137.260345"
+    a="-132.74"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10250.958008 26.568615 2506.377930"
+    rpy="0.000000 0.000000 -137.260345"
+    a="-132.74"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10250.958008 29.992077 2506.377930"
+    rpy="0.000000 0.000000 -137.260345"
+    a="-132.74"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10250.958008 33.275372 2506.377930"
+    rpy="0.000000 0.000000 -137.260345"
+    a="-132.74"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10250.958008 36.643017 2506.377930"
+    rpy="0.000000 0.000000 -137.260345"
+    a="-132.74"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.972656 23.001080 2510.586914"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.614258 23.191296 2516.862549"
+    rpy="-0.000000 -0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10262.877930 22.970104 2519.163330"
+    rpy="0.000000 0.000000 -136.878738"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10262.877930 26.601971 2519.163330"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10262.877930 29.858685 2519.163330"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10262.877930 33.492962 2519.163330"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10262.877930 36.910412 2519.163330"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.972656 26.411085 2510.586914"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.611328 26.411085 2516.877686"
+    rpy="0.000000 0.000000 -136.878708"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.972656 29.792431 2510.586914"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.972656 33.161083 2510.586914"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.972656 36.611095 2510.586914"
+    rpy="0.000000 0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.611328 29.906719 2516.877686"
+    rpy="0.000000 0.000000 -136.878708"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.611328 33.261639 2516.877686"
+    rpy="0.000000 0.000000 -136.878708"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.611328 36.669689 2516.877686"
+    rpy="0.000000 0.000000 -136.878708"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.117188 23.011089 2529.309082"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.117188 26.249615 2529.309082"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.117188 29.917187 2529.309082"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.117188 33.269207 2529.309082"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.117188 36.770550 2529.309082"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.367188 22.992016 2526.459717"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.367188 26.456463 2526.459717"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.367188 30.102062 2526.459717"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.367188 33.237713 2526.459717"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.367188 36.806286 2526.459717"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.824219 22.942303 2519.648682"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10240.038086 22.948681 2516.544189"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.824219 26.345440 2519.648682"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.824219 29.939220 2519.648682"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.824219 33.288311 2519.648682"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.824219 36.790264 2519.648682"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10240.038086 26.292797 2516.544189"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10240.038086 29.819836 2516.544189"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10240.038086 33.305737 2516.544189"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10240.038086 36.811321 2516.544189"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.799805 23.047224 2524.083008"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.799805 26.472334 2524.083008"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.799805 29.908276 2524.083008"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.799805 33.376934 2524.083008"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.799805 36.919415 2524.083008"
+    rpy="0.000000 0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10255.786133 26.392132 2513.822021"
+    rpy="-0.000000 -0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10255.786133 29.794750 2513.822021"
+    rpy="-0.000000 -0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10255.786133 33.166637 2513.822021"
+    rpy="-0.000000 -0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10255.786133 36.481091 2513.822021"
+    rpy="-0.000000 -0.000000 -136.878830"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="10251.955078 22.511089 2518.725098"
+    rpy="0.000000 0.000000 -47.432293"
+    a="137.432"
+  />
+  <group
+    name="StaticObj_Furniture_lobby_table"
+    pos="10253.949219 22.511089 2516.851318"
+    rpy="0.000000 0.000000 -47.432293"
+    a="137.432"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10248.527344 25.861095 2517.909668"
+    rpy="0.000000 0.000000 131.573090"
+    a="-41.5731"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10246.966797 25.861095 2519.299805"
+    rpy="0.000000 0.000000 131.573090"
+    a="-41.5731"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10245.432617 25.861095 2520.737549"
+    rpy="0.000000 0.000000 131.573074"
+    a="-41.5731"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="10249.673828 25.935162 2521.932129"
+    rpy="-0.000000 -0.000000 -135.799164"
+    a="-134.201"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="10250.485352 25.935162 2521.145752"
+    rpy="-0.000000 -0.000000 -135.799164"
+    a="-134.201"
+  />
+  <group
+    name="StaticObj_Furniture_bag_DZ"
+    pos="10241.937500 23.868542 2515.161133"
+    rpy="-0.000000 -0.000000 160.120117"
+    a="-70.1201"
+  />
+  <group
+    name="StaticObj_Furniture_canister_DZ"
+    pos="10241.518555 22.866924 2513.026611"
+    rpy="-0.000000 -0.000000 49.236431"
+    a="40.7636"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10242.901367 22.511089 2518.751221"
+    rpy="0.000000 0.000000 -141.523026"
+    a="-128.477"
+  />
+  <group
+    name="StaticObj_Furniture_shelf_1side"
+    pos="10244.144531 22.511089 2520.341553"
+    rpy="0.000000 0.000000 -141.523026"
+    a="-128.477"
+  />
+  <group
+    name="StaticObj_Statue_Enoch1"
+    pos="10258.353516 30.436077 2523.295166"
+    rpy="0.000000 0.000000 133.828568"
+    a="-43.8286"
+  />
+  <group
+    name="StaticObj_Furniture_Couch_Beige84x213x75_DZ"
+    pos="10262.435547 29.278271 2521.115967"
+    rpy="-0.000000 -0.000000 132.885345"
+    a="-42.8853"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="10256.033203 29.311077 2526.897217"
+    rpy="0.000000 0.000000 -135.505966"
+    a="-134.494"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="10255.271484 29.311077 2526.054688"
+    rpy="0.000000 0.000000 -135.505966"
+    a="-134.494"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10251.395508 23.011089 2528.582520"
+    rpy="0.000000 0.000000 43.120361"
+    a="46.8796"
+  />
+  <group
+    name="StaticObj_Furniture_shelfs_small"
+    pos="10254.550781 29.311077 2525.323975"
+    rpy="0.000000 0.000000 -135.505966"
+    a="-134.494"
+  />
+  <group
+    name="StaticObj_lobby_table"
+    pos="10251.545898 32.711102 2510.403564"
+    rpy="0.000000 0.000000 -45.749527"
+    a="135.75"
+  />
+  <group
+    name="StaticObj_lobby_table"
+    pos="10252.647461 32.711102 2511.564941"
+    rpy="0.000000 0.000000 -45.749527"
+    a="135.75"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="10249.152344 41.033680 2507.453613"
+    rpy="-0.000000 0.000000 -100.879112"
+    a="-169.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="10241.203125 41.033680 2515.361572"
+    rpy="-0.000000 0.000000 16.151285"
+    a="73.8487"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.832031 40.261089 2511.701172"
+    rpy="0.000000 0.000000 133.119812"
+    a="-43.1198"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10245.585938 40.281811 2509.037354"
+    rpy="0.000000 0.000000 133.119812"
+    a="-43.1198"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.121094 40.281780 2510.384766"
+    rpy="0.000000 0.000000 133.119812"
+    a="-43.1198"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="10253.332031 40.758892 2528.535400"
+    rpy="-0.000000 0.000000 77.197174"
+    a="12.8028"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Curve"
+    pos="10261.545898 40.758892 2520.884766"
+    rpy="-0.000000 0.000000 -165.773468"
+    a="-104.227"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10259.798828 39.986309 2524.479248"
+    rpy="0.000000 0.000000 -48.808472"
+    a="138.808"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10256.961914 40.007023 2527.081787"
+    rpy="0.000000 0.000000 -48.808472"
+    a="138.808"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10258.496094 40.007000 2525.699463"
+    rpy="0.000000 0.000000 -48.808472"
+    a="138.808"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10249.887695 40.211102 2526.812988"
+    rpy="0.000000 0.000000 -136.161087"
+    a="-133.839"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10247.666992 40.261089 2524.469238"
+    rpy="0.000000 0.000000 -136.161346"
+    a="-133.839"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10244.589844 40.311108 2521.098389"
+    rpy="0.000000 0.000000 -136.161346"
+    a="-133.839"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10242.540039 40.383404 2518.814697"
+    rpy="-0.000000 -0.000000 -136.161346"
+    a="-133.839"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10252.661133 40.061352 2510.398438"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10254.746094 40.061382 2512.801025"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10256.902344 40.061382 2515.172852"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10259.098633 40.061352 2517.540771"
+    rpy="-0.000000 -0.000000 -136.878891"
+    a="-133.121"
+  />
+  <group
+    name="StaticObj_Roadblock_Bags_Long"
+    pos="10246.108398 40.311108 2522.675537"
+    rpy="0.000000 0.000000 -136.161346"
+    a="-133.839"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="10249.037109 43.111088 2508.684326"
+    rpy="0.000000 0.000000 5.334536"
+    a="84.6655"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="10260.623047 43.111088 2521.261719"
+    rpy="0.000000 0.000000 -100.684937"
+    a="-169.315"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="10253.572266 43.311077 2527.180420"
+    rpy="0.000000 0.000000 169.120255"
+    a="-79.1203"
+  />
+  <group
+    name="Land_Misc_DeerStand1"
+    pos="10242.506836 43.169720 2515.005371"
+    rpy="-0.000000 -0.000000 90.183716"
+    a="-0.183716"
+  />
+  <group
+    name="Land_Misc_Well_Pump_Yellow"
+    pos="10242.975586 22.842449 2512.900879"
+    rpy="-0.000000 -0.000000 -49.352859"
+    a="139.353"
+  />
+  <group
+    name="Land_FuelStation_Feed"
+    pos="10240.254883 23.311077 2514.196045"
+    rpy="0.000000 0.000000 43.927353"
+    a="46.0726"
+  />
 </map>

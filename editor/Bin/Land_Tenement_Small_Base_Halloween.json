@@ -1,1459 +1,683 @@
 {
-    "Objects": [
-        {
-            "name": "StaticObj_Roadblock_Bags_Curve",
-            "pos": [
-                10253.33203125,
-                40.75889205932617,
-                2528.535400390625
-            ],
-            "ypr": [
-                77.19717407226563,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Curve",
-            "pos": [
-                10261.5458984375,
-                40.75889205932617,
-                2520.884765625
-            ],
-            "ypr": [
-                -165.77346801757813,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10259.798828125,
-                39.98630905151367,
-                2524.479248046875
-            ],
-            "ypr": [
-                -48.80845260620117,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10256.9619140625,
-                40.007022857666019,
-                2527.081787109375
-            ],
-            "ypr": [
-                -48.80845260620117,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.49609375,
-                40.00699996948242,
-                2525.699462890625
-            ],
-            "ypr": [
-                -48.80845260620117,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.8876953125,
-                40.21110153198242,
-                2526.81298828125
-            ],
-            "ypr": [
-                -136.1610870361328,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10247.6669921875,
-                40.26108932495117,
-                2524.46923828125
-            ],
-            "ypr": [
-                -136.16134643554688,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.58984375,
-                40.31110763549805,
-                2521.098388671875
-            ],
-            "ypr": [
-                -136.16134643554688,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.5400390625,
-                40.38340377807617,
-                2518.814697265625
-            ],
-            "ypr": [
-                -136.16134643554688,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.6611328125,
-                40.06135177612305,
-                2510.3984375
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10254.74609375,
-                40.06138229370117,
-                2512.801025390625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10256.90234375,
-                40.06138229370117,
-                2515.1728515625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10259.0986328125,
-                40.06135177612305,
-                2517.540771484375
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10246.1083984375,
-                40.31110763549805,
-                2522.675537109375
-            ],
-            "ypr": [
-                -136.16134643554688,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_DeerStand1",
-            "pos": [
-                10249.037109375,
-                43.111087799072269,
-                2508.684326171875
-            ],
-            "ypr": [
-                5.334535598754883,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_DeerStand1",
-            "pos": [
-                10260.623046875,
-                43.111087799072269,
-                2521.26171875
-            ],
-            "ypr": [
-                -100.6849365234375,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_DeerStand1",
-            "pos": [
-                10253.572265625,
-                43.31107711791992,
-                2527.180419921875
-            ],
-            "ypr": [
-                169.1201934814453,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_DeerStand1",
-            "pos": [
-                10242.5068359375,
-                43.16971969604492,
-                2515.00537109375
-            ],
-            "ypr": [
-                90.1837158203125,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_Misc_Well_Pump_Yellow",
-            "pos": [
-                10242.9755859375,
-                22.842449188232423,
-                2512.90087890625
-            ],
-            "ypr": [
-                -49.35285949707031,
-                -0.0,
-                -0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "Land_FuelStation_Feed",
-            "pos": [
-                10240.2998046875,
-                23.200000762939454,
-                2514.199951171875
-            ],
-            "ypr": [
-                43.92739486694336,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "PumpkinHelmet",
-            "pos": [
-                10254.7998046875,
-                40.0,
-                2510.389892578125
-            ],
-            "ypr": [
-                131.36300659179688,
-                0.0,
-                0.0
-            ],
-            "scale": 9.999992370605469,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "PumpkinHelmet",
-            "pos": [
-                10259.099609375,
-                40.0,
-                2515.449951171875
-            ],
-            "ypr": [
-                131.36300659179688,
-                0.0,
-                0.0
-            ],
-            "scale": 9.999971389770508,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10247.2998046875,
-                22.484100341796876,
-                2506.854736328125
-            ],
-            "ypr": [
-                133.11996459960938,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10245.7578125,
-                22.511089324951173,
-                2508.280029296875
-            ],
-            "ypr": [
-                133.92218017578126,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_case_d",
-            "pos": [
-                10244.873046875,
-                22.601085662841798,
-                2509.407470703125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_lobby_table",
-            "pos": [
-                10244.0009765625,
-                22.511089324951173,
-                2510.95849609375
-            ],
-            "ypr": [
-                133.11981201171876,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_Anvil",
-            "pos": [
-                10243.607421875,
-                23.111095428466798,
-                2510.494873046875
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_DZ",
-            "pos": [
-                10244.884765625,
-                22.37843132019043,
-                2511.8798828125
-            ],
-            "ypr": [
-                43.84446716308594,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10250.9580078125,
-                23.220104217529298,
-                2506.3779296875
-            ],
-            "ypr": [
-                -137.2602996826172,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3149999380111695,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10250.9580078125,
-                26.568614959716798,
-                2506.3779296875
-            ],
-            "ypr": [
-                -137.2602996826172,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3149999380111695,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10250.9580078125,
-                29.992076873779298,
-                2506.3779296875
-            ],
-            "ypr": [
-                -137.2602996826172,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3149999380111695,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10250.9580078125,
-                33.27537155151367,
-                2506.3779296875
-            ],
-            "ypr": [
-                -137.2602996826172,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3149999380111695,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10250.9580078125,
-                36.64301681518555,
-                2506.3779296875
-            ],
-            "ypr": [
-                -137.2602996826172,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3149999380111695,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.97265625,
-                23.001079559326173,
-                2510.5869140625
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.6142578125,
-                23.191295623779298,
-                2516.862548828125
-            ],
-            "ypr": [
-                -136.8788299560547,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10262.8779296875,
-                22.970104217529298,
-                2519.163330078125
-            ],
-            "ypr": [
-                -136.8787384033203,
-                0.0,
-                0.0
-            ],
-            "scale": 1.315000057220459,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10262.8779296875,
-                26.601970672607423,
-                2519.163330078125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                0.0,
-                0.0
-            ],
-            "scale": 1.315000057220459,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10262.8779296875,
-                29.858684539794923,
-                2519.163330078125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                0.0,
-                0.0
-            ],
-            "scale": 1.315000057220459,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10262.8779296875,
-                33.49296188354492,
-                2519.163330078125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                0.0,
-                0.0
-            ],
-            "scale": 1.315000057220459,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10262.8779296875,
-                36.9104118347168,
-                2519.163330078125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                0.0,
-                0.0
-            ],
-            "scale": 1.315000057220459,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.97265625,
-                26.41108512878418,
-                2510.5869140625
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.611328125,
-                26.41108512878418,
-                2516.877685546875
-            ],
-            "ypr": [
-                -136.8787078857422,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.97265625,
-                29.792430877685548,
-                2510.5869140625
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.97265625,
-                33.16108322143555,
-                2510.5869140625
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.97265625,
-                36.6110954284668,
-                2510.5869140625
-            ],
-            "ypr": [
-                -136.8788299560547,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.611328125,
-                29.906719207763673,
-                2516.877685546875
-            ],
-            "ypr": [
-                -136.8787078857422,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.611328125,
-                33.26163864135742,
-                2516.877685546875
-            ],
-            "ypr": [
-                -136.8787078857422,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10258.611328125,
-                36.6696891784668,
-                2516.877685546875
-            ],
-            "ypr": [
-                -136.8787078857422,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.1171875,
-                23.011089324951173,
-                2529.30908203125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.1171875,
-                26.249614715576173,
-                2529.30908203125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.1171875,
-                29.917186737060548,
-                2529.30908203125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.1171875,
-                33.26920700073242,
-                2529.30908203125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10252.1171875,
-                36.77054977416992,
-                2529.30908203125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.3671875,
-                22.992015838623048,
-                2526.459716796875
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.3671875,
-                26.456462860107423,
-                2526.459716796875
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.3671875,
-                30.102062225341798,
-                2526.459716796875
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.3671875,
-                33.23771286010742,
-                2526.459716796875
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10249.3671875,
-                36.8062858581543,
-                2526.459716796875
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.82421875,
-                22.942302703857423,
-                2519.648681640625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10240.0380859375,
-                22.948680877685548,
-                2516.544189453125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.82421875,
-                26.345439910888673,
-                2519.648681640625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.82421875,
-                29.939220428466798,
-                2519.648681640625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.82421875,
-                33.28831100463867,
-                2519.648681640625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.82421875,
-                36.79026412963867,
-                2519.648681640625
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10240.0380859375,
-                26.292797088623048,
-                2516.544189453125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10240.0380859375,
-                29.819835662841798,
-                2516.544189453125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10240.0380859375,
-                33.30573654174805,
-                2516.544189453125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10240.0380859375,
-                36.81132125854492,
-                2516.544189453125
-            ],
-            "ypr": [
-                -136.87887573242188,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.7998046875,
-                23.047199249267579,
-                2524.080078125
-            ],
-            "ypr": [
-                -136.87899780273438,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3150001764297486,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.7998046875,
-                26.472299575805665,
-                2524.080078125
-            ],
-            "ypr": [
-                -136.87899780273438,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3150001764297486,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.7998046875,
-                29.908300399780275,
-                2524.080078125
-            ],
-            "ypr": [
-                -136.87899780273438,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3150001764297486,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.7998046875,
-                33.37689971923828,
-                2524.080078125
-            ],
-            "ypr": [
-                -136.87899780273438,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3150001764297486,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.7998046875,
-                36.91939926147461,
-                2524.080078125
-            ],
-            "ypr": [
-                -136.87899780273438,
-                0.0,
-                0.0
-            ],
-            "scale": 1.3150001764297486,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10255.7861328125,
-                26.392131805419923,
-                2513.822021484375
-            ],
-            "ypr": [
-                -136.8788299560547,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10255.7861328125,
-                29.794750213623048,
-                2513.822021484375
-            ],
-            "ypr": [
-                -136.8788299560547,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10255.7861328125,
-                33.1666374206543,
-                2513.822021484375
-            ],
-            "ypr": [
-                -136.8788299560547,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10255.7861328125,
-                36.4810905456543,
-                2513.822021484375
-            ],
-            "ypr": [
-                -136.8788299560547,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_lobby_table",
-            "pos": [
-                10251.955078125,
-                22.511089324951173,
-                2518.72509765625
-            ],
-            "ypr": [
-                -47.43228530883789,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_lobby_table",
-            "pos": [
-                10253.94921875,
-                22.511089324951173,
-                2516.851318359375
-            ],
-            "ypr": [
-                -47.43228530883789,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10248.52734375,
-                25.861095428466798,
-                2517.90966796875
-            ],
-            "ypr": [
-                131.57308959960938,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10246.966796875,
-                25.861095428466798,
-                2519.2998046875
-            ],
-            "ypr": [
-                131.57308959960938,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10245.4326171875,
-                25.861095428466798,
-                2520.737548828125
-            ],
-            "ypr": [
-                131.5730743408203,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_tools_racking",
-            "pos": [
-                10249.673828125,
-                25.935161590576173,
-                2521.93212890625
-            ],
-            "ypr": [
-                -135.7991180419922,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_tools_racking",
-            "pos": [
-                10250.4853515625,
-                25.935161590576173,
-                2521.145751953125
-            ],
-            "ypr": [
-                -135.7991180419922,
-                -0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10242.9013671875,
-                22.511089324951173,
-                2518.751220703125
-            ],
-            "ypr": [
-                -141.52297973632813,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelf_1side",
-            "pos": [
-                10244.14453125,
-                22.511089324951173,
-                2520.341552734375
-            ],
-            "ypr": [
-                -141.52297973632813,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelfs_small",
-            "pos": [
-                10256.033203125,
-                29.311077117919923,
-                2526.897216796875
-            ],
-            "ypr": [
-                -135.50596618652345,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelfs_small",
-            "pos": [
-                10255.271484375,
-                29.311077117919923,
-                2526.0546875
-            ],
-            "ypr": [
-                -135.50596618652345,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10251.3955078125,
-                23.011089324951173,
-                2528.58251953125
-            ],
-            "ypr": [
-                43.120357513427737,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Furniture_shelfs_small",
-            "pos": [
-                10254.55078125,
-                29.311077117919923,
-                2525.323974609375
-            ],
-            "ypr": [
-                -135.50596618652345,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_lobby_table",
-            "pos": [
-                10251.5458984375,
-                32.71110153198242,
-                2510.403564453125
-            ],
-            "ypr": [
-                -45.74952697753906,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_lobby_table",
-            "pos": [
-                10252.6474609375,
-                32.71110153198242,
-                2511.56494140625
-            ],
-            "ypr": [
-                -45.74952697753906,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Curve",
-            "pos": [
-                10249.15234375,
-                41.0336799621582,
-                2507.45361328125
-            ],
-            "ypr": [
-                -100.87911224365235,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Curve",
-            "pos": [
-                10241.203125,
-                41.0336799621582,
-                2515.361572265625
-            ],
-            "ypr": [
-                16.15128517150879,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10242.83203125,
-                40.26108932495117,
-                2511.701171875
-            ],
-            "ypr": [
-                133.11981201171876,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10245.5859375,
-                40.28181076049805,
-                2509.037353515625
-            ],
-            "ypr": [
-                133.11981201171876,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "StaticObj_Roadblock_Bags_Long",
-            "pos": [
-                10244.12109375,
-                40.28178024291992,
-                2510.384765625
-            ],
-            "ypr": [
-                133.11981201171876,
-                0.0,
-                0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        }
-    ]
+  "Objects": [
+    {
+      "name": "StaticObj_Roadblock_Bags_Curve",
+      "pos": [10253.33203125, 40.75889205932617, 2528.535400390625],
+      "ypr": [77.19717407226563, 0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Curve",
+      "pos": [10261.5458984375, 40.75889205932617, 2520.884765625],
+      "ypr": [-165.77346801757813, 0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10259.798828125, 39.98630905151367, 2524.479248046875],
+      "ypr": [-48.80845260620117, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10256.9619140625, 40.007022857666019, 2527.081787109375],
+      "ypr": [-48.80845260620117, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.49609375, 40.00699996948242, 2525.699462890625],
+      "ypr": [-48.80845260620117, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.8876953125, 40.21110153198242, 2526.81298828125],
+      "ypr": [-136.1610870361328, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10247.6669921875, 40.26108932495117, 2524.46923828125],
+      "ypr": [-136.16134643554688, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.58984375, 40.31110763549805, 2521.098388671875],
+      "ypr": [-136.16134643554688, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.5400390625, 40.38340377807617, 2518.814697265625],
+      "ypr": [-136.16134643554688, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.6611328125, 40.06135177612305, 2510.3984375],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10254.74609375, 40.06138229370117, 2512.801025390625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10256.90234375, 40.06138229370117, 2515.1728515625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10259.0986328125, 40.06135177612305, 2517.540771484375],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10246.1083984375, 40.31110763549805, 2522.675537109375],
+      "ypr": [-136.16134643554688, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_DeerStand1",
+      "pos": [10249.037109375, 43.111087799072269, 2508.684326171875],
+      "ypr": [5.334535598754883, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_DeerStand1",
+      "pos": [10260.623046875, 43.111087799072269, 2521.26171875],
+      "ypr": [-100.6849365234375, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_DeerStand1",
+      "pos": [10253.572265625, 43.31107711791992, 2527.180419921875],
+      "ypr": [169.1201934814453, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_DeerStand1",
+      "pos": [10242.5068359375, 43.16971969604492, 2515.00537109375],
+      "ypr": [90.1837158203125, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Yellow",
+      "pos": [10242.9755859375, 22.842449188232423, 2512.90087890625],
+      "ypr": [-49.35285949707031, -0.0, -0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "Land_FuelStation_Feed",
+      "pos": [10240.2998046875, 23.200000762939454, 2514.199951171875],
+      "ypr": [43.92739486694336, 0.0, 0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "PumpkinHelmet",
+      "pos": [10254.7998046875, 40.0, 2510.389892578125],
+      "ypr": [131.36300659179688, 0.0, 0.0],
+      "scale": 9.999992370605469,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "PumpkinHelmet",
+      "pos": [10259.099609375, 40.0, 2515.449951171875],
+      "ypr": [131.36300659179688, 0.0, 0.0],
+      "scale": 9.999971389770508,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10247.2998046875, 22.484100341796876, 2506.854736328125],
+      "ypr": [133.11996459960938, 0.0, 0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10245.7578125, 22.511089324951173, 2508.280029296875],
+      "ypr": [133.92218017578126, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_case_d",
+      "pos": [10244.873046875, 22.601085662841798, 2509.407470703125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_lobby_table",
+      "pos": [10244.0009765625, 22.511089324951173, 2510.95849609375],
+      "ypr": [133.11981201171876, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_Anvil",
+      "pos": [10243.607421875, 23.111095428466798, 2510.494873046875],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_DZ",
+      "pos": [10244.884765625, 22.37843132019043, 2511.8798828125],
+      "ypr": [43.84446716308594, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10250.9580078125, 23.220104217529298, 2506.3779296875],
+      "ypr": [-137.2602996826172, 0.0, 0.0],
+      "scale": 1.3149999380111695,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10250.9580078125, 26.568614959716798, 2506.3779296875],
+      "ypr": [-137.2602996826172, 0.0, 0.0],
+      "scale": 1.3149999380111695,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10250.9580078125, 29.992076873779298, 2506.3779296875],
+      "ypr": [-137.2602996826172, 0.0, 0.0],
+      "scale": 1.3149999380111695,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10250.9580078125, 33.27537155151367, 2506.3779296875],
+      "ypr": [-137.2602996826172, 0.0, 0.0],
+      "scale": 1.3149999380111695,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10250.9580078125, 36.64301681518555, 2506.3779296875],
+      "ypr": [-137.2602996826172, 0.0, 0.0],
+      "scale": 1.3149999380111695,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.97265625, 23.001079559326173, 2510.5869140625],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.6142578125, 23.191295623779298, 2516.862548828125],
+      "ypr": [-136.8788299560547, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10262.8779296875, 22.970104217529298, 2519.163330078125],
+      "ypr": [-136.8787384033203, 0.0, 0.0],
+      "scale": 1.315000057220459,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10262.8779296875, 26.601970672607423, 2519.163330078125],
+      "ypr": [-136.87887573242188, 0.0, 0.0],
+      "scale": 1.315000057220459,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10262.8779296875, 29.858684539794923, 2519.163330078125],
+      "ypr": [-136.87887573242188, 0.0, 0.0],
+      "scale": 1.315000057220459,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10262.8779296875, 33.49296188354492, 2519.163330078125],
+      "ypr": [-136.87887573242188, 0.0, 0.0],
+      "scale": 1.315000057220459,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10262.8779296875, 36.9104118347168, 2519.163330078125],
+      "ypr": [-136.87887573242188, 0.0, 0.0],
+      "scale": 1.315000057220459,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.97265625, 26.41108512878418, 2510.5869140625],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.611328125, 26.41108512878418, 2516.877685546875],
+      "ypr": [-136.8787078857422, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.97265625, 29.792430877685548, 2510.5869140625],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.97265625, 33.16108322143555, 2510.5869140625],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.97265625, 36.6110954284668, 2510.5869140625],
+      "ypr": [-136.8788299560547, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.611328125, 29.906719207763673, 2516.877685546875],
+      "ypr": [-136.8787078857422, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.611328125, 33.26163864135742, 2516.877685546875],
+      "ypr": [-136.8787078857422, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10258.611328125, 36.6696891784668, 2516.877685546875],
+      "ypr": [-136.8787078857422, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.1171875, 23.011089324951173, 2529.30908203125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.1171875, 26.249614715576173, 2529.30908203125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.1171875, 29.917186737060548, 2529.30908203125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.1171875, 33.26920700073242, 2529.30908203125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10252.1171875, 36.77054977416992, 2529.30908203125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.3671875, 22.992015838623048, 2526.459716796875],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.3671875, 26.456462860107423, 2526.459716796875],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.3671875, 30.102062225341798, 2526.459716796875],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.3671875, 33.23771286010742, 2526.459716796875],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10249.3671875, 36.8062858581543, 2526.459716796875],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.82421875, 22.942302703857423, 2519.648681640625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10240.0380859375, 22.948680877685548, 2516.544189453125],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.82421875, 26.345439910888673, 2519.648681640625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.82421875, 29.939220428466798, 2519.648681640625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.82421875, 33.28831100463867, 2519.648681640625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.82421875, 36.79026412963867, 2519.648681640625],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10240.0380859375, 26.292797088623048, 2516.544189453125],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10240.0380859375, 29.819835662841798, 2516.544189453125],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10240.0380859375, 33.30573654174805, 2516.544189453125],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10240.0380859375, 36.81132125854492, 2516.544189453125],
+      "ypr": [-136.87887573242188, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.7998046875, 23.047199249267579, 2524.080078125],
+      "ypr": [-136.87899780273438, 0.0, 0.0],
+      "scale": 1.3150001764297486,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.7998046875, 26.472299575805665, 2524.080078125],
+      "ypr": [-136.87899780273438, 0.0, 0.0],
+      "scale": 1.3150001764297486,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.7998046875, 29.908300399780275, 2524.080078125],
+      "ypr": [-136.87899780273438, 0.0, 0.0],
+      "scale": 1.3150001764297486,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.7998046875, 33.37689971923828, 2524.080078125],
+      "ypr": [-136.87899780273438, 0.0, 0.0],
+      "scale": 1.3150001764297486,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.7998046875, 36.91939926147461, 2524.080078125],
+      "ypr": [-136.87899780273438, 0.0, 0.0],
+      "scale": 1.3150001764297486,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10255.7861328125, 26.392131805419923, 2513.822021484375],
+      "ypr": [-136.8788299560547, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10255.7861328125, 29.794750213623048, 2513.822021484375],
+      "ypr": [-136.8788299560547, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10255.7861328125, 33.1666374206543, 2513.822021484375],
+      "ypr": [-136.8788299560547, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10255.7861328125, 36.4810905456543, 2513.822021484375],
+      "ypr": [-136.8788299560547, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_lobby_table",
+      "pos": [10251.955078125, 22.511089324951173, 2518.72509765625],
+      "ypr": [-47.43228530883789, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_lobby_table",
+      "pos": [10253.94921875, 22.511089324951173, 2516.851318359375],
+      "ypr": [-47.43228530883789, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10248.52734375, 25.861095428466798, 2517.90966796875],
+      "ypr": [131.57308959960938, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10246.966796875, 25.861095428466798, 2519.2998046875],
+      "ypr": [131.57308959960938, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10245.4326171875, 25.861095428466798, 2520.737548828125],
+      "ypr": [131.5730743408203, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_tools_racking",
+      "pos": [10249.673828125, 25.935161590576173, 2521.93212890625],
+      "ypr": [-135.7991180419922, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_tools_racking",
+      "pos": [10250.4853515625, 25.935161590576173, 2521.145751953125],
+      "ypr": [-135.7991180419922, -0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10242.9013671875, 22.511089324951173, 2518.751220703125],
+      "ypr": [-141.52297973632813, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelf_1side",
+      "pos": [10244.14453125, 22.511089324951173, 2520.341552734375],
+      "ypr": [-141.52297973632813, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelfs_small",
+      "pos": [10256.033203125, 29.311077117919923, 2526.897216796875],
+      "ypr": [-135.50596618652345, 0.0, 0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelfs_small",
+      "pos": [10255.271484375, 29.311077117919923, 2526.0546875],
+      "ypr": [-135.50596618652345, 0.0, 0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10251.3955078125, 23.011089324951173, 2528.58251953125],
+      "ypr": [43.120357513427737, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Furniture_shelfs_small",
+      "pos": [10254.55078125, 29.311077117919923, 2525.323974609375],
+      "ypr": [-135.50596618652345, 0.0, 0.0],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_lobby_table",
+      "pos": [10251.5458984375, 32.71110153198242, 2510.403564453125],
+      "ypr": [-45.74952697753906, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_lobby_table",
+      "pos": [10252.6474609375, 32.71110153198242, 2511.56494140625],
+      "ypr": [-45.74952697753906, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Curve",
+      "pos": [10249.15234375, 41.0336799621582, 2507.45361328125],
+      "ypr": [-100.87911224365235, 0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Curve",
+      "pos": [10241.203125, 41.0336799621582, 2515.361572265625],
+      "ypr": [16.15128517150879, 0.0, -0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10242.83203125, 40.26108932495117, 2511.701171875],
+      "ypr": [133.11981201171876, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10245.5859375, 40.28181076049805, 2509.037353515625],
+      "ypr": [133.11981201171876, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Roadblock_Bags_Long",
+      "pos": [10244.12109375, 40.28178024291992, 2510.384765625],
+      "ypr": [133.11981201171876, 0.0, 0.0],
+      "scale": 1.0,
+      "enableCEPersistency": 0
+    }
+  ]
 }

@@ -1,50 +1,285 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
-	<group name="Land_Underground_Storage_Big" pos="13691.481445 47.537727 2924.518311" rpy="0.000000 0.000000 -133.998474" a="-136.002"/>
-	<group name="Land_Underground_Panel_Lever" pos="13699.581055 49.143410 2935.843262" rpy="-0.000000 0.000000 45.527657" a="44.4723"/>
-	<group name="Land_Underground_Panel" pos="13710.402344 49.027534 2939.423828" rpy="-0.000000 -0.000000 -134.468842" a="-135.531"/>
-	<group name="StaticObj_Furniture_shelf" pos="13685.599609 47.514961 2921.606934" rpy="-0.000000 -0.000000 -136.725632" a="-133.274"/>
-	<group name="StaticObj_Furniture_shelf" pos="13683.989258 47.518227 2923.133301" rpy="-0.000000 -0.000000 -136.725632" a="-133.274"/>
-	<group name="StaticObj_Wall_Tin7_8" pos="13683.136719 48.805576 2919.009521" rpy="-0.000000 -0.000000 -134.468063" a="-135.532"/>
-	<group name="StaticObj_Furniture_shelf" pos="13688.324219 47.504707 2924.583008" rpy="-0.000000 -0.000000 -136.725632" a="-133.274"/>
-	<group name="StaticObj_Furniture_shelf" pos="13686.713867 47.507973 2926.111572" rpy="-0.000000 -0.000000 -136.725632" a="-133.274"/>
-	<group name="Land_Misc_Well_Pump_Blue" pos="13703.666992 47.775551 2936.209229" rpy="-0.000000 0.000000 47.262695" a="42.7373"/>
-	<group name="StaticObj_Furniture_SofaCorner" pos="13701.066406 47.676186 2927.177979" rpy="-0.000000 -0.000000 -44.470398" a="134.47"/>
-	<group name="StaticObj_Furniture_flowers_02" pos="13700.283203 47.553959 2925.551270" rpy="-0.000000 -0.000000 -134.468979" a="-135.531"/>
-	<group name="StaticObj_Furniture_piano" pos="13698.169922 47.706856 2924.486328" rpy="-0.000000 -0.000000 -134.468979" a="-135.531"/>
-	<group name="StaticObj_Furniture_anatomy_poster_1" pos="13701.821289 49.652046 2928.168213" rpy="-0.000000 -0.000000 45.642509" a="44.3575"/>
-	<group name="StaticObj_PalletTrolley_01_yellow_F" pos="13696.924805 48.195137 2922.323730" rpy="-0.000000 0.000000 44.945301" a="45.0547"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13590.299805 19.299999 3081.159912" rpy="0.000000 0.000000 -130.477951" a="-139.522"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13576.500000 19.309999 3069.320068" rpy="0.000000 0.000000 -130.477951" a="-139.522"/>
-	<group name="StaticObj_Rail_ConcreteRamp" pos="13597.700195 41.919998 3073.810059" rpy="0.000000 0.000000 136.526001" a="-46.526"/>
-	<group name="Land_Workshop_FuelStation" pos="13598.760742 42.073929 3045.063965" rpy="0.000000 0.000000 -41.456249" a="131.456"/>
-	<group name="StaticObj_Misc_TirePile" pos="13596.609375 48.773819 3047.161621" rpy="-0.000000 -0.000000 -41.456509" a="131.457"/>
-	<group name="Land_Castle_Stairs" pos="13605.700195 37.630001 3048.949951" rpy="0.000000 0.000000 -132.184006" a="-137.816"/>
-	<group name="Land_Bilboard_vodka" pos="13594.078125 41.015671 3042.316895" rpy="0.000000 0.000000 48.753216" a="41.2468"/>
-	<group name="Land_FuelStation_Feed" pos="13598.429688 41.634689 3044.433838" rpy="-0.000000 -0.000000 47.571579" a="42.4284"/>
-	<group name="Land_Misc_Well_Pump_Yellow" pos="13594.249023 41.010574 3051.534912" rpy="-0.000000 -0.000000 48.886593" a="41.1134"/>
-	<group name="Land_Wall_Gate_Tin6_2" pos="13598.120117 41.579483 3041.647461" rpy="-0.000000 0.000000 -42.185051" a="132.185"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13705.383789 23.429232 2927.015137" rpy="-0.000000 0.000000 135.000000" a="-45"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13692.458984 23.307779 2939.939209" rpy="-0.000000 0.000000 135.000000" a="-45"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13683.382813 23.419352 2905.434082" rpy="-0.000000 0.000000 135.000000" a="-45"/>
-	<group name="StaticObj_Pier_Concrete2" pos="13670.792969 23.297899 2918.340576" rpy="-0.000000 0.000000 135.000000" a="-45"/>
-	<group name="Land_Airfield_Hangar_Green" pos="13691.000000 54.028099 2924.689941" rpy="0.000000 0.000000 -134.468994" a="-135.531"/>
-	<group name="Land_Underground_Entrance" pos="13703.442383 47.554817 2936.279785" rpy="-0.000000 -0.000000 -134.468979" a="-135.531"/>
-	<group name="StaticObj_Wall_TinCom_9" pos="13693.654297 48.159401 2918.176270" rpy="0.000000 0.000000 134.915619" a="-44.9156"/>
-	<group name="Land_Tower_TC3_Grey" pos="13690.373047 46.319199 2964.393066" rpy="0.000000 0.000000 -45.000046" a="135"/>
-	<group name="Land_Village_store" pos="13616.446289 43.918804 3036.115723" rpy="-0.000000 0.000000 -139.110626" a="-130.889"/>
-	<group name="Land_City_Stand_News1" pos="13580.868164 42.618660 3112.820801" rpy="-0.000000 0.000000 -126.000061" a="-144"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13603.198242 39.346638 3079.382324" rpy="-0.000000 -0.000000 49.379047" a="40.621"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13590.443359 39.693665 3094.149414" rpy="-0.000000 -0.000000 49.379047" a="40.621"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13576.534180 39.543026 3095.135254" rpy="-0.000000 -0.000000 -41.269802" a="131.27"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13563.384766 39.270519 3083.337646" rpy="-0.000000 -0.000000 -43.323074" a="133.323"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13562.554688 39.258072 3069.178711" rpy="-0.000000 -0.000000 -130.482208" a="-139.518"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13575.669922 39.225857 3054.093750" rpy="-0.000000 -0.000000 -130.841614" a="-139.158"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13589.361328 39.491444 3054.561523" rpy="-0.000000 -0.000000 139.261337" a="-49.2613"/>
-	<group name="Land_Castle_Wall1_20_nolc" pos="13591.453125 39.631912 3056.194824" rpy="-0.000000 -0.000000 141.419693" a="-51.4197"/>
-	<group name="StaticObj_Furniture_workbench_DZ" pos="13690.627930 47.939144 2928.218018" rpy="0.000000 0.000000 46.512146" a="43.4879"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="13694.920898 47.633297 2934.276611" rpy="0.000000 0.000000 46.456833" a="43.5432"/>
-	<group name="StaticObj_Furniture_tools_racking_DZ" pos="13693.308594 47.534595 2932.757813" rpy="0.000000 0.000000 -134.629517" a="-135.37"/>
-	<group name="StaticObj_Furniture_tools_racking" pos="13692.339844 47.684036 2931.992188" rpy="0.000000 0.000000 46.456833" a="43.5432"/>
-	<group name="StaticObj_Furniture_tools_racking_DZ" pos="13690.727539 47.585335 2930.473389" rpy="0.000000 0.000000 -134.629517" a="-135.37"/>
+  <group
+    name="Land_Underground_Storage_Big"
+    pos="13691.481445 47.537727 2924.518311"
+    rpy="0.000000 0.000000 -133.998474"
+    a="-136.002"
+  />
+  <group
+    name="Land_Underground_Panel_Lever"
+    pos="13699.581055 49.143410 2935.843262"
+    rpy="-0.000000 0.000000 45.527657"
+    a="44.4723"
+  />
+  <group
+    name="Land_Underground_Panel"
+    pos="13710.402344 49.027534 2939.423828"
+    rpy="-0.000000 -0.000000 -134.468842"
+    a="-135.531"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="13685.599609 47.514961 2921.606934"
+    rpy="-0.000000 -0.000000 -136.725632"
+    a="-133.274"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="13683.989258 47.518227 2923.133301"
+    rpy="-0.000000 -0.000000 -136.725632"
+    a="-133.274"
+  />
+  <group
+    name="StaticObj_Wall_Tin7_8"
+    pos="13683.136719 48.805576 2919.009521"
+    rpy="-0.000000 -0.000000 -134.468063"
+    a="-135.532"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="13688.324219 47.504707 2924.583008"
+    rpy="-0.000000 -0.000000 -136.725632"
+    a="-133.274"
+  />
+  <group
+    name="StaticObj_Furniture_shelf"
+    pos="13686.713867 47.507973 2926.111572"
+    rpy="-0.000000 -0.000000 -136.725632"
+    a="-133.274"
+  />
+  <group
+    name="Land_Misc_Well_Pump_Blue"
+    pos="13703.666992 47.775551 2936.209229"
+    rpy="-0.000000 0.000000 47.262695"
+    a="42.7373"
+  />
+  <group
+    name="StaticObj_Furniture_SofaCorner"
+    pos="13701.066406 47.676186 2927.177979"
+    rpy="-0.000000 -0.000000 -44.470398"
+    a="134.47"
+  />
+  <group
+    name="StaticObj_Furniture_flowers_02"
+    pos="13700.283203 47.553959 2925.551270"
+    rpy="-0.000000 -0.000000 -134.468979"
+    a="-135.531"
+  />
+  <group
+    name="StaticObj_Furniture_piano"
+    pos="13698.169922 47.706856 2924.486328"
+    rpy="-0.000000 -0.000000 -134.468979"
+    a="-135.531"
+  />
+  <group
+    name="StaticObj_Furniture_anatomy_poster_1"
+    pos="13701.821289 49.652046 2928.168213"
+    rpy="-0.000000 -0.000000 45.642509"
+    a="44.3575"
+  />
+  <group
+    name="StaticObj_PalletTrolley_01_yellow_F"
+    pos="13696.924805 48.195137 2922.323730"
+    rpy="-0.000000 0.000000 44.945301"
+    a="45.0547"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13590.299805 19.299999 3081.159912"
+    rpy="0.000000 0.000000 -130.477951"
+    a="-139.522"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13576.500000 19.309999 3069.320068"
+    rpy="0.000000 0.000000 -130.477951"
+    a="-139.522"
+  />
+  <group
+    name="StaticObj_Rail_ConcreteRamp"
+    pos="13597.700195 41.919998 3073.810059"
+    rpy="0.000000 0.000000 136.526001"
+    a="-46.526"
+  />
+  <group
+    name="Land_Workshop_FuelStation"
+    pos="13598.760742 42.073929 3045.063965"
+    rpy="0.000000 0.000000 -41.456249"
+    a="131.456"
+  />
+  <group
+    name="StaticObj_Misc_TirePile"
+    pos="13596.609375 48.773819 3047.161621"
+    rpy="-0.000000 -0.000000 -41.456509"
+    a="131.457"
+  />
+  <group
+    name="Land_Castle_Stairs"
+    pos="13605.700195 37.630001 3048.949951"
+    rpy="0.000000 0.000000 -132.184006"
+    a="-137.816"
+  />
+  <group
+    name="Land_Bilboard_vodka"
+    pos="13594.078125 41.015671 3042.316895"
+    rpy="0.000000 0.000000 48.753216"
+    a="41.2468"
+  />
+  <group
+    name="Land_FuelStation_Feed"
+    pos="13598.429688 41.634689 3044.433838"
+    rpy="-0.000000 -0.000000 47.571579"
+    a="42.4284"
+  />
+  <group
+    name="Land_Misc_Well_Pump_Yellow"
+    pos="13594.249023 41.010574 3051.534912"
+    rpy="-0.000000 -0.000000 48.886593"
+    a="41.1134"
+  />
+  <group
+    name="Land_Wall_Gate_Tin6_2"
+    pos="13598.120117 41.579483 3041.647461"
+    rpy="-0.000000 0.000000 -42.185051"
+    a="132.185"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13705.383789 23.429232 2927.015137"
+    rpy="-0.000000 0.000000 135.000000"
+    a="-45"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13692.458984 23.307779 2939.939209"
+    rpy="-0.000000 0.000000 135.000000"
+    a="-45"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13683.382813 23.419352 2905.434082"
+    rpy="-0.000000 0.000000 135.000000"
+    a="-45"
+  />
+  <group
+    name="StaticObj_Pier_Concrete2"
+    pos="13670.792969 23.297899 2918.340576"
+    rpy="-0.000000 0.000000 135.000000"
+    a="-45"
+  />
+  <group
+    name="Land_Airfield_Hangar_Green"
+    pos="13691.000000 54.028099 2924.689941"
+    rpy="0.000000 0.000000 -134.468994"
+    a="-135.531"
+  />
+  <group
+    name="Land_Underground_Entrance"
+    pos="13703.442383 47.554817 2936.279785"
+    rpy="-0.000000 -0.000000 -134.468979"
+    a="-135.531"
+  />
+  <group
+    name="StaticObj_Wall_TinCom_9"
+    pos="13693.654297 48.159401 2918.176270"
+    rpy="0.000000 0.000000 134.915619"
+    a="-44.9156"
+  />
+  <group
+    name="Land_Tower_TC3_Grey"
+    pos="13690.373047 46.319199 2964.393066"
+    rpy="0.000000 0.000000 -45.000046"
+    a="135"
+  />
+  <group
+    name="Land_Village_store"
+    pos="13616.446289 43.918804 3036.115723"
+    rpy="-0.000000 0.000000 -139.110626"
+    a="-130.889"
+  />
+  <group
+    name="Land_City_Stand_News1"
+    pos="13580.868164 42.618660 3112.820801"
+    rpy="-0.000000 0.000000 -126.000061"
+    a="-144"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13603.198242 39.346638 3079.382324"
+    rpy="-0.000000 -0.000000 49.379047"
+    a="40.621"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13590.443359 39.693665 3094.149414"
+    rpy="-0.000000 -0.000000 49.379047"
+    a="40.621"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13576.534180 39.543026 3095.135254"
+    rpy="-0.000000 -0.000000 -41.269802"
+    a="131.27"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13563.384766 39.270519 3083.337646"
+    rpy="-0.000000 -0.000000 -43.323074"
+    a="133.323"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13562.554688 39.258072 3069.178711"
+    rpy="-0.000000 -0.000000 -130.482208"
+    a="-139.518"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13575.669922 39.225857 3054.093750"
+    rpy="-0.000000 -0.000000 -130.841614"
+    a="-139.158"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13589.361328 39.491444 3054.561523"
+    rpy="-0.000000 -0.000000 139.261337"
+    a="-49.2613"
+  />
+  <group
+    name="Land_Castle_Wall1_20_nolc"
+    pos="13591.453125 39.631912 3056.194824"
+    rpy="-0.000000 -0.000000 141.419693"
+    a="-51.4197"
+  />
+  <group
+    name="StaticObj_Furniture_workbench_DZ"
+    pos="13690.627930 47.939144 2928.218018"
+    rpy="0.000000 0.000000 46.512146"
+    a="43.4879"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="13694.920898 47.633297 2934.276611"
+    rpy="0.000000 0.000000 46.456833"
+    a="43.5432"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking_DZ"
+    pos="13693.308594 47.534595 2932.757813"
+    rpy="0.000000 0.000000 -134.629517"
+    a="-135.37"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking"
+    pos="13692.339844 47.684036 2931.992188"
+    rpy="0.000000 0.000000 46.456833"
+    a="43.5432"
+  />
+  <group
+    name="StaticObj_Furniture_tools_racking_DZ"
+    pos="13690.727539 47.585335 2930.473389"
+    rpy="0.000000 0.000000 -134.629517"
+    a="-135.37"
+  />
 </map>
