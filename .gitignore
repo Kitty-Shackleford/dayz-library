@@ -2,5 +2,6 @@
 super-linter-output/**
 node_modules/**
 .prettierrc
+.py/**
 package.json
 package-lock.json
