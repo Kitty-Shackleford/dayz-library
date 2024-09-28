@@ -1,0 +1,33 @@
+name: NitrAPI Check All Gameserver Details
+
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  check_gameserver:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run Gameserver Details Check
+        id: gameserver_check
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
+        run: |
+          python gameserver_check_all.py > output.md
+          echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
+          cat output.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Display Summary
+        run: cat $GITHUB_STEP_SUMMARY
