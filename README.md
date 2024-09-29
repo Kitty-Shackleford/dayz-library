@@ -15,7 +15,7 @@
 | Property        | Value                   |
 |-----------------|-------------------------|
 | Status | started |
-| Player Count | 2/10 |
+| Player Count | 0/10 |
 | Last Update | None |
 | Comment | None |
 | Banned Users |  |
