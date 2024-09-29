@@ -2,7 +2,7 @@ name: NitrAPI Check All Gameserver Details
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
+    - cron: '*/5 * * * *' # Runs every 5 minutes
 
 jobs:
   check_gameserver:
@@ -24,7 +24,7 @@ jobs:
       - name: Run Gameserver Details Check
         id: gameserver_check
         env:
-          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }} # Your API key
         run: |
           python gameserver_check_all.py > README.md
           echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
@@ -33,7 +33,7 @@ jobs:
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
 
-      - name: Commit 
+      - name: Commit
         run: |
           git config --local user.email "kittylinter@github.com"
           git config --local user.name "Kitty Linter"
