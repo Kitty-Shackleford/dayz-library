@@ -2,7 +2,7 @@ name: NitrAPI Check All Gameserver Details
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs every 5 minutes
+    - cron: '*/10 * * * *' # Runs every 10 minutes
 
 jobs:
   check_gameserver:
