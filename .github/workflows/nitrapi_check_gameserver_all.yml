@@ -25,9 +25,26 @@ jobs:
         env:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}  # Your API key
         run: |
-          python gameserver_check_all.py > output.md
+          python gameserver_check_all.py > README.md
           echo "## Summary of Gameserver Details" >> $GITHUB_STEP_SUMMARY
-          cat output.md >> $GITHUB_STEP_SUMMARY
+          cat README.md >> $GITHUB_STEP_SUMMARY
 
       - name: Display Summary
         run: cat $GITHUB_STEP_SUMMARY
+
+      - name: Commit 
+        run: |
+          git config --local user.email "kittylinter@github.com"
+          git config --local user.name "Kitty Linter"
+          git add README.md
+          git commit -m "Update README with gameserver check summary" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          repository: Kitty-Shackleford/tsb
+          force_with_lease: true
