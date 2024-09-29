@@ -1,0 +1,28 @@
+name: NitrAPI Global Health Check
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
+
+jobs:
+  health_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run Health Check Script
+        env:
+          API_KEY: ${{ secrets.NITRADO_TOKEN }}  # Use the correct secret name
+        run: python health_check.py
