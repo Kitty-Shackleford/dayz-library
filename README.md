@@ -1,7 +1,7 @@
 Markdown output generated in README.md.
 the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
-## 🖥️ **Server Name Not Available**
+## 🖥️ **Lonestar**
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
@@ -18,7 +18,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **Unknown** |
+| Version | 📅 **v1.25.158593** |
 
 ---
 
@@ -27,7 +27,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **1/10** |
+| Player Count | 👥 **0/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
