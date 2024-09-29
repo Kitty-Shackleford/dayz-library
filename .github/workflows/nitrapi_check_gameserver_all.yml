@@ -1,7 +1,6 @@
 name: NitrAPI Check All Gameserver Details
 
 on:
-  workflow_dispatch: {}  # Manual trigger
   schedule:
     - cron: '*/5 * * * *'  # Runs every 5 minutes
 
