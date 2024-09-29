@@ -5,7 +5,7 @@
 | Property        | Value                   |
 |-----------------|-------------------------|
 | Status | started |
-| Player Count | 16/50 |
+| Player Count | 0/50 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 | Banned Users |  |
@@ -15,7 +15,7 @@
 | Property        | Value                   |
 |-----------------|-------------------------|
 | Status | started |
-| Player Count | 0/10 |
+| Player Count | 4/10 |
 | Last Update | None |
 | Comment | None |
 | Banned Users |  |
