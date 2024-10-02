@@ -22,11 +22,11 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
 ---
 
-## 🖥️ **TSB**
+## 🖥️ **Server Name Not Available**
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
-| Status | 🔵 **The Server is up and running.** |
+| Status | ❓ **Unknown status.** |
 | Player Count | 👥 **0/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
@@ -39,7 +39,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **v1.25.158593** |
+| Version | 📅 **Unknown** |
 
 ---
 
