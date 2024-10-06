@@ -6,7 +6,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **7/50** |
+| Player Count | 👥 **8/50** |
 | Last Update | 🕒 **2024-02-20T15:00:14** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
@@ -26,7 +26,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
-| Status | ❓ **Unknown status.** |
+| Status | 🔵 **The Server is up and running.** |
 | Player Count | 👥 **0/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
@@ -39,7 +39,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **Unknown** |
+| Version | 📅 **v1.25.158593** |
 
 ---
 
