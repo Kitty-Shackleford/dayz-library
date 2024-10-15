@@ -5,7 +5,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
-| Status | 🔄 **The Server is currently restarting. This can take some minutes.** |
+| Status | 🔵 **The Server is up and running.** |
 | Player Count | 👥 **0/50** |
 | Last Update | 🕒 **2024-02-20T15:00:14** |
 | Comment | 💬 **None** |
@@ -27,7 +27,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **5/10** |
+| Player Count | 👥 **7/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
