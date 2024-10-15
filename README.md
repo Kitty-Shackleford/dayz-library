@@ -6,12 +6,12 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **3/50** |
+| Player Count | 👥 **6/50** |
 | Last Update | 🕒 **2024-02-20T15:00:14** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
 | Game | 🎮 **DayZ (Xbox One)** |
-| Mission | 🏆 **dayzOffline.enoch** |
+| Mission | 🏆 **dayzOffline.sakhal** |
 | 3rd Person | ✅ **Enabled** |
 | Crosshair | ✅ **Enabled** |
 | Shot Validation | ✅ **Enabled** |
@@ -27,7 +27,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **0/10** |
+| Player Count | 👥 **3/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
@@ -39,7 +39,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **Unknown** |
+| Version | 📅 **v1.26.158777** |
 
 ---
 
