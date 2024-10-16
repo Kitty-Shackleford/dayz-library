@@ -1,0 +1,14 @@
+		"spawnGearPresetFiles": [
+			"./custom/loadoutbitch.json",
+			"./custom/loadoutcannibal.json",
+			"./custom/loadoutcriminal.json",
+			"./custom/loadoutcupid.json",
+			"./custom/loadoutfirefighter.json",
+			"./custom/loadouthockey.json",
+			"./custom/loadoutknight.json",
+			"./custom/loadoutpoliceofficer.json",
+			"./custom/loadoutpoliceswat.json",
+			"./custom/loadoutvanillaenhancedwalpurgisnite.json",
+			"./custom/loadoutlonestar.json",
+			"./custom/loadoutwhore.json"
+		],
