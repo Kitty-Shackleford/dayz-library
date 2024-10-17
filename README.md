@@ -6,7 +6,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **49/50** |
+| Player Count | 👥 **33/50** |
 | Last Update | 🕒 **2024-02-20T15:00:14** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
@@ -32,7 +32,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
 | Game | 🎮 **DayZ (Xbox One)** |
-| Mission | 🏆 **dayzOffline.enoch** |
+| Mission | 🏆 **dayzOffline.sakhal** |
 | 3rd Person | ✅ **Enabled** |
 | Crosshair | ✅ **Enabled** |
 | Shot Validation | ✅ **Enabled** |
