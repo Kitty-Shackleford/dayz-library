@@ -6,7 +6,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **15/50** |
+| Player Count | 👥 **13/50** |
 | Last Update | 🕒 **2024-02-20T15:00:14** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
@@ -15,7 +15,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | 3rd Person | ✅ **Enabled** |
 | Crosshair | ✅ **Enabled** |
 | Shot Validation | ✅ **Enabled** |
-| Mouse and Keyboard | ❌ **Disabled** |
+| Mouse and Keyboard | ✅ **Enabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
 | Version | 📅 **v1.26.158901** |
@@ -27,7 +27,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | **Property**         | **Value**                   |
 |----------------------|------------------------------|
 | Status | 🔵 **The Server is up and running.** |
-| Player Count | 👥 **7/10** |
+| Player Count | 👥 **3/10** |
 | Last Update | 🕒 **None** |
 | Comment | 💬 **None** |
 | Banned Users | 🚫 **None** |
