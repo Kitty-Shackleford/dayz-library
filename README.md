@@ -39,7 +39,7 @@ the details for your gameservers hosted on Nitrado. Enjoy the game! 🎉
 | Mouse and Keyboard | ❌ **Disabled** |
 | Base Damage | ✅ **Enabled** |
 | Container Damage | ✅ **Enabled** |
-| Version | 📅 **v1.26.158901** |
+| Version | 📅 **Unknown** |
 
 ---
 
