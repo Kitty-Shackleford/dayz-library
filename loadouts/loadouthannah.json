@@ -379,7 +379,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo2",
@@ -441,7 +441,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo3",
@@ -503,7 +503,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -21,18 +19,7 @@
     "SurvivorM_Quinn",
     "SurvivorM_Rolf",
     "SurvivorM_Seth",
-    "SurvivorM_Taiki",
-    "SurvivorF_Eva",
-    "SurvivorF_Frida",
-    "SurvivorF_Gabi",
-    "SurvivorF_Helga",
-    "SurvivorF_Irena",
-    "SurvivorF_Judy",
-    "SurvivorF_Keiko",
-    "SurvivorF_Linda",
-    "SurvivorF_Maria",
-    "SurvivorF_Naomi",
-    "SurvivorF_Baty"
+    "SurvivorM_Taiki"
   ],
   "attachmentSlotItemSets": [
     {
@@ -355,7 +342,7 @@
       "slotName": "Hands",
       "discreteItemSets": [
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 1.0,
@@ -399,7 +386,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo2",
@@ -431,7 +418,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo3",
@@ -463,7 +450,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

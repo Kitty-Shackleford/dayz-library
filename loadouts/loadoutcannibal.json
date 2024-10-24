@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -27,7 +25,6 @@
     "SurvivorF_Gabi",
     "SurvivorF_Helga",
     "SurvivorF_Irena",
-    "SurvivorF_Judy",
     "SurvivorF_Keiko",
     "SurvivorF_Linda",
     "SurvivorF_Maria",
@@ -381,7 +378,7 @@
             "LongTorch",
             "Rag",
             "Lard",
-            "Vodka",
+            "GlassBottle",
             "HumanSteakMeat",
             "LeatherSewingKit"
           ]
@@ -402,7 +399,7 @@
             "LongTorch",
             "Rag",
             "Lard",
-            "Vodka",
+            "GlassBottle",
             "HumanSteakMeat",
             "LeatherSewingKit"
           ]
@@ -423,7 +420,7 @@
             "LongTorch",
             "Rag",
             "Lard",
-            "Vodka",
+            "GlassBottle",
             "HumanSteakMeat",
             "LeatherSewingKit"
           ]
@@ -444,7 +441,7 @@
             "LongTorch",
             "Rag",
             "Lard",
-            "Vodka",
+            "GlassBottle",
             "HumanSteakMeat",
             "LeatherSewingKit"
           ]
@@ -535,7 +532,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo2",
@@ -619,7 +616,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo3",
@@ -703,7 +700,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

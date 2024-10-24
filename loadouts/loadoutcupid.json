@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -27,7 +25,6 @@
     "SurvivorF_Gabi",
     "SurvivorF_Helga",
     "SurvivorF_Irena",
-    "SurvivorF_Judy",
     "SurvivorF_Keiko",
     "SurvivorF_Linda",
     "SurvivorF_Maria",
@@ -277,7 +274,7 @@
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
-          "simpleChildrenTypes": ["Vodka", "Bear_Pink"]
+          "simpleChildrenTypes": ["GlassBottle", "Bear_Pink"]
         }
       ]
     }
@@ -365,7 +362,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

@@ -48,7 +48,7 @@
         }, {
             "slotName": "Headgear",
             "discreteItemSets": [{
-                    "itemType": "SnowstormUshanka_Navy",
+                    "itemType": "BudenovkaHat_Gray",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -62,35 +62,43 @@
         }, {
             "slotName": "shoulderL",
             "discreteItemSets": [{
-                    "itemType": "Mp133Shotgun",
-                    "spawnWeight": 1,
+                    "itemType": "AKS74U",
+                    "spawnWeight": 3,
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 1
-                }
-            ]
-        }, , {
-            "slotName": "shoulderR",
-            "discreteItemSets": [{
-                    "itemType": "PoliceBaton",
-                    "spawnWeight": 1,
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [{
+                            "itemType": "AKS74U_Bttstck",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },{
+                            "itemType": "Mag_AK74_45Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": []
                 }
             ]
         }, {
             "slotName": "Body",
             "discreteItemSets": [{
-                    "itemType": "NavyUniformJacket",
+                    "itemType": "BushlatPoliceJacket_Blue",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -114,7 +122,7 @@
                     },
                     "quickBarSlot": -1,
                     "complexChildrenTypes": [{
-                            "itemType": "PlateCarrierHolster_Black",
+                            "itemType": "PlateCarrierHolster_Winter",
                             "attributes": {
                                 "healthMin": 1.0,
                                 "healthMax": 1.0,
@@ -142,7 +150,7 @@
         }, {
             "slotName": "Legs",
             "discreteItemSets": [{
-                    "itemType": "NavyUniformPants",
+                    "itemType": "OMKPants_Navy",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -152,7 +160,16 @@
                     },
                     "quickBarSlot": -1,
                     "simpleChildrenUseDefaultAttributes": false,
-                    "simpleChildrenTypes": ["AmmoBox_00buck_10rnd"],
+                    "simpleChildrenTypes": [
+                        "Mag_AK74_45Rnd",
+                        "PetrolLighter",
+                        "PunchedCard",
+                        "TetracyclineAntibiotics",
+                        "VitaminBottle",
+                        "BandageDressing",
+                        "BandageDressing",
+                        "BandageDressing"
+                    ],
                     "complexChildrenTypes": []
                 }
             ]

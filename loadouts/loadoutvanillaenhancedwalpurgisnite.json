@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -27,7 +25,6 @@
     "SurvivorF_Gabi",
     "SurvivorF_Helga",
     "SurvivorF_Irena",
-    "SurvivorF_Judy",
     "SurvivorF_Keiko",
     "SurvivorF_Linda",
     "SurvivorF_Maria",
@@ -373,7 +370,7 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -511,7 +508,7 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,
@@ -649,7 +646,7 @@
           "quickBarSlot": 3
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1.0,
             "healthMax": 1.0,

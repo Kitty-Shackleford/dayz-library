@@ -1,39 +1,7 @@
 {
   "spawnWeight": 1,
   "name": "Player",
-  "characterTypes": [
-    "SurvivorM_Mirek",
-    "SurvivorM_Boris",
-    "SurvivorM_Cyril",
-    "SurvivorM_Denis",
-    "SurvivorM_Elias",
-    "SurvivorM_Francis",
-    "SurvivorM_Guo",
-    "SurvivorM_Hassan",
-    "SurvivorM_Indar",
-    "SurvivorM_Jose",
-    "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
-    "SurvivorM_Manua",
-    "SurvivorM_Niki",
-    "SurvivorM_Oliver",
-    "SurvivorM_Peter",
-    "SurvivorM_Quinn",
-    "SurvivorM_Rolf",
-    "SurvivorM_Seth",
-    "SurvivorM_Taiki",
-    "SurvivorF_Eva",
-    "SurvivorF_Frida",
-    "SurvivorF_Gabi",
-    "SurvivorF_Helga",
-    "SurvivorF_Irena",
-    "SurvivorF_Judy",
-    "SurvivorF_Keiko",
-    "SurvivorF_Linda",
-    "SurvivorF_Maria",
-    "SurvivorF_Naomi",
-    "SurvivorF_Baty"
-  ],
+  "characterTypes": ["SurvivorM_Francis", "SurvivorM_Lewis", "SurvivorF_Judy"],
   "attachmentSlotItemSets": [
     {
       "slotName": "Headgear",
@@ -417,7 +385,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -489,7 +457,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -561,7 +529,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -633,7 +601,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -705,7 +673,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -777,7 +745,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -849,7 +817,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -921,7 +889,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,
@@ -993,7 +961,7 @@
           "quickBarSlot": -1
         },
         {
-          "itemType": "Vodka",
+          "itemType": "GlassBottle",
           "attributes": {
             "healthMin": 1,
             "healthMax": 1,

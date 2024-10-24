@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -27,7 +25,6 @@
     "SurvivorF_Gabi",
     "SurvivorF_Helga",
     "SurvivorF_Irena",
-    "SurvivorF_Judy",
     "SurvivorF_Keiko",
     "SurvivorF_Linda",
     "SurvivorF_Maria",
@@ -215,30 +212,6 @@
                     "quantityMax": 1.0
                   },
                   "quickBarSlot": 4
-                }
-              ]
-            },
-            {
-              "itemType": "PlateCarrierHolster_Black",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                {
-                  "itemType": "Glock19",
-                  "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
-                  },
-                  "quickBarSlot": 3,
-                  "simpleChildrenUseDefaultAttributes": true,
-                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
                 }
               ]
             }
@@ -529,7 +502,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo2",
@@ -591,7 +564,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     },
     {
       "name": "Cargo3",
@@ -653,7 +626,7 @@
         }
       ],
       "simpleChildrenUseDefaultAttributes": false,
-      "simpleChildrenTypes": ["Vodka", "Vodka"]
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
     }
   ]
 }

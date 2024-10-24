@@ -7,13 +7,11 @@
     "SurvivorM_Cyril",
     "SurvivorM_Denis",
     "SurvivorM_Elias",
-    "SurvivorM_Francis",
     "SurvivorM_Guo",
     "SurvivorM_Hassan",
     "SurvivorM_Indar",
     "SurvivorM_Jose",
     "SurvivorM_Kaito",
-    "SurvivorM_Lewis",
     "SurvivorM_Manua",
     "SurvivorM_Niki",
     "SurvivorM_Oliver",
@@ -27,7 +25,6 @@
     "SurvivorF_Gabi",
     "SurvivorF_Helga",
     "SurvivorF_Irena",
-    "SurvivorF_Judy",
     "SurvivorF_Keiko",
     "SurvivorF_Linda",
     "SurvivorF_Maria",
@@ -173,7 +170,7 @@
               "quickBarSlot": -1,
               "complexChildrenTypes": [
                 {
-                  "itemType": "FangeKnife",
+                  "itemType": "CombatKnife",
                   "attributes": {
                     "healthMin": 1.0,
                     "healthMax": 1.0,
@@ -181,30 +178,6 @@
                     "quantityMax": 1.0
                   },
                   "quickBarSlot": 4
-                }
-              ]
-            },
-            {
-              "itemType": "PlateCarrierHolster_Black",
-              "attributes": {
-                "healthMin": 1.0,
-                "healthMax": 1.0,
-                "quantityMin": 1.0,
-                "quantityMax": 1.0
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                {
-                  "itemType": "Glock19",
-                  "attributes": {
-                    "healthMin": 1.0,
-                    "healthMax": 1.0,
-                    "quantityMin": 1.0,
-                    "quantityMax": 1.0
-                  },
-                  "quickBarSlot": 3,
-                  "simpleChildrenUseDefaultAttributes": true,
-                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
                 }
               ]
             }
@@ -228,7 +201,6 @@
           "simpleChildrenUseDefaultAttributes": false,
           "simpleChildrenTypes": [
             "PetrolLighter",
-            "PunchedCard",
             "TetracyclineAntibiotics",
             "VitaminBottle",
             "BandageDressing",
@@ -250,7 +222,6 @@
           "simpleChildrenUseDefaultAttributes": false,
           "simpleChildrenTypes": [
             "PetrolLighter",
-            "PunchedCard",
             "TetracyclineAntibiotics",
             "VitaminBottle",
             "BandageDressing",

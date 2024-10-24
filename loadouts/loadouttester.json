@@ -1,0 +1,285 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "HuntingJacket_Winter",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "HunterPants_Winter",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },    
+		{
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "HuntingVest_Winter",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBoots_Redpunk",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },    
+		{
+            "slotName": "Hips ",
+            "discreteItemSets": [
+                {
+                    "itemType": "CivilianBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Shovel",
+                    "spawnWeight": 2,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2
+                },
+                {
+                    "itemType": "FarmingHoe",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8
+                    },
+                    "quickBarSlot": 2
+                }
+            ]
+        },    
+		{
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "WoodAxe",
+                    "spawnWeight": 2,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2
+                },
+                {
+                    "itemType": "SledgeHammer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8
+                    },
+                    "quickBarSlot": 2
+                }
+            ]
+        },      
+			{
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "Armband_Pirates",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },		
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "BalaclavaMask_White",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	
+		{
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "BoonieHat_Winter",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "PaddedGloves_Threat",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+            {
+                "slotName": "Back",
+                "discreteItemSets": [
+                    {
+                        "itemType": "AssaultBag_Winter",
+                        "spawnWeight": 1,
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                            "GardenLime",
+                            "AntiPestsSpray",
+                            "PumpkinSeedsPack",             
+							"TomatoSeedsPack",
+                            "BarbedWire",
+                            "CannabisSeedsPack",               
+							"ZucchiniSeedsPack",   
+							"WaterBottle",
+                            "ShelterKit"
+                        ]
+                    }  
+                ]
+                }
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 2
+                    },
+                    {
+                        "itemType": "Chemlight_Red",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 1
+                    },                    {
+                        "itemType": "Candycane_Yellow",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 4
+                    },
+                    {
+                        "itemType": "Rice",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 3
+                    }
+                ]
+            }
+                ]
+            }
+
