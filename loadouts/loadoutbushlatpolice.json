@@ -60,7 +60,7 @@
                 }
             ]
         }, {
-            "slotName": "shoulderL",
+            "slotName": "Hands",
             "discreteItemSets": [{
                     "itemType": "AKS74U",
                     "spawnWeight": 3,
@@ -80,7 +80,7 @@
                                 "quantityMax": 1.0
                             },
                             "quickBarSlot": -1
-                        },{
+                        }, {
                             "itemType": "Mag_AK74_45Rnd",
                             "attributes": {
                                 "healthMin": 1.0,
