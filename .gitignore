@@ -1,0 +1,8 @@
+# Ignore directories
+.github/workflows/
+node_modules/
+super-linter-output/
+
+# Ignore specific files
+package-lock.json
+package.json
