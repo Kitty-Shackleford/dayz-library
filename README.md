@@ -1,6 +1,6 @@
 # DayZ Library
 
-Welcome to the DayZ Library! This repository is dedicated to collecting and sharing console mods created by the DayZ community.
+Welcome to the DayZ Library! This repository is dedicated to collecting and sharing console mods created by the DayZ community. If you have not given permission for your work to be on this repo please let us know and it will be removed.
 
 ## License
 
