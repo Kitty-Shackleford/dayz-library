@@ -59,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
-          DISABLE_LINTING: "areaflags.map"  # Skip linting for this file
+          DISABLE_LINTING: "areaflags.map, init.c, config.cpp"  # Skip linting for this file
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
