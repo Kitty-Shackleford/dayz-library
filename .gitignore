@@ -1,5 +1,4 @@
 # Ignore directories
-.github/workflows/
 node_modules/
 super-linter-output/
 
