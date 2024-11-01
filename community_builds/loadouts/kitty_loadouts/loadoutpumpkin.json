@@ -1,0 +1,104 @@
+{
+  "spawnWeight": 1,
+  "name": "Player",
+  "characterTypes": [],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "Headgear",
+      "discreteItemSets": [
+        {
+          "itemType": "PumpkinHelmet",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Mask",
+      "discreteItemSets": [
+        {
+          "itemType": "FaceCover_Improvised",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Gloves",
+      "discreteItemSets": [
+        {
+          "itemType": "HandsCover_Improvised",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "TorsoCover_Improvised",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "LegsCover_Improvised",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Feet",
+      "discreteItemSets": [
+        {
+          "itemType": "FeetCover_Improvised",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": []
+}

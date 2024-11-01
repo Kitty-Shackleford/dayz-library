@@ -1,0 +1,1724 @@
+{
+  "spawnWeight": 1,
+  "name": "Player",
+  "characterTypes": [
+    "SurvivorF_Baty",
+    "SurvivorF_Eva",
+    "SurvivorF_Frida",
+    "SurvivorF_Gabi",
+    "SurvivorF_Helga",
+    "SurvivorF_Irena",
+    "SurvivorF_Keiko",
+    "SurvivorF_Linda",
+    "SurvivorF_Maria",
+    "SurvivorF_Naomi"
+  ],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "Headgear",
+      "discreteItemSets": [
+        {
+          "itemType": "CowboyHat_Brown",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "CowboyHat_black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "CowboyHat_darkBrown",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "CowboyHat_green",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Mask",
+      "discreteItemSets": [
+        {
+          "itemType": "MouthRag",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Hands",
+      "discreteItemSets": [
+        {
+          "itemType": "Zucchini",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "MiniDress_BlueChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_BlueWithDots",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_BrownChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_GreenChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_Pink",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_PinkChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_RedChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "MiniDress_WhiteChecker",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "ShortJeans_Black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol"
+          ]
+        },
+        {
+          "itemType": "ShortJeans_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol",
+            "Honey"
+          ]
+        },
+        {
+          "itemType": "ShortJeans_Brown",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol"
+          ]
+        },
+        {
+          "itemType": "ShortJeans_Darkblue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol"
+          ]
+        },
+        {
+          "itemType": "ShortJeans_Green",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol"
+          ]
+        },
+        {
+          "itemType": "ShortJeans_Red",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "Thermometer",
+            "Cannabis",
+            "DisinfectantAlcohol"
+          ]
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": [
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "Pear",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo2",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "Apple",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo3",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "CaninaBerry",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo4",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "SambucusBerry",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo5",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "Plum",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo6",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "SlicedPumpkin",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo7",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "MacrolepiotaMushroom",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo8",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "LactariusMushroom",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo9",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "Pepper",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo10",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "Tomato",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo11",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "BoletusMushroom",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "name": "Cargo12",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "BandageDressing",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "Flashlight",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "PersonalRadio",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "AgaricusMushroom",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 3
+        },
+        {
+          "itemType": "Compass",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "GPSReceiver",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Battery9V",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1
+            }
+          ]
+        },
+        {
+          "itemType": "ChernarusMap",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    }
+  ]
+}

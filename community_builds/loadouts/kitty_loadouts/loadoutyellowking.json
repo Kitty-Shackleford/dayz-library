@@ -1,0 +1,527 @@
+{
+  "spawnWeight": 1,
+  "name": "Player",
+  "characterTypes": [
+    "SurvivorM_Boris",
+    "SurvivorM_Cyril",
+    "SurvivorM_Denis",
+    "SurvivorM_Elias",
+    "SurvivorM_Guo",
+    "SurvivorM_Hassan",
+    "SurvivorM_Indar",
+    "SurvivorM_Jose",
+    "SurvivorM_Kaito",
+    "SurvivorM_Manua",
+    "SurvivorM_Mirek",
+    "SurvivorM_Niki",
+    "SurvivorM_Oliver",
+    "SurvivorM_Peter",
+    "SurvivorM_Quinn",
+    "SurvivorM_Rolf",
+    "SurvivorM_Seth",
+    "SurvivorM_Taiki"
+  ],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "Headgear",
+      "discreteItemSets": [
+        {
+          "itemType": "DarkMotoHelmet_YellowScarred",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Mask",
+      "discreteItemSets": [
+        {
+          "itemType": "BalaclavaMask_Blackskull",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "shoulderL",
+      "discreteItemSets": [
+        {
+          "itemType": "AK101",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "PSO1Optic",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1,
+              "simpleChildrenUseDefaultAttributes": true,
+              "simpleChildrenTypes": ["Battery9V"]
+            }
+          ],
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "Mag_AK101_30Rnd",
+            "AK_PlasticBttstck",
+            "AK_PlasticHndgrd",
+            "AK_Suppressor"
+          ]
+        },
+        {
+          "itemType": "AK101",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "PSO11Optic",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1,
+              "simpleChildrenUseDefaultAttributes": true,
+              "simpleChildrenTypes": ["Battery9V"]
+            }
+          ],
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "Mag_AK101_30Rnd",
+            "AK_FoldingBttstck",
+            "AK_RailHndgrd",
+            "AK_Suppressor"
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "shoulderR",
+      "discreteItemSets": [
+        {
+          "itemType": "NailedBaseballBat",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        },
+        {
+          "itemType": "BarbedBaseballBat",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": 2
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "BomberJacket_Grey",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Hips",
+      "discreteItemSets": [
+        {
+          "itemType": "MilitaryBelt",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "complexChildrenTypes": [
+            {
+              "itemType": "Canteen",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": 5
+            },
+            {
+              "itemType": "NylonKnifeSheath",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1,
+              "complexChildrenTypes": [
+                {
+                  "itemType": "AK_Bayonet",
+                  "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                  },
+                  "quickBarSlot": 4
+                }
+              ]
+            },
+            {
+              "itemType": "PlateCarrierHolster_Black",
+              "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+              },
+              "quickBarSlot": -1,
+              "complexChildrenTypes": [
+                {
+                  "itemType": "Glock19",
+                  "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                  },
+                  "quickBarSlot": 3,
+                  "simpleChildrenUseDefaultAttributes": true,
+                  "simpleChildrenTypes": ["Mag_Glock_15Rnd"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "CargoPants_Black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PetrolLighter",
+            "PunchedCard",
+            "TetracyclineAntibiotics",
+            "VitaminBottle",
+            "BandageDressing",
+            "BandageDressing",
+            "BandageDressing"
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Feet",
+      "discreteItemSets": [
+        {
+          "itemType": "TTSKOBoots",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Gloves",
+      "discreteItemSets": [
+        {
+          "itemType": "WorkingGloves_Black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    },
+    {
+      "slotName": "Vest",
+      "discreteItemSets": [
+        {
+          "itemType": "PlateCarrierVest_Black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "PlateCarrierHolster_Black",
+            "PlateCarrierPouches_Black"
+          ]
+        }
+      ]
+    },
+    {
+      "slotName": "Back",
+      "discreteItemSets": [
+        {
+          "itemType": "HuntingBag_Hannah",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": [
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "FirstAidKit",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "BandageDressing",
+            "TetracyclineAntibiotics",
+            "StartKitIV",
+            "BloodBagEmpty",
+            "BloodTestKit"
+          ]
+        }
+      ],
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+    },
+    {
+      "name": "Cargo2",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "FirstAidKit",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "BandageDressing",
+            "TetracyclineAntibiotics",
+            "StartKitIV",
+            "BloodBagEmpty",
+            "BloodTestKit"
+          ]
+        }
+      ],
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+    },
+    {
+      "name": "Cargo3",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1.0,
+        "healthMax": 1.0,
+        "quantityMin": 1.0,
+        "quantityMax": 1.0
+      },
+      "complexChildrenTypes": [
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "Mag_AK101_30Rnd",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1
+        },
+        {
+          "itemType": "FirstAidKit",
+          "attributes": {
+            "healthMin": 1.0,
+            "healthMax": 1.0,
+            "quantityMin": 1.0,
+            "quantityMax": 1.0
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "BandageDressing",
+            "TetracyclineAntibiotics",
+            "StartKitIV",
+            "BloodBagEmpty",
+            "BloodTestKit"
+          ]
+        }
+      ],
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": ["GlassBottle", "GlassBottle"]
+    }
+  ]
+}
