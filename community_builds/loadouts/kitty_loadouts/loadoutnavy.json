@@ -1,7 +1,36 @@
 {
     "spawnWeight": 1,
     "name": "Player",
-    "characterTypes": [],
+    "characterTypes": [
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
     "attachmentSlotItemSets": [{
             "slotName": "Armband",
             "discreteItemSets": [{
@@ -55,7 +84,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 1
+                    "quickBarSlot": 2
                 }
             ]
         }, {
@@ -253,7 +282,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -369,7 +398,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -485,7 +514,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -601,7 +630,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -717,7 +746,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -833,7 +862,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -949,7 +978,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -1065,7 +1094,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -1181,7 +1210,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -1297,7 +1326,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -1413,7 +1442,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
@@ -1529,7 +1558,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 4
                 }, {
                     "itemType": "Compass",
                     "attributes": {
