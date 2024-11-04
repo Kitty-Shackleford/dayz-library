@@ -31,7 +31,7 @@ jobs:
           files=$(git diff --name-only HEAD^ HEAD)  # Get changed files since the last commit
           IFS=' ' read -r -a files <<< "$files"
           for file in "${files[@]}"; do
-            if [[ "$file" == "areaflags.map" ]]; then
+            if [[ "$file" == "areaflags.map" || "$file" == "Nitrado_Blank_Server_Name.json" ]]; then
               echo "Skipping formatting for areaflags.map"
               continue
             fi
@@ -59,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_LOCAL: false
           DEFAULT_BRANCH: main
-          DISABLE_LINTING: "areaflags.map, init.c, config.cpp"  # Skip linting for this file
+          DISABLE_LINTING: "areaflags.map, init.c, config.cpp, Nitrado_Blank_Server_Name.json"  # Skip linting for this file
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
