@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BrushTypes>
+	<Brush name="Betula Pendula">
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_1fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_2fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_2fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_2w.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_3f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_3fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_3fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_BetulaPendula_3s.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="Fagus Sylvatica">
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_1fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_1fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_1fd.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_2d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_2fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_2sb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_3d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_3f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_3fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_FagusSylvatica_3f.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="Larix Decidua">
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_3f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_LarixDecidua_3fb.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="Picea Abies">
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_1sb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_2d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_2fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_3d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_3f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PiceaAbies_3s.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="Pinus Sylvestris">
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_2fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_2sb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_3d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_3fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_3fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_PinusSylvestris_3s.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="Grass | Sakhal">
+		<BrushObject type="DZ\plants_sakhal\clutter\c_browngrass_tall.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_sakhal\clutter\c_browngrass_tall2.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_sakhal\clutter\c_browngrass_flat.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_sakhal\clutter\c_browngrass.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_sakhal\clutter\c_browngrass_lump.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Grass | Bright">
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasstall3_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasslow_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassanthoxanthum_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasstinyconc_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassplant2_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasstiny_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasstall2_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grasssmall_summer.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Grass | Dark">
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerspurpletall_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerspurple_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerswhiteshort_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerswhitetall_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerswhite_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowersyellow_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowersyellowtall_summer.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban1_green.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Grass | Livonia">
+		<BrushObject type="DZ\structures_bliss\Underground\Terrain\Terrain_Livonia_GrassPatch.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Quercus Robur">
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_1f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_1fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_1fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_1fd.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_1s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2fc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2sb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_2sc.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_3d.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_3f.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_3fb.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_3s.p3d" frequency="1.0" zoffset="-2"/>
+		<BrushObject type="DZ/plants/tree/t_quercusRobur_3sb.p3d" frequency="1.0" zoffset="-2"/>
+	</Brush>
+	<Brush name="556 Shells">
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="762x54 Shells">
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="762x39 Shells">
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Mixed Shells">
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762x39.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_762.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_556.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_small.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_357.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz/weapons/projectiles/nabojnice_22.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Dead Bodies | Decayed">
+		<BrushObject type="dz\structures\specific\deadbodies\Dead_pile2.p3d" frequency="1.0" zoffset="0.0"/>
+		<BrushObject type="dz\structures\specific\deadbodies\Dead_pile3.p3d" frequency="1.0" zoffset="0.0"/>
+	</Brush>
+	<Brush name="Dead Bodies">
+		<BrushObject type="dz\structures\specific\deadbodies\Dead_pile1.p3d" frequency="1.0" zoffset="0.0"/>
+		<BrushObject type="dz\structures\specific\deadbodies\Dead_pile4.p3d" frequency="1.0" zoffset="0.0"/>
+	</Brush>
+	<Brush name="Contamination"> <!-- Doesn't work yet | Dab mentioned adding ability to utilize StaticObj & regular types in future update -->
+		<BrushObject type="ContaminatedArea_Local" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Gifts"> <!-- Doesn't work yet-->
+		<BrushObject type="GiftBox_Small_1" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Small_2" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Small_3" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Small_4" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Large_1" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Large_2" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Large_3" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Large_4" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Medium_1" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Medium_2" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Medium_3" frequency="1.0" zoffset="0"/>
+		<BrushObject type="GiftBox_Medium_4" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Decontamination Clutter">
+		<BrushObject type="Z\structures\Residential\Medical\Decon_PowerCable_01_Roll_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\Decon_LayFlatHose_01_Roll_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\SCBACylinder_01_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\Decon_HazmatBag_01_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\Decon_PressureHose_01_Roll_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="StaticObj_Sponge_DZ\structures\Residential\Medical\CURCylinder_01_F.p3d01_F" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\EmergencyBlanket_discarded.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\Sponge_01_F.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="DZ\structures\Residential\Medical\Decon_CBRNCase_01_F.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Clutter | Trash">
+		<BrushObject type="dz\structures\residential\misc\Garbage_Ground_6m_NoLC.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\residential\misc\Garbage_GroundSq_3m_NoLC.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\residential\misc\Garbage_GroundSq_5m_NoLC.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Hedgehog | Concrete">
+		<BrushObject type="DZ\structures\Military\Misc\Misc_Hedgehog_Iron.p3d" frequency="1.0" zoffset="0"/>  <!-- concrete -->
+	</Brush>
+	<Brush name="Hedgehog| Iron">
+		<BrushObject type="DZ\structures\Military\Misc\Misc_Hedgehog_Concrete.p3d" frequency="1.0" zoffset="0"/> <!-- iron -->
+	</Brush>
+	<Brush name="Wrecks | Old">
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Volha_Grey.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Volha_Blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_S1023_Beige.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_S1023_Blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Lada_Red.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Lada_Green.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Wrecks | New">
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban2_blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban2_white.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban1_black.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban2_green.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban1_blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban1_red.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban2_black.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban2_blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb02_aban2_red.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed01_aban1_black.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed01_aban1_wine.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed01_aban2_wine.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed02_aban1_grey.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed02_aban1_yellow.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed02_aban2_grey.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed02_aban2_red.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban1_white.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban1_blue.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed02_aban2_yellow.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_sed01_aban1_white.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban1_green.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<Brush name="Wrecks | Military">
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_T72_Chassis.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\wreck_truck01_aban1_green.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_BMP1_NoPlacement.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_BRDM.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_BMP2.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_BMP1.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Ural.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_Uaz.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_V3S.p3d" frequency="1.0" zoffset="0"/>
+		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_HMMWV.p3d" frequency="1.0" zoffset="0"/>
+	</Brush>
+	<!-- Delete Brush is handled in Code -->
+	<Brush name="Delete" class="DeleteBrush"/>
+</BrushTypes>
