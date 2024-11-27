@@ -87,7 +87,6 @@
 		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowerswhite_summer.p3d" frequency="1.0" zoffset="0"/>
 		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowersyellow_summer.p3d" frequency="1.0" zoffset="0"/>
 		<BrushObject type="DZ\plants_bliss\clutter\c_grassflowersyellowtall_summer.p3d" frequency="1.0" zoffset="0"/>
-		<BrushObject type="dz\structures\wrecks\vehicles\Wreck_hb01_aban1_green.p3d" frequency="1.0" zoffset="0"/>
 	</Brush>
 	<Brush name="Grass | Livonia">
 		<BrushObject type="DZ\structures_bliss\Underground\Terrain\Terrain_Livonia_GrassPatch.p3d" frequency="1.0" zoffset="0"/>
