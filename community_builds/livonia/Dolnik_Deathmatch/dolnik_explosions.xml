@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+	<event name="ExplosionTest">
+		<pos x="11427.7" y="212.913" z="565.942" a="0"/>
+		<pos x="11414.8" y="213.488" z="576.955" a="0"/>
+		<pos x="11403.9" y="214.503" z="587.779" a="0"/>
+		<pos x="11440.2" y="212.357" z="554.317" a="0"/>
+		<pos x="11452.2" y="212.197" z="542.139" a="0"/>
+	</event>
+</events>
