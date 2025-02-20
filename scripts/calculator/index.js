@@ -69,15 +69,18 @@ function SpawnObject(objectName, pos, yaw) {
     const relZ = z - cz;
     const relY = y - cy;
 
-    // Rotate relative X, Z using the base structure's yaw
-    const [rotatedX, rotatedZ] = rotate(relX, relZ, 0, 0, baseYaw);
+    // Apply rotation relative to the base structure's yaw
+    const [rotatedX, rotatedZ] = rotate(relX, relZ, 0, 0, -baseYaw); // Negative baseYaw to correct rotation direction
+
+    // Ensure correct rotation values
+    const finalYaw = (rotation[0] + baseYaw) % 360; // Adjust yaw with base structure's yaw
 
     // Output correct format based on type
     if (IS_TYPE === "Loot") {
         console.log(`<point pos="${rotatedX.toFixed(6)} ${relY.toFixed(6)} ${rotatedZ.toFixed(6)}" range="${RANGE}" height="${HEIGHT}" />`);
     }
     if (IS_TYPE === "Proxy") {
-        console.log(`<proxy type="${objectName}" pos="${rotatedX.toFixed(6)} ${relY.toFixed(6)} ${rotatedZ.toFixed(6)}" rpy="${rotation[1]} ${rotation[0]} ${rotation[2]}" />`);
+        console.log(`<proxy type="${objectName}" pos="${rotatedX.toFixed(6)} ${relY.toFixed(6)} ${rotatedZ.toFixed(6)}" rpy="${rotation[1]} ${finalYaw} ${rotation[2]}" />`);
     }
     if (IS_TYPE === "Zombie") {
         console.log(`<zone name="Infected${ZTYPE}" smin="0" smax="0" dmin="${DMIN}" dmax="${DMAX}" x="${x}" z="${z}" r="${RADIUS}" />`);
@@ -85,5 +88,5 @@ function SpawnObject(objectName, pos, yaw) {
 }
 
 // INPUT
-SpawnObject("StaticObj_Lamp_City1", "3968.069336 242.659210 10316.829102", "-54.623806 0.000000 -0.000000");
-SpawnObject("SpotlightLight", "3966.472900 247.019470 10316.915039", "-0.001798 -89.308739 -0.000022");
+SpawnObject("StaticObj_Lamp_City1", "1950.838989 215.891800 7173.833984", "53.999985 -0.000000 -0.000000", 1);
+SpawnObject("SpotlightLight", "1951.490112 220.246857 7175.263184", "179.999969 -90.000000 179.999969", 1);
