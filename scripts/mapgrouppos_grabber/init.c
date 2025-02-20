@@ -12,7 +12,7 @@ void WriteSpecificObjectPositionsToXML() {
     FPrint(file, "<map>\n");
 
     // Define the target object name
-    string targetObject = "misc_chickencoop.p3d";
+    string targetObject = "misc_chickencoop.p3d"; // must be p3d asset and must be all lowercase!
 
     // Create an array to store objects
     array < Object > objects = {};
