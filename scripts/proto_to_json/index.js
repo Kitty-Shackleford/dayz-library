@@ -19,7 +19,7 @@ async function askUser(question) {
 
 // Normalize pitch to be within the -90 to 90 range
 function normalizePitch(pitch) {
-    return pitch > 90 ? -90 : pitch < -90 ? -90 : pitch;
+    return pitch > 90 ? -90 : pitch < -90 ? -90 : pitch; // needs improvment values above 90 should be negitive counting backwards from -90?
 }
 
 // Normalize roll to be within -180 to 180 range
@@ -46,8 +46,8 @@ function rotatePosition(absYaw, relX, relZ) {
     const sinYaw = Math.sin(yawRad);
 
     return [
-        cosYaw * relX - sinYaw * relZ, // Rotated X
-        sinYaw * relX + cosYaw * relZ  // Rotated Z
+        parseFloat((cosYaw * relX - sinYaw * relZ).toFixed(6)), // Rotated X
+        parseFloat((sinYaw * relX + cosYaw * relZ).toFixed(6))  // Rotated Z
     ];
 }
 
@@ -132,8 +132,8 @@ async function convertFiles() {
                     name: objectName, 
                     pos: [finalPosX, finalPosY, finalPosZ], 
                     ypr: [finalYaw, finalPitch, finalRoll], 
-                    scale: 0.9999998211860657, 
-                    enableCEPersistency: 0 
+                    scale: 1.0, //default value
+                    enableCEPersistency: 0 //set to false
                 });
             });
         });
