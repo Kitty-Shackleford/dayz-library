@@ -19,7 +19,7 @@ async function askUser(question) {
 
 // Normalize pitch to be within the -90 to 90 range
 function normalizePitch(pitch) {
-    return pitch > 90 ? -90 : pitch < -90 ? -90 : pitch; // needs improvment values above 90 should be negitive counting backwards from -90?
+    return pitch > 90 ? -90 : pitch < -90 ? -90 : pitch; // Needs improvement, values above 90 should be negative counting backwards from -90
 }
 
 // Normalize roll to be within -180 to 180 range
@@ -58,87 +58,87 @@ async function convertFiles() {
         const mapGroupPos = await parseXML(MAPGROUPPOS_FILE);
         const mapGroupProto = await parseXML(MAPGROUPPROTO_FILE);
 
-        // Checking if the required XML structure exists
+        // Validate XML structure
         if (!mapGroupPos.map?.group || !mapGroupProto.prototype?.group) {
             console.error("Invalid XML format.");
             return;
         }
 
-        // Ensuring we work with an array of groups (to handle both single and multiple groups)
+        // Get available groups from mapgroupproto.xml
         const protoGroups = Array.isArray(mapGroupProto.prototype.group) ? mapGroupProto.prototype.group : [mapGroupProto.prototype.group];
         console.log("Available groups:");
         protoGroups.forEach((g, i) => console.log(`[${i + 1}] ${g.$.name}`));
 
-        // Asking the user to select a group by number
+        // Ask user to select a group
         const userChoice = await askUser("Enter group number: ");
-        const index = parseInt(userChoice) - 1; // Converting the input into an index
+        const index = parseInt(userChoice) - 1;
         if (isNaN(index) || index < 0 || index >= protoGroups.length) return console.error("Invalid selection.");
 
-        // Getting the group name from the selected index
         const groupName = protoGroups[index].$.name;
 
-        // Ensuring we work with an array of map positions (in case there is only one)
+        // Get corresponding entries from mapgrouppos.xml
         const groups = Array.isArray(mapGroupPos.map.group) ? mapGroupPos.map.group : [mapGroupPos.map.group];
-        
-        // Filtering the map positions that belong to the selected group
         const selectedGroupPosEntries = groups.filter(g => g.$.name === groupName);
         if (!selectedGroupPosEntries.length) return console.warn(`No positions found for ${groupName}.`);
 
         const output = { Objects: [] };
 
-        // Looping through each map position entry for the selected group
-        selectedGroupPosEntries.forEach((groupEntry, idx) => {
-            const [absX, absY, absZ] = groupEntry.$.pos.split(" ").map(parseFloat); 
+        // Process each group position entry
+        for (const groupEntry of selectedGroupPosEntries) {
+            const [absX, absY, absZ] = groupEntry.$.pos.split(" ").map(parseFloat);
             const [absR, absP, absYpr] = groupEntry.$.rpy.split(" ").map(parseFloat);
-            const angleA = parseFloat(groupEntry.$.a) || 0;
 
             console.log(`Processing ${groupName} at (${absX}, ${absY}, ${absZ})`);
 
-            // Finding the proxy objects associated with the group in the prototype
+            // Find proxy objects associated with the selected group
             const proxies = protoGroups.filter(pg => pg.$.name === groupName)
                 .flatMap(pg => pg.dispatch?.proxy ? (Array.isArray(pg.dispatch.proxy) ? pg.dispatch.proxy : [pg.dispatch.proxy]) : []);
 
-            // Looping through each proxy object found for the group
-            proxies.forEach(proxy => {
+            for (const proxy of proxies) {
                 const objectName = proxy.$.type;
-                const [relX, relY, relZ] = proxy.$.pos ? proxy.$.pos.split(" ").map(parseFloat) : [0, 0, 0]; // Extracting relative position values (defaults to 0 if not available)
-                const [relR, relP, relYpr] = proxy.$.rpy ? proxy.$.rpy.split(" ").map(parseFloat) : [0, 0, 0]; // Extracting relative rotation values (defaults to 0 if not available)
+                const [relX, relY, relZ] = proxy.$.pos ? proxy.$.pos.split(" ").map(parseFloat) : [0, 0, 0];
+                const [relR, relP, relYpr] = proxy.$.rpy ? proxy.$.rpy.split(" ").map(parseFloat) : [0, 0, 0];
+
+                // Ask user if they need to apply an offset
+                const needOffset = (await askUser(`Apply offset for ${objectName}? (y/n): `)).toLowerCase();
+                let offsetX = 0, offsetY = 0, offsetZ = 0;
+
+                if (needOffset === "y") {
+                    offsetX = parseFloat(await askUser("Enter X offset: ")) || 0;
+                    offsetY = parseFloat(await askUser("Enter Y offset: ")) || 0;
+                    offsetZ = parseFloat(await askUser("Enter Z offset: ")) || 0;
+                }
 
                 // Apply yaw rotation to the relative X and Z positions
-                const [rotX, rotZ] = rotatePosition(absYpr, relX, relZ);
+                const [rotX, rotZ] = rotatePosition(absYpr, relX + offsetX, relZ + offsetZ);
 
-                // Calculating the final position
+                // Compute final positions and rotations
                 const finalPosX = absX + rotX;
                 const finalPosZ = absZ + rotZ;
-                const finalPosY = absY + relY;
+                const finalPosY = absY + relY + offsetY;
                 let finalRoll = absR + relR;
                 let finalPitch = absP + relP;
                 let finalYaw = absYpr + relYpr;
 
-                // Debugging: Log the raw values for pitch and roll
-                console.log(`Raw Pitch Calculation: absP(${absP}) + relP(${relP}) = finalPitch(${finalPitch})`);
-                console.log(`Raw Roll Calculation: absR(${absR}) + relR(${relR}) = finalRoll(${finalRoll})`);
-
-                // Normalize pitch, roll, and yaw
+                // Normalize rotations
                 finalPitch = normalizePitch(finalPitch);
                 finalRoll = normalizeRoll(finalRoll);
                 finalYaw = normalizeYaw(finalYaw);
 
-                // Logging the final position and rotation for the object
-                console.log(`Object: ${objectName} -> Pos: (${finalPosX}, ${finalPosY}, ${finalPosZ}) RPY: (${finalRoll}, ${finalPitch}, ${finalYaw})`);
+                console.log(`Final Object: ${objectName} -> Pos: (${finalPosX}, ${finalPosY}, ${finalPosZ}) RPY: (${finalRoll}, ${finalPitch}, ${finalYaw})`);
 
-                // Adding the object to the output structure
-                output.Objects.push({ 
-                    name: objectName, 
-                    pos: [finalPosX, finalPosY, finalPosZ], 
-                    ypr: [finalYaw, finalPitch, finalRoll], 
-                    scale: 1.0, //default value
-                    enableCEPersistency: 0 //set to false
+                // Add object to output JSON
+                output.Objects.push({
+                    name: objectName,
+                    pos: [finalPosX, finalPosY, finalPosZ],
+                    ypr: [finalYaw, finalPitch, finalRoll],
+                    scale: 1.0,
+                    enableCEPersistency: 0
                 });
-            });
-        });
+            }
+        }
 
-        // Saving the output to a JSON file
+        // Save output JSON file
         const outputFilePath = `${groupName}.json`;
         fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 4));
         console.log(`Saved ${outputFilePath}`);
@@ -147,5 +147,5 @@ async function convertFiles() {
     }
 }
 
-// Calling the convertFiles function to start the process
+// Start the conversion process
 convertFiles();
