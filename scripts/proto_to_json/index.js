@@ -84,6 +84,17 @@ async function convertFiles() {
 
         const output = { Objects: [] };
 
+        // Ask user if they want to apply an offset to the entire group
+        const applyGroupOffset = (await askUser(`Apply offset to the entire group "${groupName}"? (y/n): `)).toLowerCase();
+        let offsetX = 0, offsetY = 0, offsetZ = 0;
+
+        // If the user chooses "y", ask for the offsets
+        if (applyGroupOffset === "y") {
+            offsetX = parseFloat(await askUser("Enter X offset for the entire group: ")) || 0;
+            offsetY = parseFloat(await askUser("Enter Y offset for the entire group: ")) || 0;
+            offsetZ = parseFloat(await askUser("Enter Z offset for the entire group: ")) || 0;
+        }
+
         // Process each group position entry
         for (const groupEntry of selectedGroupPosEntries) {
             const [absX, absY, absZ] = groupEntry.$.pos.split(" ").map(parseFloat);
@@ -100,23 +111,18 @@ async function convertFiles() {
                 const [relX, relY, relZ] = proxy.$.pos ? proxy.$.pos.split(" ").map(parseFloat) : [0, 0, 0];
                 const [relR, relP, relYpr] = proxy.$.rpy ? proxy.$.rpy.split(" ").map(parseFloat) : [0, 0, 0];
 
-                // Ask user if they need to apply an offset
-                const needOffset = (await askUser(`Apply offset for ${objectName}? (y/n): `)).toLowerCase();
-                let offsetX = 0, offsetY = 0, offsetZ = 0;
+                // Skip applying individual offsets if "no" was chosen for the whole group
+                const offsetApplied = applyGroupOffset === "y" ? { x: offsetX, y: offsetY, z: offsetZ } : { x: 0, y: 0, z: 0 };
 
-                if (needOffset === "y") {
-                    offsetX = parseFloat(await askUser("Enter X offset: ")) || 0;
-                    offsetY = parseFloat(await askUser("Enter Y offset: ")) || 0;
-                    offsetZ = parseFloat(await askUser("Enter Z offset: ")) || 0;
-                }
+                const { x: offsetXApplied, y: offsetYApplied, z: offsetZApplied } = offsetApplied;
 
                 // Apply yaw rotation to the relative X and Z positions
-                const [rotX, rotZ] = rotatePosition(absYpr, relX + offsetX, relZ + offsetZ);
+                const [rotX, rotZ] = rotatePosition(absYpr, relX + offsetXApplied, relZ + offsetZApplied);
 
                 // Compute final positions and rotations
                 const finalPosX = absX + rotX;
                 const finalPosZ = absZ + rotZ;
-                const finalPosY = absY + relY + offsetY;
+                const finalPosY = absY + relY + offsetYApplied;
                 let finalRoll = absR + relR;
                 let finalPitch = absP + relP;
                 let finalYaw = absYpr + relYpr;
