@@ -88,5 +88,5 @@ function SpawnObject(objectName, pos, yaw) {
 }
 
 // INPUT
-SpawnObject("StaticObj_Lamp_City1", "1950.838989 215.891800 7173.833984", "53.999985 -0.000000 -0.000000", 1);
-SpawnObject("SpotlightLight", "1951.490112 220.246857 7175.263184", "179.999969 -90.000000 179.999969", 1);
+SpawnObject("StaticObj_Lamp_City1", "1947.511475 215.792130 7172.625488", "64.969093 0.000000 -0.000000", 0.999918);
+SpawnObject("SpotlightLight", "1948.302246 220.183334 7174.050781", "-180.000000 -90.000000 -180.000000", 1);

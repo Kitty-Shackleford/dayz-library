@@ -41,14 +41,15 @@ function toRadians(degrees) {
 
 // Rotate relative position around yaw
 function rotatePosition(absYaw, relX, relZ) {
-    const yawRad = toRadians(absYaw);
+    const yawRad = toRadians(absYaw); // Convert absolute yaw to radians
     const cosYaw = Math.cos(yawRad);
     const sinYaw = Math.sin(yawRad);
 
-    return [
-        parseFloat((cosYaw * relX - sinYaw * relZ).toFixed(6)), // Rotated X
-        parseFloat((sinYaw * relX + cosYaw * relZ).toFixed(6))  // Rotated Z
-    ];
+    // Rotate relative X and Z around the absolute Yaw
+    const rotatedX = (cosYaw * relX - sinYaw * relZ);
+    const rotatedZ = (sinYaw * relX + cosYaw * relZ);
+
+    return [parseFloat(rotatedX.toFixed(6)), parseFloat(rotatedZ.toFixed(6))];
 }
 
 // Main function to convert the XML files to JSON format
