@@ -37,7 +37,7 @@ else:
 NO_OBJECT_RADIUS = 5  # Adjust this value to control how much space around gates remains empty
 
 def random_yaw():
-    return random.uniform(-180, 180)
+    return random.choice([0, 90, 180, 270])
 
 def apply_yaw_to_dimensions(dimensions, yaw):
     """
