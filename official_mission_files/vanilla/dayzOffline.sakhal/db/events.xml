@@ -253,9 +253,25 @@
         <children>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_Autumn"/>
             <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Winter"/>
-            <child lootmax="5" lootmin="0" max="0" min="13" type="ZmbM_SoldierNormal"/>
-            <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_eastSoldier_Heavy_Navy"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_eastSoldier_normal_Navy"/>
+        </children>
+    </event>
+    <event name="InfectedArmyHeavy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_eastSoldier_Heavy_Navy"/>
         </children>
     </event>
     <event name="InfectedCity">
@@ -719,19 +735,40 @@
         <children/>
     </event>
     <event name="StaticChristmasTree">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>43200</lifetime>
         <restock>0</restock>
-        <saferadius>1000</saferadius>
-        <distanceradius>1000</distanceradius>
-        <cleanupradius>1000</cleanupradius>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <secondary>InfectedSanta</secondary>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
         <active>0</active>
-        <children/>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="ChristmasTree_Green"/>
+        </children>
+    </event>
+    <event name="StaticContainerLocked">
+        <nominal>16</nominal>
+        <min>14</min>
+        <max>0</max>
+        <lifetime>2400</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Blue_DE"/>
+            <child lootmax="9" lootmin="5" max="12" min="5" type="Land_ContainerLocked_Yellow_DE"/>
+        </children>
     </event>
     <event name="StaticFridgeTest">
         <nominal>0</nominal>
@@ -764,23 +801,6 @@
         <active>0</active>
         <children>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
-        </children>
-    </event>
-    <event name="StaticMilitaryContainerSpecial">
-        <nominal>4</nominal>
-        <min>2</min>
-        <max>0</max>
-        <lifetime>2400</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>250</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
-        <position>fixed</position>
-        <limit>child</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="3" lootmin="3" max="5" min="5" type="Land_Container_1Moh_DE"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
@@ -835,7 +855,7 @@
         <children/>
     </event>
     <event name="StaticSantaCrash">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2100</lifetime>
@@ -848,7 +868,9 @@
         <position>fixed</position>
         <limit>child</limit>
         <active>0</active>
-        <children/>
+        <children>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
+        </children>
     </event>
     <event name="StaticScientist">
         <nominal>1</nominal>
@@ -979,9 +1001,9 @@
         </children>
     </event>
     <event name="VehicleCivilianSedan">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <min>2</min>
-        <max>6</max>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -998,9 +1020,9 @@
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <min>2</min>
-        <max>6</max>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1012,11 +1034,10 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
         </children>
     </event>
-    <event name="VehicleMiliBoat">
+    <event name="VehicleMilitaryBoat">
         <nominal>8</nominal>
         <min>6</min>
         <max>8</max>
@@ -1035,9 +1056,9 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1054,9 +1075,9 @@
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <min>2</min>
-        <max>6</max>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1073,9 +1094,9 @@
         </children>
     </event>
     <event name="VehicleTruck01">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <min>2</min>
-        <max>6</max>
+        <max>5</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
