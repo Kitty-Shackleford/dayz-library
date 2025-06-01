@@ -1,0 +1,124 @@
+{
+    "Objects": [
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2325.320068359375,
+                283.41510009765627,
+                7123.2900390625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2219.510009765625,
+                283.41510009765627,
+                7124.93994140625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2260.7099609375,
+                283.41510009765627,
+                7153.43994140625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2275.550048828125,
+                283.41510009765627,
+                7023.75
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2298.02001953125,
+                283.4129638671875,
+                7148.7900390625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2330.469970703125,
+                283.41510009765627,
+                7101.52001953125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2242.1201171875,
+                283.41510009765627,
+                7077.7001953125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        },
+        {
+            "name": "StaticObj_Pier_Concrete1_CornerOut",
+            "pos": [
+                2274.570068359375,
+                283.41510009765627,
+                7091.1298828125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0
+        }
+    ]
+}

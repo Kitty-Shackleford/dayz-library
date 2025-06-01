@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<!-- SPAWNABLE NPC INFO 
+
+USABLE NPCS
+
+SurvivorF_Eva
+SurvivorF_Frida
+SurvivorF_Gabi
+SurvivorF_Irena
+SurvivorF_Helga
+SurvivorF_Judy
+SurvivorF_Keiko
+SurvivorF_Linda
+SurvivorF_Maria
+SurvivorF_Naomi
+SurvivorM_Boris
+SurvivorM_Denis
+SurvivorM_Cyril
+SurvivorM_Elias
+SurvivorM_Francis
+SurvivorM_Guo
+SurvivorM_Hassan
+SurvivorM_Indar
+SurvivorM_Jose
+SurvivorM_Kaito
+SurvivorM_Lewis
+SurvivorM_Manua
+SurvivorM_Mirek
+SurvivorM_Niki
+SurvivorM_Oliver
+SurvivorM_Peter
+SurvivorM_Quinn
+SurvivorM_Rolf
+SurvivorM_Seth
+SurvivorM_Taiki
+
+To have your npcs spawn in with guns equped with attachments place your npcs in this order 
+
+attachments
+gun
+atachments
+gun
+head attachments 
+head wear
+vest attachments 
+vest
+mask
+bags
+tops
+boots
+then loot 
+
+
+
+
+SPAWNABLE NAMES -->
+	<type name="SurvivorF_Eva">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Frida">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Gabi">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Irena">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Helga">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Judy">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Keiko">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Linda">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Maria">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorF_Naomi">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Boris">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Denis">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Cyril">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Elias">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Francis">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Guo">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Hassan">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Indar">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Jose">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Kaito">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Lewis">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Manua">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Mirek">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Niki">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Oliver">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Peter">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Quinn">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Rolf">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Seth">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+	<type name="SurvivorM_Taiki">
+		<attachments chance="1.00">
+			<item name="HandcuffsLocked" chance="0.20"/>
+			<item name="BarbedWireLocked" chance="0.20"/>
+			<item name="DuctTapeLocked" chance="0.20"/>
+			<item name="MetalWireLocked" chance="0.20"/>
+			<item name="RopeLocked" chance="0.20"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BurlapSackCover" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MouthRag" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MiniDress_BlueChecker" chance="0.125"/>
+			<item name="MiniDress_BlueWithDots" chance="0.125"/>
+			<item name="MiniDress_BrownChecker" chance="0.125"/>
+			<item name="MiniDress_GreenChecker" chance="0.125"/>
+			<item name="MiniDress_Pink" chance="0.125"/>
+			<item name="MiniDress_PinkChecker" chance="0.125"/>
+			<item name="MiniDress_RedChecker" chance="0.125"/>
+			<item name="MiniDress_WhiteChecker" chance="0.125"/>
+		</attachments>
+	</type>
+</spawnabletypes>

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="AssaultBag_Ttsko">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AssaultBag_Black">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AssaultBag_Green">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AssaultBag_Winter">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AliceBag_Camo">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AliceBag_Black">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="AliceBag_Green">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="CoyoteBag_Brown">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="CoyoteBag_Green">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="CoyoteBag_Winter">
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Orange">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Yellow">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Blue">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Green">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Black">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DryBag_Red">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="HuntingBag">
+		<cargo preset="foodVillage"/>
+		<cargo preset="toolsIndustrial"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="MountainBag_Red">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="MountainBag_Blue">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="MountainBag_Orange">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="MountainBag_Green">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="SmershBag">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ChildBag_Green">
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ChildBag_Red">
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ChildBag_Blue">
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="TaloonBag_Blue">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="TaloonBag_Green">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="TaloonBag_Orange">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="TaloonBag_Violet">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="TortillaBag">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ArmyPouch_Beige">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ArmyPouch_Black">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ArmyPouch_Camo">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="ArmyPouch_Green">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixHunter"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="CanvasBag_Olive">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="CanvasBag_Medical">
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AntiChemInjector"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="TetracyclineAntibiotics"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="VitaminBottle"/>
+		</cargo>
+	</type>
+	<type name="Slingbag_Black">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo chance="1.00">
+			<item name="ChernarusMap"/>
+		</cargo>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="SlingBag_Gray">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo chance="1.00">
+			<item name="ChernarusMap"/>
+		</cargo>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="SlingBag_Brown">
+		<cargo preset="foodVillage"/>
+		<cargo preset="mixVillage"/>
+		<cargo chance="1.00">
+			<item name="ChernarusMap"/>
+		</cargo>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="HipPack_Black">
+		<cargo chance="1.00">
+			<item name="Zagorky"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="ChernarusMap"/>
+		</cargo>
+	</type>
+	<type name="HipPack_Green">
+		<cargo chance="1.00">
+			<item name="Zagorky"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="ChernarusMap"/>
+		</cargo>
+	</type>
+	<type name="HipPack_Medical">
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="VitaminBottle"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="TetracyclineAntibiotics"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AntiChemInjector"/>
+		</cargo>
+	</type>
+	<type name="HipPack_Party">
+		<cargo chance="1.00">
+			<item name="Derringer_Pink"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Zagorky"/>
+		</cargo>
+	</type>
+	<type name="DuffelBagSmall_Camo">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="DuffelBagSmall_Medical">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="TetracyclineAntibiotics"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AntiChemInjector"/>
+		</cargo>
+	</type>
+	<type name="DuffelBagSmall_Green">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+		<cargo preset="foodVillage"/>
+	</type>
+	<type name="FirstAidKit">
+		<tag name="shelves"/>
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AntiChemInjector"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="StartKitIV"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="BloodBagEmpty"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="BloodTestKit"/>
+		</cargo>
+	</type>
+	<type name="WaterproofBag_Green">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="BloodTestKit"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Zagorky"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="SodaCan_Spite"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Rope"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Flaregun"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_FlareGreen"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_Flare"/>
+		</cargo>
+	</type>
+	<type name="WaterproofBag_Orange">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="BloodTestKit"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="ZagorkyChocolate"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="SodaCan_Fronta"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Rope"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Flaregun"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_FlareRed"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_Flare"/>
+		</cargo>
+	</type>
+	<type name="WaterproofBag_Yellow">
+		<cargo preset="foodArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo chance="1.00">
+			<item name="BandageDressing"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="BloodTestKit"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="ZagorkyPeanuts"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="SodaCan_Cola"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Rope"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Flaregun"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_FlareBlue"/>
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Ammo_Flare"/>
+		</cargo>
+	</type>
+	<type name="DrysackBag_Green">
+		<hoarder/>
+	</type>
+	<type name="DrysackBag_Orange">
+		<hoarder/>
+	</type>
+	<type name="DrysackBag_Yellow">
+		<hoarder/>
+	</type>
+</spawnabletypes>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="BandageDressing">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="Stone">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="SmallStone">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="WaterBottle">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="GlassBottle">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="Canteen">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="SparkPlug">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="GPSReceiver">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Blowtorch">
+		<attachments chance="0.70">
+			<item name="MediumGasCanister" chance="0.80"/>
+			<item name="LargeGasCanister" chance="0.20"/>
+		</attachments>
+	</type>
+	<type name="PortableGasLamp">
+		<attachments chance="0.70">
+			<item name="MediumGasCanister" chance="0.80"/>
+			<item name="LargeGasCanister" chance="0.20"/>
+		</attachments>
+	</type>
+	<type name="PortableGasStove">
+		<attachments chance="0.70">
+			<item name="MediumGasCanister" chance="0.80"/>
+			<item name="LargeGasCanister" chance="0.20"/>
+		</attachments>
+	</type>
+	<type name="Land_Radio_PanelBig">
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Land_Radio_PanelPAS">
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00"/>
+		</attachments>
+	</type>
+</spawnabletypes>

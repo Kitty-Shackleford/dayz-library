@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+	<categories>
+		<category name="tools"/>
+		<category name="containers"/>
+		<category name="clothes"/>
+		<category name="lootdispatch"/>
+		<category name="food"/>
+		<category name="weapons"/>
+		<category name="books"/>
+		<category name="explosives"/>
+		<category name="admin"/>
+		<category name="airstrike"/>
+		<category name="cannibal"/>
+		<category name="bonfire"/>
+		<category name="xmas"/>
+		<category name="mechanic"/>
+		<category name="USSR"/>
+		<category name="USA"/>
+		<category name="cartools"/>
+	</categories>
+	<tags>
+		<tag name="floor"/>
+		<tag name="shelves"/>
+		<tag name="ground"/>
+		<tag name="airstrike"/>
+		<tag name="mechanic"/>
+		<tag name="wall"/>
+	</tags>
+	<usageflags>
+		<usage name="Military"/>
+		<usage name="Police"/>
+		<usage name="Medic"/>
+		<usage name="Firefighter"/>
+		<usage name="Industrial"/>
+		<usage name="Farm"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+		<usage name="Prison"/>
+		<usage name="SeasonalEvent"/>
+		<usage name="ContaminatedArea"/>
+		<usage name="Special"/>
+		<usage name="Lunapark"/>
+		<usage name="Underground"/>
+		<usage name="Admin"/>
+		<usage name="Airstrike"/>
+		<usage name="Cannibal"/>
+		<usage name="Bonfire"/>
+		<usage name="Xmas"/>
+		<usage name="Mechanic"/>
+		<usage name="USSR"/>
+		<usage name="USA"/>
+		<usage name="Cartools"/>
+		<usage name="Historical"/>
+		<usage name="Custom"/>
+		<usage name="Halloween"/>
+		<usage name="Dog"/>
+		<usage name="Chicken"/>
+	</usageflags>
+	<valueflags>
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+		<value name="Unique"/>
+		<value name="Admin"/>
+		<value name="Airstrike"/>
+		<value name="Cannibal"/>
+		<value name="Bonfire"/>
+		<value name="Xmas"/>
+		<value name="Mechanic"/>
+		<value name="USSR"/>
+		<value name="USA"/>
+	</valueflags>
+</lists>

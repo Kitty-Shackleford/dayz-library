@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="PumpkinHelmet">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="AmmoBox_Explosive">
+		<hoarder/>
+	</type>
+	<type name="AmmoBox_POX">
+		<hoarder/>
+	</type>
+	<type name="AmmoBox_556">
+		<hoarder/>
+	</type>
+	<!--  WEAPONS  -->
+	<type name="FNX45_arrow">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="Mag_FNX45_15Rnd" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolSuppressor" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TLRLight" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FNP45_MRDSOptic" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Winchester70_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Mosin9130_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="Mosin_Compensator" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="SKS_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="AK74_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="AK_FoldingBttstck_Green" chance="0.33"/>
+			<item name="AK_PlasticBttstck_Green" chance="0.33"/>
+			<item name="AK_WoodBttstck_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_RailHndgrd_Green" chance="0.33"/>
+			<item name="AK_PlasticHndgrd" chance="0.33"/>
+			<item name="AK_WoodHndgrd_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_AK74_30Rnd_Green" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="AKS74U_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="AKS74U_Bttstck" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_AK74_30Rnd_Green" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="AK101_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="AK_FoldingBttstck_Green" chance="0.33"/>
+			<item name="AK_PlasticBttstck_Green" chance="0.33"/>
+			<item name="AK_WoodBttstck_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_RailHndgrd_Green" chance="0.33"/>
+			<item name="AK_PlasticHndgrd" chance="0.33"/>
+			<item name="AK_WoodHndgrd_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="0.85">
+			<item name="Mag_AK101_30Rnd_Green" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="M4A1_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="M4_CQBBttstck_Green" chance="0.33"/>
+			<item name="M4_MPBttstck_Green" chance="0.33"/>
+			<item name="M4_OEBttstck_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_RISHndgrd_Green" chance="0.33"/>
+			<item name="M4_MPHndgrd_Green" chance="0.33"/>
+			<item name="M4_PlasticHndgrd_Green" chance="0.34"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_CMAG_40Rnd" chance="0.25"/>
+			<item name="Mag_CMAG_10Rnd" chance="0.25"/>
+			<item name="Mag_CMAG_20Rnd" chance="0.25"/>
+			<item name="Mag_CMAG_30Rnd" chance="0.25"/>
+		</attachments>
+	</type>
+	<type name="CZ527_Green">
+		<damage min="0.0" max="0.0"/>
+		<attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_CZ527_5rnd" chance="1.00"/>
+		</attachments>
+	</type>
+</spawnabletypes>

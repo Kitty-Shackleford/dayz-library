@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<!-- Bears -->
+	<type name="Bear_Beige">
+		<cargo chance="1.00">
+			<item name="Xmas_Lights_Small" chance="0.50"/>
+			<item name="GiftWrapPaper" chance="0.50"/>
+		</cargo>
+	</type>
+	<type name="Bear_Dark">
+		<cargo chance="1.00">
+			<item name="Handcuffs" chance="0.50"/>
+			<item name="GiftWrapPaper" chance="0.50"/>
+		</cargo>
+	</type>
+	<type name="Bear_Pink">
+		<cargo chance="1.00">
+			<item name="Xmas_Weapons_Small" chance="0.50"/>
+			<item name="GiftWrapPaper" chance="0.50"/>
+		</cargo>
+	</type>
+	<type name="Bear_White">
+		<cargo chance="1.00">
+			<item name="Xmas_Food_Small" chance="0.50"/>
+			<item name="GiftWrapPaper" chance="0.50"/>
+		</cargo>
+	</type>
+	
+	<!-- XMAS Clothing -->
+	<type name="ChristmasHeadband_Antlers">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="ChristmasHeadband_Trees">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="ChristmasHeadband_Gingerbread">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<!-- XMAS -->
+	<type name="GiftWrapPaper">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="GiftBox_Small_1">
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Small_2">
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Small_3">
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Small_4">
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Medium_1">
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Medium_2">
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Medium_3">
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Medium_4">
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Large_1">
+		<cargo preset="Xmas_Mags_Large"/>
+		<cargo preset="Xmas_Weapons_Large"/>
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Large_2">
+		<cargo preset="Xmas_Mags_Large"/>
+		<cargo preset="Xmas_Weapons_Large"/>
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Large_3">
+		<cargo preset="Xmas_Mags_Large"/>
+		<cargo preset="Xmas_Weapons_Large"/>
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="GiftBox_Large_4">
+		<cargo preset="Xmas_Mags_Large"/>
+		<cargo preset="Xmas_Weapons_Large"/>
+		<cargo preset="Xmas_Clothes_Medium"/>
+		<cargo preset="Xmas_Weapons_Medium"/>
+		<cargo preset="Xmas_Optics_Medium"/>
+		<cargo preset="Xmas_Fillers_Medium"/>
+		<cargo preset="Xmas_Repairs_Medium"/>
+		<cargo preset="Xmas_Food_Medium"/>
+		<cargo preset="Xmas_Clothes_Small"/>
+		<cargo preset="Xmas_Lights_Small"/>
+		<cargo preset="Xmas_Weapons_Small"/>
+		<cargo preset="Xmas_Fillers_Small"/>
+		<cargo preset="Xmas_AmmoBoxes_Small"/>
+		<cargo preset="Xmas_Mags_Small"/>
+		<cargo preset="Xmas_Ammo_Small"/>
+		<cargo preset="Xmas_Repairs_Small"/>
+		<cargo preset="Xmas_Food_Small"/>
+		<cargo preset="Xmas_Chemlights_Small"/>
+	</type>
+	<type name="XmasGiftRed1">
+		<hoarder/>
+	</type>
+	<type name="XmasGiftRed2">
+		<hoarder/>
+	</type>
+	<type name="XmasGiftBlue1">
+		<hoarder/>
+	</type>
+	<type name="XmasGiftBlue2">
+		<hoarder/>
+	</type>
+	<type name="XmasGiftGreen1">
+		<hoarder/>
+	</type>
+	<type name="XmasGiftGreen2">
+		<hoarder/>
+	</type>
+</spawnabletypes>

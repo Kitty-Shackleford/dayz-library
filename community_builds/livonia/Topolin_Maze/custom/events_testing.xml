@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+	<event name="InfectedHordeHard">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>250</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>0</active>
+		<children>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Heavy_Woodland"/>
+		</children>
+	</event>
+	<event name="InfectedSantasHelpers">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>250</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>0</active>
+		<children>
+			<child lootmax="5" lootmin="0" max="100" min="1" type="ZmbM_PolicemanSpecForce_Heavy"/>
+		</children>
+	</event>
+	<event name="StaticAirstrike">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<saferadius>0</saferadius>
+		<distanceradius>0</distanceradius>
+		<cleanupradius>0</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>0</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+		</children>
+	</event>
+	<event name="InfectedHorde">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>250</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_Autumn"/>
+			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+			<child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+			<child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Heavy_Woodland"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Officer_Desert"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+		</children>
+	</event>
+	<event name="InfectedHordeMummy">
+		<nominal>50</nominal>
+		<min>25</min>
+		<max>100</max>
+		<lifetime>3</lifetime>
+		<restock>0</restock>
+		<saferadius>100</saferadius>
+		<distanceradius>50</distanceradius>
+		<cleanupradius>100</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>player</position>
+		<limit>custom</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_Mummy"/>
+			<child lootmax="5" lootmin="0" max="0" min="9" type="ZmbM_priestPopSkinny"/>
+			<child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_MilkMaidOld_Black"/>
+		</children>
+	</event>
+	<!-- Not Working
+	<event name="VehicleTransitBus">
+        <waves>0</waves>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>5</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>750</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="TransitBus"/>
+        </children>
+    </event>
+    <event name="VehicleV3S">
+        <waves>0</waves>
+        <nominal>15</nominal>
+        <min>8</min>
+        <max>15</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Orange"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Blue"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Grey"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Orange"/>
+        </children>
+    </event>
+    <event name="VehicleV3SCargo">
+        <waves>0</waves>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>5</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Blue"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="V3S_Cargo_Orange"/>
+        </children>
+    </event>
+    <event name="VehicleV3SChassis">
+        <waves>0</waves>
+        <nominal>10</nominal>
+        <min>5</min>
+        <max>10</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Blue"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Grey"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="V3S_Chassis_Orange"/>
+        </children>
+    </event>
+
+ Not Working -->
+</events>

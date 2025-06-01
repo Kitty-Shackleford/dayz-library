@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="LandMineTrap">
+		<damage min="1" max="1"/>
+	</type>
+	<type name="Grenade_ChemGas">
+		<damage min="1" max="1"/>
+	</type>
+	<!-- HALLOWEEN -->
+	<type name="PumpkinHelmet">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="Cauldron">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="CrookedNose">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="EyeMask_Dead">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="Pumpkin">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="WitchHat">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="WitchHood_Black">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="WitchHood_Brown">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="WitchHood_Red">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="Broom_Birch">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<type name="PumpkinSeedsPack">
+		<damage min="0.0" max="0.0"/>
+	</type>
+	<!--START OF ZOMBIES  -->
+	<type name="ZmbM_Mummy">
+		<attachments preset="MummyVest"/>
+		<attachments preset="MummyHat"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="MummyLoot"/>
+	</type>
+	<!--END OF ZOMBIES  -->
+</spawnabletypes>
