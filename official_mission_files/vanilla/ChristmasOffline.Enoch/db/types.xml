@@ -28,10 +28,10 @@
         <value name="Tier3"/>
     </type>
     <type name="AK101">
-        <nominal>3</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3936,10 +3936,10 @@
         <usage name="Village"/>
     </type>
     <type name="Broom_Birch">
-        <nominal>16</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4101,10 +4101,10 @@
         <usage name="Village"/>
     </type>
     <type name="Candycane_Green">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4115,10 +4115,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="Candycane_Red">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4129,10 +4129,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="Candycane_RedGreen">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4143,10 +4143,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="Candycane_Yellow">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4494,10 +4494,10 @@
         <category name="food"/>
     </type>
     <type name="Cauldron">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4768,10 +4768,10 @@
         <value name="Tier1"/>
     </type>
     <type name="ChristmasHeadband_Antlers">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4780,10 +4780,10 @@
         <usage name="Lunapark"/>
     </type>
     <type name="ChristmasHeadband_Gingerbread">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4792,10 +4792,10 @@
         <usage name="Lunapark"/>
     </type>
     <type name="ChristmasHeadband_Trees">
-        <nominal>0</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5779,10 +5779,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="CrookedNose">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7088,16 +7088,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-    <type name="FireplaceFireBarrel">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    </type>
     <type name="FireplaceIndoor">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -8110,10 +8100,10 @@
         <usage name="Military"/>
     </type>
     <type name="GiftBox_Large_1">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8124,10 +8114,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Large_2">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8138,10 +8128,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Large_3">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8152,10 +8142,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Large_4">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8166,10 +8156,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Medium_1">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8180,10 +8170,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Medium_2">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8194,10 +8184,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Medium_3">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8208,10 +8198,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Medium_4">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8222,10 +8212,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Small_1">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8236,10 +8226,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Small_2">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8250,10 +8240,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Small_3">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8264,10 +8254,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="GiftBox_Small_4">
-        <nominal>0</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12364,7 +12354,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
         <value name="Tier3"/>
     </type>
     <type name="Mag_CZ527_5rnd">
@@ -12446,7 +12435,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="Mag_FAMAS_25Rnd">
         <nominal>5</nominal>
@@ -12663,10 +12652,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_SV98_10Rnd">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>30</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -16239,7 +16228,7 @@
         <value name="Tier3"/>
     </type>
     <type name="SV98">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -16261,17 +16250,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>
-    <type name="SVD_Wooden">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
     </type>
     <type name="Saiga">
         <nominal>6</nominal>
@@ -16351,10 +16329,10 @@
         <category name="tools"/>
     </type>
     <type name="SantasBeard">
-        <nominal>0</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16366,10 +16344,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="SantasHat">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17309,36 +17287,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-    </type>
-    <type name="ShippingContainerKeys_Blue">
-        <nominal>0</nominal>
-        <lifetime>1800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ShippingContainerKeys_Orange">
-        <nominal>0</nominal>
-        <lifetime>1800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
-    <type name="ShippingContainerKeys_Yellow">
-        <nominal>0</nominal>
-        <lifetime>1800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="Shirt_BlueCheck">
         <nominal>26</nominal>
@@ -18681,10 +18629,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Sweater_ChristmasBlue">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18695,10 +18643,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Sweater_ChristmasGreen">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18709,10 +18657,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Sweater_ChristmasRed">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20375,10 +20323,10 @@
         <usage name="Military"/>
     </type>
     <type name="WitchHat">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20419,10 +20367,10 @@
         <category name="clothes"/>
     </type>
     <type name="WitchHood_Black">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20430,10 +20378,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHood_Brown">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20441,10 +20389,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WitchHood_Red">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20810,10 +20758,10 @@
         <usage name="Police"/>
     </type>
     <type name="WoolGlovesFingerless_ChristmasBlue">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20822,10 +20770,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WoolGlovesFingerless_ChristmasRed">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20882,10 +20830,10 @@
         <usage name="Police"/>
     </type>
     <type name="WoolGloves_ChristmasBlue">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20894,10 +20842,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="WoolGloves_ChristmasRed">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -21113,10 +21061,10 @@
         <usage name="Village"/>
     </type>
     <type name="XmasLights">
-        <nominal>15</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

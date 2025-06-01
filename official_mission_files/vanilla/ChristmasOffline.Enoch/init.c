@@ -7,27 +7,27 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-    int reset_month = 7, reset_day = 17;
+	int reset_month = 7, reset_day = 17;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
-    if ((month == reset_month) && (day < reset_day))
-    {
-        GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-    }
-    else
-    {
-        if ((month == reset_month + 1) && (day > reset_day))
-        {
-            GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-        }
-        else
-        {
-            if ((month < reset_month) || (month > reset_month + 1))
-            {
-                GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-            }
-        }
-    }
+	if ((month == reset_month) && (day < reset_day))
+	{
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+	}
+	else
+	{
+		if ((month == reset_month + 1) && (day > reset_day))
+		{
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		}
+		else
+		{
+			if ((month < reset_month) || (month > reset_month + 1))
+			{
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			}
+		}
+	}
 }
 
 class CustomMission: MissionServer
@@ -66,7 +66,7 @@ class CustomMission: MissionServer
 			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			player.SetQuickBarEntityShortcut(itemEnt, 2);
-			
+
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
