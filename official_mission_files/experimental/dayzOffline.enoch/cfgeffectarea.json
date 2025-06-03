@@ -6,7 +6,7 @@
 			"Data": { 
 				"Pos": [ 7500, 0, 6156 ],
 				"Radius": 200,
-				"PosHeight": 20,
+				"PosHeight": 30,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
@@ -43,7 +43,7 @@
 				"Pos": [ 7860, 0, 5840 ],
 				"Radius": 150,
 				"PosHeight": 20,
-				"NegHeight": 10,
+				"NegHeight": 20,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
@@ -60,7 +60,7 @@
 			"Data": { 
 				"Pos": [ 7651, 0, 5934 ],
 				"Radius": 110,
-				"PosHeight": 20,
+				"PosHeight": 30,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,
@@ -90,14 +90,14 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{ 	"AreaName": "LukovAirfield-NE", 
+		{ 	"AreaName": "LukovAirfield-Runway-1", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 4343, 0, 10467 ],
 				"Radius": 200,
-				"PosHeight": 8,
-				"NegHeight": 15,
+				"PosHeight": 20,
+				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
@@ -108,14 +108,14 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{ 	"AreaName": "LukovAirfield-SW", 
+		{ 	"AreaName": "LukovAirfield-Runway-2", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 4064, 0, 10224 ],
 				"Radius": 200,
-				"PosHeight": 7,
-				"NegHeight": 15,
+				"PosHeight": 20,
+				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
@@ -126,14 +126,14 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{ 	"AreaName": "LukovAirfield-RunwayOutpost", 
+		{ 	"AreaName": "LukovAirfield-Outpost", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 3787, 0, 10334 ],
 				"Radius": 130,
-				"PosHeight": 7,
-				"NegHeight": 15,
+				"PosHeight": 20,
+				"NegHeight": 20,
 				"InnerPartDist": 100,
 				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"

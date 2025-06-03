@@ -6,7 +6,7 @@
 			"Data": { 
 				"Pos": [ 13920, 0, 11170 ],
 				"Radius": 60,
-				"PosHeight": 5,
+				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
@@ -22,9 +22,9 @@
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 13780, 0, 11165 ],
+				"Pos": [ 13785, 0, 11155 ],
 				"Radius": 100,
-				"PosHeight": 5,
+				"PosHeight": 22,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
 				"OuterOffset": 30, 
@@ -42,7 +42,7 @@
 			"Data": { 
 				"Pos": [ 13660, 0, 11100 ],
 				"Radius": 60,
-				"PosHeight": 5,
+				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
@@ -54,13 +54,13 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-North", 
+        { 	"AreaName": "Pavlovo-North-Uphill", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 2080, 0, 3500 ],
 				"Radius": 100,
-				"PosHeight": 20,
+				"PosHeight": 10,
 				"NegHeight": 20,
 				"InnerPartDist": 100,
 				"OuterOffset": 30, 
@@ -72,13 +72,13 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-A", 
+        { 	"AreaName": "Pavlovo-South-Building1", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 2165, 0, 3370 ],
 				"Radius": 75,
-				"PosHeight": 3,
+				"PosHeight": 10,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
@@ -90,13 +90,13 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-B", 
+        { 	"AreaName": "Pavlovo-South-Building2", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 2215, 0, 3290 ],
 				"Radius": 75,
-				"PosHeight": 3,
+				"PosHeight": 14,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
@@ -108,13 +108,13 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-C", 
+        { 	"AreaName": "Pavlovo-South-Downhill", 
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
 				"Pos": [ 2090, 0, 3300 ],
 				"Radius": 60,
-				"PosHeight": 5,
+				"PosHeight": 10,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
