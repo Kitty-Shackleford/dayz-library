@@ -489,15 +489,15 @@
 	</type>	
 	<type name="AirborneMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GP5GasMask">
 		<damage min="0.0" max="0.35" />
-		<cargo chance="0.2">
+		<attachments chance="0.2">
 			<item name="GasMask_Filter" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="GasMask">
 		<damage min="0.0" max="0.35" />
@@ -842,6 +842,15 @@
 			<item name="Derringer_Pink" chance="1.00" />
 		</cargo>
 	</type>
+	<type name="WinterMilitaryCoat_Brown">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="WinterMilitaryCoat_Grey">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="WinterMilitaryCoat_DarkGrey">
+		<cargo preset="mixArmy" />
+	</type>
 	<type name="Sweater_Gray">
 		<cargo preset="mixVillage" />
 	</type>
@@ -853,6 +862,15 @@
 	</type>
 	<type name="Sweater_Red">
 		<cargo preset="mixVillage" />
+	</type>
+	<type name="MilitarySweater_Livonia">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MilitarySweater_Chernarus">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MilitarySweater_NoPatch">
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Shirt_BlueCheck">
 		<cargo preset="mixVillage" />
@@ -1162,6 +1180,15 @@
 	<type name="BomberJacket_SkyBlue">
 		<cargo preset="mixVillage" />
 	</type>
+	<type name="PilotJacket_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="PilotJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="PilotJacket_Yellow">
+		<cargo preset="mixVillage" />
+	</type>
 	<type name="MedicalScrubsShirt_Blue">
 		<cargo preset="toolsMedic" />
 	</type>
@@ -1265,7 +1292,32 @@
 		</attachments>
 	</type>
 	<!--START OF ZOMBIES  -->
-	<!--NBC-->
+	<!-- -----------------------------MUMMY------------------------------->
+	<type name="ZmbM_Mummy">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.05">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HumanSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="BandageDressing" chance="0.5" />
+			<item name="Rag" chance="0.5" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="IodineTincture" chance="0.33" />
+			<item name="Epinephrine" chance="0.33" />
+			<item name="Morphine" chance="0.33" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="CharcoalTablets" chance="0.25" />
+			<item name="PainkillerTablets" chance="0.25" />
+			<item name="TetracyclineAntibiotics" chance="0.25" />
+			<item name="VitaminBottle" chance="0.25" />
+		</cargo>
+	</type>
+	<!-- -----------------------------NBC------------------------------ -->
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.03">

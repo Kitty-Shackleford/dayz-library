@@ -4,8 +4,8 @@
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 13920, 0, 11170 ],
-				"Radius": 60,
+				"Pos": [ 13917, 0, 11178 ],
+				"Radius": 75,
 				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
@@ -24,7 +24,7 @@
 			"Data": { 
 				"Pos": [ 13785, 0, 11155 ],
 				"Radius": 100,
-				"PosHeight": 22,
+				"PosHeight": 30,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
 				"OuterOffset": 30, 
@@ -40,8 +40,26 @@
 			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
 			"Data": { 
-				"Pos": [ 13660, 0, 11100 ],
-				"Radius": 60,
+				"Pos": [ 13639, 0, 11105 ],
+				"Radius": 80,
+				"PosHeight": 20,
+				"NegHeight": 3,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Ship-East", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 13670, 0, 11236 ],
+				"Radius": 80,
 				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
@@ -116,6 +134,24 @@
 				"Radius": 60,
 				"PosHeight": 10,
 				"NegHeight": 10,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+        { 	"AreaName": "Pavlovo-West-Uphill", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 2018, 0, 3394 ],
+				"Radius": 100,
+				"PosHeight": 15,
+				"NegHeight": 20,
 				"InnerPartDist": 100,
 				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
