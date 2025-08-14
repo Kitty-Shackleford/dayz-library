@@ -735,9 +735,7 @@
 		<pos x="10213.420" z="2185.113" a="0" y="242.528" group="Traffic_Widok"/>
 		<pos x="769.045" z="6739.631" a="0" y="212.431" group="Traffic_Zalesie"/>
 	</event>
-<event name="StaticNPC1">
-    <pos x="10563.3437" z="10836.638672" group="Briefcase" />
-    </event>
+
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
