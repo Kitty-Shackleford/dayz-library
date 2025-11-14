@@ -21,7 +21,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Fetch all history for all branches
-
+      - name: Install dependencies
+        run: npm ci
+        
       - name: Install Prettier and XML Plugin
         run: |
           npm install --save-dev prettier @prettier/plugin-xml || { echo "Failed to install Prettier"; exit 1; }
