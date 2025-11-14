@@ -46,7 +46,7 @@ jobs:
                   npx prettier --write "$file" --parser json || { echo "Failed to format $file"; exit 1; }
                   ;;
                 *)
-                  echo "Skipping $file (not an XML, JSON file)"
+                  echo "Skipping $file (not an XML, JSON, or YAML file)"
                   ;;
               esac
             else
