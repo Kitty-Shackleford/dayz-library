@@ -1,0 +1,1428 @@
+{
+    "Objects": [
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14003.7080078125,
+                6.749608039855957,
+                9444.47265625
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14003.7080078125,
+                14.36380386352539,
+                9444.47265625
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14014.2822265625,
+                8.612948417663575,
+                9469.6494140625
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14014.2822265625,
+                16.227142333984376,
+                9469.6494140625
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14022.1953125,
+                7.401665687561035,
+                9454.4833984375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14022.1953125,
+                15.01585865020752,
+                9454.4833984375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14027.3330078125,
+                9.084027290344239,
+                9439.5
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14027.3330078125,
+                16.698219299316408,
+                9439.5
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999586939811707,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14033.396484375,
+                8.891425132751465,
+                9478.6875
+            ],
+            "ypr": [
+                -26.99999237060547,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999999463558197,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14033.396484375,
+                16.505617141723634,
+                9478.6875
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14041.3095703125,
+                7.680142402648926,
+                9463.521484375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14041.3095703125,
+                15.294334411621094,
+                9463.521484375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999992251396179,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14046.447265625,
+                9.362504005432129,
+                9448.5380859375
+            ],
+            "ypr": [
+                -26.99999237060547,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999999463558197,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14046.447265625,
+                16.976694107055665,
+                9448.5380859375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999585151672363,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14044.7841796875,
+                12.753865242004395,
+                9466.35546875
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14063.271484375,
+                13.405922889709473,
+                9476.3662109375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14063.271484375,
+                21.02011489868164,
+                9476.3662109375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999992251396179,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14068.4091796875,
+                15.088284492492676,
+                9461.3828125
+            ],
+            "ypr": [
+                -26.99999237060547,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999999463558197,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14068.4091796875,
+                22.70247459411621,
+                9461.3828125
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999585151672363,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14082.3857421875,
+                13.684399604797364,
+                9485.404296875
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14082.3857421875,
+                21.29859161376953,
+                9485.404296875
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999990463256836,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14087.5234375,
+                15.366761207580567,
+                9470.4208984375
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999991655349731,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14087.5234375,
+                22.98094940185547,
+                9470.4208984375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999958336353302,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14074.6533203125,
+                13.727663040161133,
+                9458.0869140625
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14093.140625,
+                14.379720687866211,
+                9468.09765625
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14093.140625,
+                21.993911743164064,
+                9468.09765625
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999990463256836,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14098.2783203125,
+                16.062082290649415,
+                9453.1142578125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999991655349731,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14098.2783203125,
+                23.67626953125,
+                9453.1142578125
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999958336353302,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14112.2548828125,
+                14.658197402954102,
+                9477.1357421875
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14112.2548828125,
+                22.272388458251954,
+                9477.1357421875
+            ],
+            "ypr": [
+                -26.9999942779541,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999988079071045,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14117.392578125,
+                16.340559005737306,
+                9462.15234375
+            ],
+            "ypr": [
+                -26.99999237060547,
+                0.0,
+                0.0
+            ],
+            "scale": 0.999998927116394,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14117.392578125,
+                23.95474624633789,
+                9462.15234375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999581575393677,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14101.7021484375,
+                9.912551879882813,
+                9437.96875
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14007.0400390625,
+                13.015684127807618,
+                9479.9345703125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14028.08984375,
+                18.687847137451173,
+                9490.6689453125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14051.380859375,
+                18.53490447998047,
+                9502.392578125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                14045.9296875,
+                11.259156227111817,
+                9486.4814453125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999994039535523,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Start",
+            "pos": [
+                14019.8134765625,
+                6.68804407119751,
+                9441.2353515625
+            ],
+            "ypr": [
+                153.7180938720703,
+                0.010189819149672985,
+                -0.022792372852563859
+            ],
+            "scale": 0.9999701380729675,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block_Terminator",
+            "pos": [
+                14019.8427734375,
+                16.22536849975586,
+                9441.21875
+            ],
+            "ypr": [
+                154.50466918945313,
+                0.07498912513256073,
+                0.14713852107524873
+            ],
+            "scale": 0.9999483823776245,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block",
+            "pos": [
+                14019.806640625,
+                11.214656829833985,
+                9441.2353515625
+            ],
+            "ypr": [
+                153.81309509277345,
+                0.0056901173666119579,
+                0.0018288803985342384
+            ],
+            "scale": 0.9999301433563232,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Ammo",
+            "pos": [
+                14029.978515625,
+                16.625621795654298,
+                9441.7451171875
+            ],
+            "ypr": [
+                153.18031311035157,
+                -0.000018408201867714525,
+                0.0000038760449569963388
+            ],
+            "scale": 0.999999463558197,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Connector",
+            "pos": [
+                14006.146484375,
+                6.667355537414551,
+                9448.8681640625
+            ],
+            "ypr": [
+                152.99993896484376,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Start",
+            "pos": [
+                14045.1201171875,
+                16.764476776123048,
+                9482.3125
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Ammo",
+            "pos": [
+                14016.244140625,
+                16.630084991455079,
+                9472.673828125
+            ],
+            "ypr": [
+                -26.999984741210939,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block",
+            "pos": [
+                14008.412109375,
+                11.32327651977539,
+                9464.439453125
+            ],
+            "ypr": [
+                -26.65554428100586,
+                -0.00024099003348965198,
+                0.0002755287569016218
+            ],
+            "scale": 0.9999881982803345,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Entrance",
+            "pos": [
+                13976.513671875,
+                6.71282958984375,
+                9433.43359375
+            ],
+            "ypr": [
+                63.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Floor_Comms",
+            "pos": [
+                14086.0654296875,
+                16.69835090637207,
+                9474.82421875
+            ],
+            "ypr": [
+                154.34205627441407,
+                -0.0003866397310048342,
+                0.0001808198430808261
+            ],
+            "scale": 0.9999587535858154,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Main_Both",
+            "pos": [
+                14062.1826171875,
+                16.639991760253908,
+                9477.0791015625
+            ],
+            "ypr": [
+                -116.99996185302735,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Main_Both",
+            "pos": [
+                14022.3798828125,
+                6.642513275146484,
+                9457.0009765625
+            ],
+            "ypr": [
+                63.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile8",
+            "pos": [
+                14052.5244140625,
+                17.40270233154297,
+                9465.2802734375
+            ],
+            "ypr": [
+                -72.00001525878906,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Tunnel_Single",
+            "pos": [
+                13995.025390625,
+                6.62802267074585,
+                9443.1455078125
+            ],
+            "ypr": [
+                -117.7222671508789,
+                -0.019850673153996469,
+                -0.002749818377196789
+            ],
+            "scale": 0.9999507069587708,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Tunnel_Single",
+            "pos": [
+                13986.1318359375,
+                6.666964530944824,
+                9438.4990234375
+            ],
+            "ypr": [
+                -117.7222671508789,
+                -0.019850241020321847,
+                -0.0027498293202370407
+            ],
+            "scale": 0.9999983310699463,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Main_Both",
+            "pos": [
+                14022.494140625,
+                16.625782012939454,
+                9457.0908203125
+            ],
+            "ypr": [
+                63.27159881591797,
+                -0.0005914110806770623,
+                -0.0007370476378127933
+            ],
+            "scale": 0.9999589920043945,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_POX",
+            "pos": [
+                14054.9267578125,
+                16.644760131835939,
+                9492.5498046875
+            ],
+            "ypr": [
+                -25.148569107055665,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999977350234985,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Laboratory",
+            "pos": [
+                14015.9912109375,
+                6.63903284072876,
+                9472.8037109375
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Start",
+            "pos": [
+                14008.421875,
+                6.784827709197998,
+                9464.439453125
+            ],
+            "ypr": [
+                -26.059646606445314,
+                0.0030432979110628368,
+                -0.023809054866433145
+            ],
+            "scale": 0.9999728202819824,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Main_Both",
+            "pos": [
+                14042.3681640625,
+                16.62232208251953,
+                9467.076171875
+            ],
+            "ypr": [
+                -116.48114013671875,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999992847442627,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_POX2",
+            "pos": [
+                14068.8349609375,
+                16.638338088989259,
+                9461.4443359375
+            ],
+            "ypr": [
+                151.3020477294922,
+                0.0006408100016415119,
+                0.0004710382781922817
+            ],
+            "scale": 0.9999587535858154,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Floor_Crew",
+            "pos": [
+                14091.4638671875,
+                16.722192764282228,
+                9463.642578125
+            ],
+            "ypr": [
+                154.34205627441407,
+                -0.0003866397310048342,
+                0.00018081987218465656
+            ],
+            "scale": 0.9999587535858154,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Big",
+            "pos": [
+                14040.994140625,
+                6.6632080078125,
+                9466.7705078125
+            ],
+            "ypr": [
+                63.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block_Terminator",
+            "pos": [
+                14008.4296875,
+                16.323097229003908,
+                9464.447265625
+            ],
+            "ypr": [
+                -27.429773330688478,
+                -0.002237857785075903,
+                -0.0006144971121102572
+            ],
+            "scale": 0.9999891519546509,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Hospital",
+            "pos": [
+                14029.921875,
+                6.654296875,
+                9441.6767578125
+            ],
+            "ypr": [
+                152.9999237060547,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Ammo2",
+            "pos": [
+                14034.87890625,
+                16.623783111572267,
+                9482.4375
+            ],
+            "ypr": [
+                -26.999988555908204,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures_bliss\\industrial\\misc\\misc_tirepile_large.p3d",
+            "pos": [
+                14053.34375,
+                17.828996658325197,
+                9465.8017578125
+            ],
+            "ypr": [
+                1.1543852090835572,
+                -0.03952564671635628,
+                -1.3200204372406006
+            ],
+            "scale": 0.9999703764915466,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Prison",
+            "pos": [
+                14002.84375,
+                16.48899269104004,
+                9446.798828125
+            ],
+            "ypr": [
+                -116.99996185302735,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures_bliss\\underground\\stairs\\underground_stairs_exit.p3d",
+            "pos": [
+                14046.458984375,
+                26.153718948364259,
+                9482.9912109375
+            ],
+            "ypr": [
+                -0.4733850061893463,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999984502792358,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile7",
+            "pos": [
+                14053.0263671875,
+                17.048274993896486,
+                9466.193359375
+            ],
+            "ypr": [
+                -18.64638900756836,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999949932098389,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Ammo2",
+            "pos": [
+                14048.71875,
+                16.623701095581056,
+                9451.130859375
+            ],
+            "ypr": [
+                152.99993896484376,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14094.5908203125,
+                16.728960037231447,
+                9484.2841796875
+            ],
+            "ypr": [
+                -0.4712388813495636,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14094.5908203125,
+                17.596290588378908,
+                9484.2841796875
+            ],
+            "ypr": [
+                -0.4712388813495636,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Big_Vent",
+            "pos": [
+                14099.810546875,
+                6.729574680328369,
+                9448.630859375
+            ],
+            "ypr": [
+                154.08767700195313,
+                -0.0004142190737184137,
+                -0.0005289780674502254
+            ],
+            "scale": 0.999958872795105,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14094.5908203125,
+                18.69527244567871,
+                9484.2841796875
+            ],
+            "ypr": [
+                -0.4712388813495636,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14094.5908203125,
+                19.562602996826173,
+                9484.2841796875
+            ],
+            "ypr": [
+                -0.4712388813495636,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14098.9443359375,
+                6.664911270141602,
+                9473.974609375
+            ],
+            "ypr": [
+                2.6620519161224367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999949932098389,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block_Terminator",
+            "pos": [
+                14107.2431640625,
+                16.24904441833496,
+                9457.38671875
+            ],
+            "ypr": [
+                154.36306762695313,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999984502792358,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile6",
+            "pos": [
+                14083.8251953125,
+                16.72247314453125,
+                9453.9736328125
+            ],
+            "ypr": [
+                -20.931278228759767,
+                0.012908595614135266,
+                -0.05508090928196907
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile6",
+            "pos": [
+                14084.1181640625,
+                17.593284606933595,
+                9453.19921875
+            ],
+            "ypr": [
+                -20.9312801361084,
+                0.01290859468281269,
+                -0.05508089065551758
+            ],
+            "scale": 0.9999878406524658,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14098.9443359375,
+                7.628674507141113,
+                9473.974609375
+            ],
+            "ypr": [
+                2.6620519161224367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999949336051941,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile6",
+            "pos": [
+                14084.3369140625,
+                18.327123641967775,
+                9452.6064453125
+            ],
+            "ypr": [
+                -20.931278228759767,
+                0.012908593751490116,
+                -0.055080849677324298
+            ],
+            "scale": 0.9999775886535645,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DZ\\structures\\industrial\\misc\\misc_woodpile_forest2.p3d",
+            "pos": [
+                14098.9443359375,
+                8.36269474029541,
+                9473.974609375
+            ],
+            "ypr": [
+                2.6620519161224367,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999948740005493,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Garbage_Pile6",
+            "pos": [
+                14084.4970703125,
+                18.84726905822754,
+                9451.775390625
+            ],
+            "ypr": [
+                -106.88980865478516,
+                0.01290864683687687,
+                -0.055080413818359378
+            ],
+            "scale": 0.9999508857727051,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Block",
+            "pos": [
+                14107.2333984375,
+                11.259553909301758,
+                9457.396484375
+            ],
+            "ypr": [
+                153.8928680419922,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.999995231628418,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Stairs_Start",
+            "pos": [
+                14107.2900390625,
+                6.8767805099487309,
+                9457.380859375
+            ],
+            "ypr": [
+                154.70899963378907,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999991655349731,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Barracks",
+            "pos": [
+                14086.2587890625,
+                6.738018989562988,
+                9479.541015625
+            ],
+            "ypr": [
+                -26.706594467163087,
+                0.0008159936405718327,
+                0.0010142943356186152
+            ],
+            "scale": 0.999957799911499,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Corridor_Main_Both",
+            "pos": [
+                14093.537109375,
+                6.735141277313232,
+                9464.6181640625
+            ],
+            "ypr": [
+                -116.99996185302735,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Workshop",
+            "pos": [
+                14112.978515625,
+                6.728633880615234,
+                9474.9794921875
+            ],
+            "ypr": [
+                63.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Workshop",
+            "pos": [
+                14081.806640625,
+                16.636554718017579,
+                9487.033203125
+            ],
+            "ypr": [
+                63.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Underground_Storage_Prison",
+            "pos": [
+                14074.712890625,
+                6.737555503845215,
+                9455.47265625
+            ],
+            "ypr": [
+                -118.25980377197266,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "3d_20x20_Grid_Trigger",
+            "pos": [
+                13990.2578125,
+                7.178082466125488,
+                9438.9833984375
+            ],
+            "ypr": [
+                -27.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        }
+    ]
+}
