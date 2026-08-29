@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://saltskrew.xyz/schemas/dayz-integration-v1.json",
+  "title": "DayZ Actions Integration Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "platform", "server_id", "integration_version", "generated_at", "capabilities", "data_endpoints", "actions"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": 1 },
+    "platform": { "const": "dayz" },
+    "server_id": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "integration_version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "pages_url": { "type": ["string", "null"], "format": "uri" },
+    "capabilities": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$" } },
+    "data_endpoints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "path", "format"],
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": "string" },
+          "format": { "enum": ["json", "jsonl", "csv", "markdown"] }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "version", "workflow", "capabilities", "data_outputs"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]{0,63}$" },
+          "name": { "type": "string" },
+          "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$" },
+          "workflow": { "type": "string" },
+          "capabilities": { "type": "array", "items": { "type": "string" } },
+          "data_outputs": { "type": "array", "items": { "type": "string" } },
+          "expected_interval_minutes": { "type": "integer", "minimum": 1, "maximum": 10080 }
+        }
+      }
+    }
+  }
+}

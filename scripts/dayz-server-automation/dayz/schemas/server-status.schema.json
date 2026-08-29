@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://saltskrew.xyz/schemas/dayz-server-status-v1.json",
+  "title": "DayZ Server Status",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "server_id", "generated_at", "status", "players", "uptime", "last_status_change"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "server_id": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "status": { "type": "string" },
+    "players": {
+      "type": "object",
+      "required": ["current", "maximum"],
+      "properties": {
+        "current": { "type": "integer", "minimum": 0 },
+        "maximum": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "uptime": { "type": "object", "required": ["seconds"], "properties": { "seconds": { "type": ["integer", "null"], "minimum": 0 } } },
+    "last_status_change": { "type": ["integer", "string", "null"] }
+  }
+}

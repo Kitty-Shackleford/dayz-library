@@ -1,0 +1,64 @@
+{
+  "$schema": "./dayz/schemas/integration-manifest.schema.json",
+  "schema_version": 1,
+  "platform": "dayz",
+  "server_id": "SET_NITRADO_SERVER_ID",
+  "integration_version": "1.0.0",
+  "generated_at": "2026-01-01T00:00:00.000Z",
+  "pages_url": null,
+  "capabilities": [
+    "backup",
+    "configuration_validation",
+    "player_count",
+    "server_status",
+    "static_reports"
+  ],
+  "data_endpoints": [
+    {
+      "name": "server_status",
+      "path": "dayz/data/current/server-status.json",
+      "format": "json"
+    },
+    {
+      "name": "configuration_validation",
+      "path": "dayz/reports/current/validation.json",
+      "format": "json"
+    }
+  ],
+  "actions": [
+    {
+      "id": "dayz-monitor",
+      "name": "Server Monitor",
+      "version": "1.0.0",
+      "workflow": ".github/workflows/dayz-monitor.yml",
+      "capabilities": ["server_status", "player_count"],
+      "data_outputs": ["dayz/data/current/server-status.json"],
+      "expected_interval_minutes": 360
+    },
+    {
+      "id": "dayz-validate",
+      "name": "Configuration Validator",
+      "version": "1.0.0",
+      "workflow": ".github/workflows/dayz-validate.yml",
+      "capabilities": ["configuration_validation"],
+      "data_outputs": ["dayz/reports/current/validation.json", "dayz/reports/current/validation.md"],
+      "expected_interval_minutes": 1440
+    },
+    {
+      "id": "dayz-backup",
+      "name": "Backup",
+      "version": "1.0.0",
+      "workflow": ".github/workflows/dayz-backup.yml",
+      "capabilities": ["backup"],
+      "data_outputs": []
+    },
+    {
+      "id": "dayz-pages",
+      "name": "GitHub Pages",
+      "version": "1.0.0",
+      "workflow": ".github/workflows/dayz-pages.yml",
+      "capabilities": ["static_reports"],
+      "data_outputs": []
+    }
+  ]
+}

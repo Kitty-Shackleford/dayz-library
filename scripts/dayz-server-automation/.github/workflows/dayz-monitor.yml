@@ -1,0 +1,41 @@
+name: DayZ Server Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dayz-data-writers
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NITRADO_SERVER_ID: ${{ vars.NITRADO_SERVER_ID }}
+      DAYZ_RETENTION_DAYS: ${{ vars.DAYZ_RETENTION_DAYS || '31' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '20'
+      - name: Collect server status
+        env:
+          NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
+        run: node dayz/scripts/collect-status.mjs
+      - name: Refresh integration manifest
+        run: node dayz/scripts/build-manifest.mjs
+      - name: Commit structured status data
+        run: |
+          git config user.name "dayz-automation[bot]"
+          git config user.email "dayz-automation[bot]@users.noreply.github.com"
+          git add dayz-integration.json dayz/data/current dayz/data/history
+          git diff --cached --quiet && exit 0
+          git commit -m "data: update DayZ server status"
+          git pull --rebase
+          git push

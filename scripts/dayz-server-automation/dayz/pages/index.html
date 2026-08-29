@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>DayZ Server Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">USER-OWNED SERVER INTELLIGENCE</p>
+      <h1>DayZ Operations</h1>
+      <p id="serverId" class="muted">Loading integration manifest…</p>
+    </div>
+    <div id="statusBadge" class="badge unknown">UNKNOWN</div>
+  </header>
+  <nav aria-label="Reports">
+    <a href="#dashboard">Dashboard</a><a href="#health">Server Health</a><a href="#configuration">Configuration</a><a href="#automation">Automation</a>
+  </nav>
+  <main id="dashboard">
+    <section class="metrics" aria-label="Server metrics">
+      <article><span>Players</span><strong id="players">—</strong><small>current / capacity</small></article>
+      <article><span>Last Updated</span><strong id="lastUpdated">—</strong><small>from GitHub Actions</small></article>
+      <article><span>Integration</span><strong id="kitVersion">—</strong><small>automation kit version</small></article>
+    </section>
+    <section class="grid">
+      <article id="health" class="panel">
+        <h2>Server Health</h2>
+        <div class="health-row"><span>Server data</span><b id="dataHealth">Unknown</b></div>
+        <div class="health-row"><span>Configuration</span><b id="configHealth">Unknown</b></div>
+        <div class="health-row"><span>Last validation</span><b id="validationTime">—</b></div>
+      </article>
+      <article id="automation" class="panel">
+        <h2>Installed Automation</h2>
+        <div id="actions" class="action-list"></div>
+      </article>
+    </section>
+    <section id="configuration" class="panel wide">
+      <h2>Configuration Validation</h2>
+      <p id="validationSummary" class="muted">No validation report has been published yet.</p>
+      <div id="validationFiles"></div>
+    </section>
+  </main>
+  <footer>Generated in this server owner's GitHub repository. No dashboard connection is required.</footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+name: DayZ GitHub Pages
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [DayZ Server Monitor, DayZ Configuration Validator]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'dayz/data/**'
+      - 'dayz/reports/**'
+      - 'dayz/pages/**'
+      - 'dayz-integration.json'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Assemble static site
+        run: |
+          mkdir -p _site/data _site/reports
+          cp dayz/pages/* _site/
+          cp dayz-integration.json _site/dayz-integration.json
+          test ! -f dayz/data/current/server-status.json || cp dayz/data/current/server-status.json _site/data/server-status.json
+          test ! -f dayz/reports/current/validation.json || cp dayz/reports/current/validation.json _site/reports/validation.json
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0

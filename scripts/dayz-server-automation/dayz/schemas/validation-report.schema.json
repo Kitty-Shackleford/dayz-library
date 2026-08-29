@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://saltskrew.xyz/schemas/dayz-validation-report-v1.json",
+  "title": "DayZ Configuration Validation Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "status", "valid", "files_checked", "results"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["valid", "invalid", "no_files"] },
+    "valid": { "type": ["boolean", "null"] },
+    "files_checked": { "type": "integer", "minimum": 0 },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "valid", "error"],
+        "properties": {
+          "path": { "type": "string" },
+          "valid": { "type": "boolean" },
+          "error": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}
