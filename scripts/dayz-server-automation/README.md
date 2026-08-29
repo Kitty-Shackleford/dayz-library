@@ -9,7 +9,7 @@ This folder is a self-contained template for a DayZ server owner's own GitHub re
 3. In Repository settings → Secrets and variables → Actions:
    - Secret `NITRADO_API_TOKEN`: the server owner's Nitrado API token.
    - Variable `NITRADO_SERVER_ID`: the exact Nitrado service ID.
-   - Variable `DAYZ_BACKUP_PATHS_JSON`: required only when manually running Backup; use a JSON array such as `["/noftp/dayzxb/mpmissions/dayzOffline.chernarusplus"]`.
+   - Variable `DAYZ_BACKUP_PATHS_JSON`: required only when manually running Backup; use a JSON array such as `["/noftp/dayzxb_missions/dayzOffline.chernarusplus"]`.
    - Variable `DAYZ_RETENTION_DAYS`: optional status-history retention, default 31.
    - Variable `DAYZ_BACKUP_MAX_BYTES`: optional backup size ceiling, default 524288000.
    - Under **Actions → General → Workflow permissions**, allow read and write so Monitor and Validator can commit their small generated outputs.
