@@ -1,0 +1,169 @@
+{
+  "Objects": [
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\warheadstorage_powerstation_generator.p3d",
+      "pos": [
+        7147.6396484375,
+        2.7212538719177246,
+        7379.0576171875
+      ],
+      "ypr": [
+        -0.11818833649158478,
+        -3.652660205549774e-12,
+        9.418643642788993e-09
+      ],
+      "scale": 0.9999715685844421,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_door_switch.p3d",
+      "pos": [
+        7147.37548828125,
+        3.1053829193115234,
+        7385.9794921875
+      ],
+      "ypr": [
+        -0.11818887293338776,
+        3.617359667015818e-12,
+        9.418526403237593e-09
+      ],
+      "scale": 0.9999560713768005,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_electronic_box.p3d",
+      "pos": [
+        7147.21044921875,
+        3.5369176864624023,
+        7385.70458984375
+      ],
+      "ypr": [
+        -0.11819137632846832,
+        3.6337979066741743e-12,
+        9.42584765795118e-09
+      ],
+      "scale": 0.9999551773071289,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_light.p3d",
+      "pos": [
+        7146.15576171875,
+        3.638502359390259,
+        7385.5380859375
+      ],
+      "ypr": [
+        -0.11818887293338776,
+        3.617359667015818e-12,
+        9.418526403237593e-09
+      ],
+      "scale": 0.9999560713768005,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_lamp.p3d",
+      "pos": [
+        7146.3681640625,
+        3.844149112701416,
+        7385.97119140625
+      ],
+      "ypr": [
+        -0.11818887293338776,
+        3.617359667015818e-12,
+        9.418526403237593e-09
+      ],
+      "scale": 0.9999560713768005,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\warheadstorage_powerstation.p3d",
+      "pos": [
+        7136.22900390625,
+        3.5051403045654297,
+        7393.94970703125
+      ],
+      "ypr": [
+        1.4526066780090332,
+        -9.429007796768474e-09,
+        -0
+      ],
+      "scale": 0.9999661445617676,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\warheadstorage_main.p3d",
+      "pos": [
+        7160.73681640625,
+        5.747515678405762,
+        7418.1484375
+      ],
+      "ypr": [
+        -1.5319126844406128,
+        9.313184889947479e-09,
+        1.4787440161256882e-09
+      ],
+      "scale": 0.9999711513519287,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_airlock.p3d",
+      "pos": [
+        7160.8681640625,
+        4.132801532745361,
+        7384.8505859375
+      ],
+      "ypr": [
+        2.9845130443573,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "DZ\\structures_sakhal\\military\\storage\\proxy\\warhead_storage_airlock.p3d",
+      "pos": [
+        7159.2265625,
+        4.301126956939697,
+        7418.06201171875
+      ],
+      "ypr": [
+        -1.548954963684082,
+        0,
+        -0
+      ],
+      "scale": 0.9997618198394775,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "CanisterGasoline",
+      "pos": [
+        7150.37353515625,
+        2.9727375507354736,
+        7385.259765625
+      ],
+      "ypr": [
+        -9,
+        0,
+        0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0
+    },
+    {
+      "name": "StaticObj_Pier_Concrete1",
+      "pos": [
+        7154.822265625,
+        -2.3616766929626465,
+        7386.62255859375
+      ],
+      "ypr": [
+        0,
+        5.889256477355957,
+        0
+      ],
+      "scale": 0.2999999523162842,
+      "enableCEPersistency": 0
+    }
+  ]
+}

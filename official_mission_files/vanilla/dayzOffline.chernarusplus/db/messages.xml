@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
-<!--
+  <!--
 See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
 
 Example messages:
@@ -43,5 +43,4 @@ Example messages:
         <text>Welcome to my server #name</text>
     </message>
     -->
-
 </messages>

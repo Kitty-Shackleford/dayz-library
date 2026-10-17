@@ -1,0 +1,196 @@
+{
+    "Objects": [
+        {
+            "name": "SodaCan_Pipsi",
+            "pos": [
+                4459.3623046875,
+                339.95599365234377,
+                10236.591796875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SodaCan_Cola",
+            "pos": [
+                4452.04541015625,
+                339.49755859375,
+                10248.5458984375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SodaCan_Spite",
+            "pos": [
+                4445.2451171875,
+                339.48114013671877,
+                10260.84375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SodaCan_Kvass",
+            "pos": [
+                4430.55908203125,
+                339.4474182128906,
+                10284.7109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SodaCan_Fronta",
+            "pos": [
+                4424.43701171875,
+                339.4195861816406,
+                10298.1787109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "SodaCan_Empty",
+            "pos": [
+                4437.88916015625,
+                339.44732666015627,
+                10272.923828125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999995827674866,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4452.05810546875,
+                338.9950866699219,
+                10248.673828125
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4445.427734375,
+                338.9786682128906,
+                10261.0029296875
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4438.2099609375,
+                338.95880126953127,
+                10273.490234375
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4430.93603515625,
+                338.9449462890625,
+                10285.1767578125
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4424.61279296875,
+                338.9171142578125,
+                10298.3525390625
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999996423721314,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_Table_Large_Spawn",
+            "pos": [
+                4459.33447265625,
+                339.4535217285156,
+                10236.5751953125
+            ],
+            "ypr": [
+                -30.034406661987306,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        }
+    ]
+}

@@ -626,6 +626,24 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HunterOld_Winter"/>
         </children>
     </event>
+    <event name="InfectedSpooky">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="4" lootmin="0" max="0" min="50" type="ZmbF_MilkMaidOld_Black"/>
+            <child lootmax="4" lootmin="0" max="0" min="50" type="ZmbM_HandymanNormal_Beige"/>
+        </children>
+    </event>
     <event name="InfectedVillage">
         <nominal>50</nominal>
         <min>25</min>
@@ -826,8 +844,8 @@
         </children>
     </event>
     <event name="StaticContainerLocked">
-        <nominal>16</nominal>
-        <min>14</min>
+        <nominal>13</nominal>
+        <min>11</min>
         <max>0</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
@@ -1126,6 +1144,24 @@
         <children>
             <child lootmax="0" lootmin="0" max="8" min="4" type="Boat_01_Black"/>
             <child lootmax="0" lootmin="0" max="8" min="4" type="Boat_01_Camo"/>
+        </children>
+    </event>
+    <event name="VehicleMotorbike">
+        <nominal>12</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="Motorbike_01_Blue"/>
+            <child lootmax="0" lootmin="0" max="10" min="6" type="Motorbike_02_Red"/>
         </children>
     </event>
     <event name="VehicleOffroadHatchback">

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+  <event name="StaticParty">
+    <nominal>26</nominal>
+    <min>26</min>
+    <max>26</max>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <saferadius>100</saferadius>
+    <distanceradius>100</distanceradius>
+    <cleanupradius>100</cleanupradius>
+    <!-- <secondary>InfectedArmy</secondary> -->
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children/>
+  </event>
+  <event name="AnimalGoatSpooky">
+    <nominal>16</nominal>
+    <min>6</min>
+    <max>16</max>
+    <lifetime>180</lifetime>
+    <restock>0</restock>
+    <saferadius>200</saferadius>
+    <distanceradius>0</distanceradius>
+    <cleanupradius>0</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+      <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircus_Spooky"/>
+    </children>
+  </event>
+</events>

@@ -1,0 +1,68 @@
+{
+  "Objects": [
+    {
+      "name": "Land_Misc_FireBarrel_Green",
+      "pos": [
+        9366.1630859375,
+        213.5877685546875,
+        10724.322265625
+      ],
+      "ypr": [
+        55.51460266113281,
+        0,
+        -0
+      ],
+      "scale": 0.9999992847442627,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_FireBarrel_Yellow",
+      "pos": [
+        9364.6201171875,
+        213.58799743652344,
+        10723.2177734375
+      ],
+      "ypr": [
+        55.51460266113281,
+        0,
+        -0
+      ],
+      "scale": 0.9999992847442627,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_FireBarrel_Blue",
+      "pos": [
+        9367.6650390625,
+        213.60227966308594,
+        10722.3251953125
+      ],
+      "ypr": [
+        55.51460266113281,
+        0,
+        -0
+      ],
+      "scale": 0.999980092048645,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_FireBarrel_Red",
+      "pos": [
+        9365.9609375,
+        213.60227966308594,
+        10721.4296875
+      ],
+      "ypr": [
+        55.51460266113281,
+        0,
+        -0
+      ],
+      "scale": 0.9999994039535522,
+      "enableCEPersistency": 0,
+      "customString": ""
+    }
+  ]
+}

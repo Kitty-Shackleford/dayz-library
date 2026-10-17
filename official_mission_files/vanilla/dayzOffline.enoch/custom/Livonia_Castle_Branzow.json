@@ -1,0 +1,324 @@
+{
+  "Objects": [
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1070.20751953125,
+        443.91912841796875,
+        11427.44921875
+      ],
+      "ypr": [
+        89.99998474121094,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1094.0089111328125,
+        442.785888671875,
+        11397.298828125
+      ],
+      "ypr": [
+        -172.68023681640625,
+        0,
+        -0
+      ],
+      "scale": 0.9999713897705078,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall2_Corner1",
+      "pos": [
+        1018.4857788085938,
+        442.31890869140625,
+        11402.4736328125
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_Corner2",
+      "pos": [
+        1103.552734375,
+        442.6192321777344,
+        11396.4599609375
+      ],
+      "ypr": [
+        152.99990844726562,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Bergfrit",
+      "pos": [
+        1077.573486328125,
+        453.65045166015625,
+        11419.56640625
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1091.7056884765625,
+        443.8209533691406,
+        11424.8095703125
+      ],
+      "ypr": [
+        0,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1047.0458984375,
+        442.4482727050781,
+        11401.095703125
+      ],
+      "ypr": [
+        -179.99989318847656,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Gate",
+      "pos": [
+        1027.5318603515625,
+        441.9703063964844,
+        11405.0888671875
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Bergfrit",
+      "pos": [
+        1103.97509765625,
+        454.7862548828125,
+        11420.5419921875
+      ],
+      "ypr": [
+        -90.08888244628906,
+        0,
+        -0
+      ],
+      "scale": 0.9999749064445496,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Stairs",
+      "pos": [
+        1084.6932373046875,
+        443.0455017089844,
+        11411.9638671875
+      ],
+      "ypr": [
+        -90.00003814697266,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1024.2718505859375,
+        444.1270446777344,
+        11428.982421875
+      ],
+      "ypr": [
+        -49.316078186035156,
+        0,
+        0
+      ],
+      "scale": 0.9999657869338989,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1017.138427734375,
+        443.916015625,
+        11411.369140625
+      ],
+      "ypr": [
+        -88.22350311279297,
+        0,
+        0
+      ],
+      "scale": 0.9999755620956421,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1040.863525390625,
+        444.0382080078125,
+        11436.490234375
+      ],
+      "ypr": [
+        0,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1067.27099609375,
+        442.5189514160156,
+        11400.5380859375
+      ],
+      "ypr": [
+        -176.88389587402344,
+        0,
+        -0
+      ],
+      "scale": 0.9999619126319885,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20_nolc",
+      "pos": [
+        1060.6826171875,
+        442.9090881347656,
+        11410.607421875
+      ],
+      "ypr": [
+        -90.00000762939453,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Yellow",
+      "pos": [
+        1069.402587890625,
+        446.0189514160156,
+        11406.3203125
+      ],
+      "ypr": [
+        0,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1061.4061279296875,
+        444.3616638183594,
+        11436.591796875
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Castle_Wall1_20",
+      "pos": [
+        1086.709228515625,
+        442.6982421875,
+        11398.4755859375
+      ],
+      "ypr": [
+        -171.0001220703125,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "DZ\\structures\\military\\misc\\misc_range_roof.p3d",
+      "pos": [
+        1074.05224609375,
+        445.1220703125,
+        11402.0986328125
+      ],
+      "ypr": [
+        -3.124419927597046,
+        0,
+        -0
+      ],
+      "scale": 0.999959409236908,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_FireBarrel_Green",
+      "pos": [
+        1078.1090087890625,
+        446.362060546875,
+        11401.0576171875
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    }
+  ]
+}

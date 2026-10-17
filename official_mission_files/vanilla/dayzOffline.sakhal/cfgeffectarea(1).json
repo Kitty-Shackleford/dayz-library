@@ -1,0 +1,140 @@
+{
+  "Areas": [
+    {
+      "AreaName": "Area1",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7200.49365234375,
+          2.457496166229248,
+          7078.12060546875
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area2",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7199.3466796875,
+          2.45760178565979,
+          7085.06298828125
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area3",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7198.06396484375,
+          2.461557149887085,
+          7091.97265625
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area4",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7210.31201171875,
+          2.4521617889404297,
+          7079.91845703125
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area5",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7209.1591796875,
+          2.4522674083709717,
+          7086.86181640625
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area6",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7207.875,
+          2.4562227725982666,
+          7093.76904296875
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area7",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7219.81396484375,
+          2.452160120010376,
+          7081.66552734375
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area8",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7218.6650390625,
+          2.452265739440918,
+          7088.607421875
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    },
+    {
+      "AreaName": "Area9",
+      "Type": "HotSpringArea",
+      "TriggerType": "HotSpringTrigger",
+      "Data": {
+        "Pos": [
+          7217.37841796875,
+          2.456221103668213,
+          7095.5205078125
+        ],
+        "Radius": 20,
+        "PosHeight": 10,
+        "NegHeight": 10
+      }
+    }
+  ],
+  "SafePositions": []
+}

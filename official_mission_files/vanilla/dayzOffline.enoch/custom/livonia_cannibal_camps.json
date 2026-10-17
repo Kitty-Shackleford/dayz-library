@@ -1,0 +1,1076 @@
+{
+  "Objects": [
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6401.11962890625,
+        285.6162109375,
+        5143.89990234375
+      ],
+      "ypr": [
+        44.99999237060547,
+        -0,
+        -0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House3",
+      "pos": [
+        6401.578125,
+        285.7037353515625,
+        5152.30859375
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House7",
+      "pos": [
+        6400.8037109375,
+        284.7242126464844,
+        5158.837890625
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Toilet_Dry",
+      "pos": [
+        6407.94384765625,
+        286.11761474609375,
+        5137.458984375
+      ],
+      "ypr": [
+        -152.9998016357422,
+        0,
+        -0
+      ],
+      "scale": 0.9999996423721313,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Greenhouse",
+      "pos": [
+        6403.0771484375,
+        284.9720458984375,
+        5164.19482421875
+      ],
+      "ypr": [
+        -173.0005340576172,
+        -0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Wreck_Volha_Grey",
+      "pos": [
+        6406.111328125,
+        284.8566589355469,
+        5140.36474609375
+      ],
+      "ypr": [
+        27,
+        -0,
+        -0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House2",
+      "pos": [
+        6404.5966796875,
+        284.9689636230469,
+        5168.37841796875
+      ],
+      "ypr": [
+        -80.99998474121094,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House4",
+      "pos": [
+        6404.91943359375,
+        285.57366943359375,
+        5173.83056640625
+      ],
+      "ypr": [
+        -53.99993896484375,
+        0,
+        0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House5",
+      "pos": [
+        6427.17431640625,
+        286.18328857421875,
+        5175.263671875
+      ],
+      "ypr": [
+        45.000038146972656,
+        -0,
+        -0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House6",
+      "pos": [
+        6413.1796875,
+        287.9207763671875,
+        5124.68701171875
+      ],
+      "ypr": [
+        -175.28392028808594,
+        0,
+        -0
+      ],
+      "scale": 0.9999984502792358,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House7",
+      "pos": [
+        6966.2080078125,
+        286.5688781738281,
+        4638.52001953125
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House7",
+      "pos": [
+        6962.4873046875,
+        286.5688171386719,
+        4638.53125
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6953.7021484375,
+        287.20513916015625,
+        4638.5244140625
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6947.18017578125,
+        287.1708068847656,
+        4631.39501953125
+      ],
+      "ypr": [
+        90.00003814697266,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House5",
+      "pos": [
+        6960.40625,
+        287.0111389160156,
+        4625.52294921875
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House6",
+      "pos": [
+        6969.42529296875,
+        287.46295166015625,
+        4625.80712890625
+      ],
+      "ypr": [
+        179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6940.26953125,
+        275.08746337890625,
+        4596.21923828125
+      ],
+      "ypr": [
+        126.00006103515625,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6936.775390625,
+        274.8064270019531,
+        4584.748046875
+      ],
+      "ypr": [
+        90.00006866455078,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        6951.041015625,
+        275.30743408203125,
+        4584.81103515625
+      ],
+      "ypr": [
+        -62.99997329711914,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House5",
+      "pos": [
+        6945.45849609375,
+        274.6653137207031,
+        4578.69091796875
+      ],
+      "ypr": [
+        -153.00006103515625,
+        0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Toilet_Mobile",
+      "pos": [
+        6941.77001953125,
+        274.3280944824219,
+        4581.05908203125
+      ],
+      "ypr": [
+        -151.1110076904297,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Toilet_Mobile",
+      "pos": [
+        6941.0400390625,
+        274.3228454589844,
+        4579.8115234375
+      ],
+      "ypr": [
+        35.99993896484375,
+        -0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Toilet_Mobile",
+      "pos": [
+        6938.29638671875,
+        286.79949951171875,
+        4640.53271484375
+      ],
+      "ypr": [
+        -60.89969253540039,
+        0,
+        -0
+      ],
+      "scale": 0.9999995231628418,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Toilet_Mobile",
+      "pos": [
+        6931.9765625,
+        286.5206298828125,
+        4631.39208984375
+      ],
+      "ypr": [
+        -70.9230728149414,
+        -0,
+        0
+      ],
+      "scale": 0.9999993443489075,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_DragonTeeth_Big",
+      "pos": [
+        7038.39404296875,
+        309.49163818359375,
+        4471.28466796875
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_DragonTeeth_Big",
+      "pos": [
+        7038.40234375,
+        309.70452880859375,
+        4462.17431640625
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_DragonTeeth_Big",
+      "pos": [
+        7042.98193359375,
+        309.3110656738281,
+        4479.92041015625
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_DragonTeeth_Big",
+      "pos": [
+        7042.990234375,
+        309.5239562988281,
+        4470.81005859375
+      ],
+      "ypr": [
+        -89.99995422363281,
+        0,
+        0
+      ],
+      "scale": 0.9999996423721313,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_TrailRoof_Big",
+      "pos": [
+        6911.583984375,
+        331.0813293457031,
+        4652.57470703125
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_BagFence_Corner",
+      "pos": [
+        6897.71826171875,
+        334.33123779296875,
+        4753.90771484375
+      ],
+      "ypr": [
+        44.99999237060547,
+        -0,
+        -0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_BagFence_Corner",
+      "pos": [
+        6899.75830078125,
+        334.0341491699219,
+        4755.97119140625
+      ],
+      "ypr": [
+        135.98599243164062,
+        0,
+        -13.499998092651367
+      ],
+      "scale": 0.9999964833259583,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_Pillbox",
+      "pos": [
+        6897.4736328125,
+        335.46234130859375,
+        4768.4736328125
+      ],
+      "ypr": [
+        -179.9998779296875,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_Pillbox",
+      "pos": [
+        6886.599609375,
+        336.61871337890625,
+        4750.56640625
+      ],
+      "ypr": [
+        -102.84259796142578,
+        0,
+        -0
+      ],
+      "scale": 0.9999976754188538,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6902.798828125,
+        333.2226257324219,
+        4718.5224609375
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6894.68701171875,
+        333.263427734375,
+        4712.1171875
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6900.22021484375,
+        333.17706298828125,
+        4718.4775390625
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6897.220703125,
+        333.3063659667969,
+        4712.18505859375
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999996423721313,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6903.40966796875,
+        332.2283630371094,
+        4703.9609375
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6895.2978515625,
+        331.94287109375,
+        4697.5556640625
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999996423721313,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6900.8310546875,
+        332.18280029296875,
+        4703.916015625
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999996423721313,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Roadblock_CncBlocks_short",
+      "pos": [
+        6897.83154296875,
+        331.9858093261719,
+        4697.62353515625
+      ],
+      "ypr": [
+        89.99995422363281,
+        -0,
+        -0
+      ],
+      "scale": 0.9999995827674866,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_Hedgehog_Concrete",
+      "pos": [
+        6907.1298828125,
+        332.5726013183594,
+        4715.8583984375
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_Hedgehog_Concrete",
+      "pos": [
+        6907.11328125,
+        332.1554870605469,
+        4708.95458984375
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_Hedgehog_Concrete",
+      "pos": [
+        6892.392578125,
+        332.87579345703125,
+        4707.7626953125
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_Hedgehog_Concrete",
+      "pos": [
+        6892.3369140625,
+        333.7284240722656,
+        4717.5849609375
+      ],
+      "ypr": [
+        0,
+        -0,
+        -0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_ConcretePipe",
+      "pos": [
+        7030.2919921875,
+        286.26556396484375,
+        4644.07177734375
+      ],
+      "ypr": [
+        -62.99997329711914,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_ConcretePipe",
+      "pos": [
+        7020.21044921875,
+        286.401611328125,
+        4653.55029296875
+      ],
+      "ypr": [
+        -22.788555145263672,
+        0,
+        0
+      ],
+      "scale": 0.9999988079071045,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_ConcretePipe",
+      "pos": [
+        7029.85888671875,
+        286.621337890625,
+        4647.12255859375
+      ],
+      "ypr": [
+        -62.99997329711914,
+        0,
+        0
+      ],
+      "scale": 0.9999997615814209,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Misc_ConcretePipe",
+      "pos": [
+        7023.44189453125,
+        286.6463317871094,
+        4653.73046875
+      ],
+      "ypr": [
+        120.99764251708984,
+        0,
+        -0
+      ],
+      "scale": 0.999998927116394,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        2046.25146484375,
+        225.12478637695312,
+        7245.34130859375
+      ],
+      "ypr": [
+        54.98575973510742,
+        -0,
+        -0
+      ],
+      "scale": 0.9999961853027344,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Blue",
+      "pos": [
+        2036.25,
+        223.5909423828125,
+        7254.94921875
+      ],
+      "ypr": [
+        -41.27393341064453,
+        -0,
+        0
+      ],
+      "scale": 0.9999988079071045,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_FuelStation_Feed",
+      "pos": [
+        2038.7080078125,
+        224.138671875,
+        7256.73046875
+      ],
+      "ypr": [
+        -36.00000762939453,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House2",
+      "pos": [
+        2051.995849609375,
+        224.48480224609375,
+        7239.0859375
+      ],
+      "ypr": [
+        -126.00006103515625,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House3",
+      "pos": [
+        2057.79443359375,
+        225.37144470214844,
+        7266.81591796875
+      ],
+      "ypr": [
+        61.453346252441406,
+        -0,
+        -0
+      ],
+      "scale": 0.9999986886978149,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House4",
+      "pos": [
+        2072.74755859375,
+        225.3369903564453,
+        7236.23974609375
+      ],
+      "ypr": [
+        62.99983596801758,
+        -0,
+        -0
+      ],
+      "scale": 0.9999999403953552,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House5",
+      "pos": [
+        2093.644287109375,
+        224.79078674316406,
+        7260.33056640625
+      ],
+      "ypr": [
+        57.30507278442383,
+        0,
+        -0
+      ],
+      "scale": 0.9999984502792358,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House6",
+      "pos": [
+        2082.730224609375,
+        224.9080810546875,
+        7287.06591796875
+      ],
+      "ypr": [
+        56.65725326538086,
+        -0,
+        -0
+      ],
+      "scale": 0.9999979138374329,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House7",
+      "pos": [
+        2086.373291015625,
+        224.5420684814453,
+        7282.71923828125
+      ],
+      "ypr": [
+        -121.82734680175781,
+        0,
+        -0
+      ],
+      "scale": 0.9999970197677612,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Slum_Roof1",
+      "pos": [
+        2060.127685546875,
+        224.23983764648438,
+        7238.83349609375
+      ],
+      "ypr": [
+        149.37832641601562,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Slum_Roof1",
+      "pos": [
+        2055.823486328125,
+        224.22531127929688,
+        7236.31396484375
+      ],
+      "ypr": [
+        149.37832641601562,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "StaticObj_Slum_Roof1",
+      "pos": [
+        2064.218017578125,
+        224.2532501220703,
+        7241.17236328125
+      ],
+      "ypr": [
+        149.37832641601562,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House1",
+      "pos": [
+        7668.6845703125,
+        258.8659362792969,
+        6632.3037109375
+      ],
+      "ypr": [
+        -62.99978256225586,
+        0,
+        0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House5",
+      "pos": [
+        7664.74462890625,
+        258.33538818359375,
+        6641.3115234375
+      ],
+      "ypr": [
+        26.999988555908203,
+        -0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House7",
+      "pos": [
+        7654.89697265625,
+        257.0909729003906,
+        6629.59326171875
+      ],
+      "ypr": [
+        116.9999008178711,
+        0,
+        -0
+      ],
+      "scale": 1,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House3",
+      "pos": [
+        7657.09716796875,
+        257.57293701171875,
+        6647.02197265625
+      ],
+      "ypr": [
+        -120.78377532958984,
+        -0,
+        -0
+      ],
+      "scale": 0.9999995231628418,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Slum_House2",
+      "pos": [
+        7648.271484375,
+        256.1471252441406,
+        6643.3798828125
+      ],
+      "ypr": [
+        -35.999977111816406,
+        0,
+        0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    },
+    {
+      "name": "Land_Misc_Well_Pump_Yellow",
+      "pos": [
+        7665.05078125,
+        257.50653076171875,
+        6631.4580078125
+      ],
+      "ypr": [
+        125.99990844726562,
+        0,
+        -0
+      ],
+      "scale": 0.9999998211860657,
+      "enableCEPersistency": 0,
+      "customString": ""
+    }
+  ]
+}

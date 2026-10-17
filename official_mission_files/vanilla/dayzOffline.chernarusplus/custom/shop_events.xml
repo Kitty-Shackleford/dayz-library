@@ -1,0 +1,111 @@
+<events>
+	<!-- DayZ Shop | "Grey Olga" | class: CivilianSedan | shop item #1 -->
+	<event name="VehicleRental139AA">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Sedan_02"></child>
+		</children>
+	</event>
+	<!-- DayZ Shop | "Red Gunter" | class: Hatchback_02 | shop item #149 -->
+	<event name="VehicleRental142A">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Hatchback_02"></child>
+		</children>
+	</event>
+	<!-- DayZ Shop | "Green ADA" | class: OffroadHatchback | shop item #150 -->
+	<event name="VehicleRental141A">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="OffroadHatchback"></child>
+		</children>
+	</event>
+	<!-- DayZ Shop | "Green Truck" | class: Truck_01_Covered | shop item #151 -->
+	<event name="VehicleRental140A">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered"></child>
+		</children>
+	</event>
+	<!-- DayZ Shop | "Orange Truck" | class: Truck_01_Covered_Orange | shop item #152 -->
+	<event name="VehicleRental143A">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="Truck_01_Covered_Orange"></child>
+		</children>
+	</event>
+	<!-- DayZ Shop | "Green ADA" | class: OffroadHatchback | shop item #150 -->
+	<event name="VehicleRental155A">
+		<nominal>1</nominal>
+		<min>1</min>
+		<max>1</max>
+		<lifetime>600</lifetime>
+		<restock>0</restock>
+		<saferadius>10</saferadius>
+		<distanceradius>10</distanceradius>
+		<cleanupradius>10</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"></flags>
+		<position>fixed</position>
+		<limit>child</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="OffroadHatchback"></child>
+		</children>
+	</event>
+	
+</events>
