@@ -1,3 +1,281 @@
+// =====================================================================
+//  Nasadara mission init -- vanilla mission + Dog Tamer v1
+//
+//
+//  Dog taming: stand within ~3 m of a wild guard dog -> it tames to you.
+//  Tamed dogs follow you (70 m leash) and bite nearby infected.
+// =====================================================================
+
+class DogTamerConstants
+{
+    static const float TAME_RADIUS   = 3.0;
+    static const float FOLLOW_RADIUS = 20.0;
+    static const float LEASH_RADIUS  = 70.0;
+    static const float GUARD_RADIUS  = 12.0;
+    static const float BITE_RANGE    = 2.8;
+    static const float BITE_DAMAGE   = 3.0;
+    static const float FOLLOW_OFFSET = 1.6;
+    static const float FOLLOW_LERP   = 0.55;
+    static const int   TICK_MS       = 300;
+    static const int   SCAN_EVERY    = 3;
+}
+
+class TamedDog
+{
+    EntityAI   m_Dog;
+    DayZPlayer m_Owner;
+    string     m_OwnerName;
+    string     m_Breed;
+
+    void TamedDog(ref EntityAI dog, ref DayZPlayer owner, string breed)
+    {
+        m_Dog = dog;
+        m_Owner = owner;
+        m_Breed = breed;
+        if (owner)
+            m_OwnerName = owner.GetName();
+        else
+            m_OwnerName = "";
+    }
+
+    bool OwnerAlive()
+    {
+        return m_Owner != null && m_Owner.IsAlive();
+    }
+}
+
+ref DogTamer g_Tamer;
+
+class DogTamer
+{
+    ref array<TamedDog> m_Tamed;
+    int                 m_TickCount;
+
+    void DogTamer()
+    {
+        m_Tamed = new array<TamedDog>();
+        m_TickCount = 0;
+    }
+
+    // identify breed by type cast (works for any variant subclass)
+    static string BreedOf(ref EntityAI e)
+    {
+        if (Animal_CanisFamiliaris_Dobermann_ColorBase.Cast(e))
+            return "Dobermann";
+        if (Animal_CanisFamiliaris_GermanShepherd_ColorBase.Cast(e))
+            return "GermanShepherd";
+        return "";
+    }
+
+    void Tick()
+    {
+        if (!g_Game || !g_Game.IsDedicatedServer())
+            return;
+
+        m_TickCount++;
+
+        // follow every tick (cheap); spatial scans throttled to every 3rd
+        bool doScan = (m_TickCount % DogTamerConstants.SCAN_EVERY == 0);
+        for (int i = 0; i < m_Tamed.Count(); i++)
+        {
+            ref TamedDog td = m_Tamed[i];
+            if (!td.m_Dog || !td.m_Dog.IsAlive())
+                continue;
+            Follow(td);
+            if (doScan)
+                Guard(td);
+        }
+        if (doScan)
+            TameScan();
+    }
+
+    // ---------------- follow behavior --------------------------------
+    void Follow(ref TamedDog td)
+    {
+        if (!td.OwnerAlive())
+            return;
+
+        vector op = td.m_Owner.GetPosition();
+        vector dp = td.m_Dog.GetPosition();
+        float dist = Dist(dp, op);
+
+        if (dist <= DogTamerConstants.FOLLOW_RADIUS)
+        {
+            vector dir = td.m_Owner.GetDirection();
+            vector behind = Vector(
+                op[0] - dir[0] * DogTamerConstants.FOLLOW_OFFSET,
+                dp[1],
+                op[2] - dir[2] * DogTamerConstants.FOLLOW_OFFSET);
+            if (dist > 0.5)
+                MoveTowards(td.m_Dog, dp, behind, DogTamerConstants.FOLLOW_LERP);
+            td.m_Dog.SetOrientation(td.m_Owner.GetOrientation());
+        }
+        else if (dist <= DogTamerConstants.LEASH_RADIUS)
+        {
+            MoveTowards(td.m_Dog, dp, op, 0.08);
+        }
+    }
+
+    void MoveTowards(EntityAI ent, vector from, vector to, float t)
+    {
+        vector np = Vector(
+            from[0] + (to[0] - from[0]) * t,
+            from[1] + (to[1] - from[1]) * t,
+            from[2] + (to[2] - from[2]) * t);
+        ent.SetPosition(np);
+    }
+
+    float Dist(vector a, vector b)
+    {
+        float dx = a[0] - b[0];
+        float dy = a[1] - b[1];
+        float dz = a[2] - b[2];
+        return Math.Sqrt(dx * dx + dy * dy + dz * dz);
+    }
+
+    // ---------------- guard behavior (bite infected) -----------------
+    void Guard(ref TamedDog td)
+    {
+        if (!td.OwnerAlive())
+            return;
+
+        vector dogPos = td.m_Dog.GetPosition();
+        ref EntityAI target = NearestInfected(dogPos, DogTamerConstants.GUARD_RADIUS);
+        if (!target)
+            return;
+
+        float tdist = Dist(dogPos, target.GetPosition());
+        if (tdist <= DogTamerConstants.BITE_RANGE)
+            Bite(target, DogTamerConstants.BITE_DAMAGE);
+        else
+            MoveTowards(td.m_Dog, dogPos, target.GetPosition(), 0.5);
+    }
+
+    void Bite(EntityAI target, float dmg)
+    {
+        float h = target.GetHealth();
+        if (h > 0.0)
+            target.SetHealth(h - dmg);
+    }
+
+    ref EntityAI NearestInfected(vector center, float radius)
+    {
+        vector min = Vector(center[0] - radius, center[1] - radius, center[2] - radius);
+        vector max = Vector(center[0] + radius, center[1] + radius, center[2] + radius);
+        ref array<EntityAI> list = new array<EntityAI>();
+        DayZPlayerUtils.SceneGetEntitiesInBox(min, max, list);
+
+        ref EntityAI best = null;
+        float bestDist = radius;
+        for (int i = 0; i < list.Count(); i++)
+        {
+            EntityAI e = list[i];
+            if (!e || !e.IsAlive())
+                continue;
+            if (!ZombieBase.Cast(e))
+                continue;
+            float d = Dist(center, e.GetPosition());
+            if (d < bestDist)
+            {
+                bestDist = d;
+                best = e;
+            }
+        }
+        return best;
+    }
+
+    // ---------------- proximity taming -------------------------------
+    void TameScan()
+    {
+        ref array<Man> players = new array<Man>();
+        g_Game.GetPlayers(players);
+        for (int i = 0; i < players.Count(); i++)
+        {
+            ref DayZPlayer player = DayZPlayer.Cast(players[i]);
+            if (!player || !player.IsAlive())
+                continue;
+            if (OwnedDog(player))
+                continue;
+            ref EntityAI dog = NearestWildDog(player.GetPosition(), DogTamerConstants.TAME_RADIUS);
+            if (dog)
+            {
+                NeutralizeAI(dog);
+                ref TamedDog td = new TamedDog(dog, player, BreedOf(dog));
+                m_Tamed.InsertAt(td, m_Tamed.Count());
+                Print(string.Format("[DogTamer] %1 tamed a %2", player.GetName(), td.m_Breed));
+            }
+        }
+    }
+
+    ref EntityAI NearestWildDog(vector center, float radius)
+    {
+        vector min = Vector(center[0] - radius, center[1] - radius, center[2] - radius);
+        vector max = Vector(center[0] + radius, center[1] + radius, center[2] + radius);
+        ref array<EntityAI> list = new array<EntityAI>();
+        DayZPlayerUtils.SceneGetEntitiesInBox(min, max, list);
+
+        ref EntityAI best = null;
+        float bestDist = radius;
+        for (int i = 0; i < list.Count(); i++)
+        {
+            EntityAI e = list[i];
+            if (!e || !e.IsAlive())
+                continue;
+            if (BreedOf(e) == "")
+                continue;
+            if (IsAlreadyTamed(e))
+                continue;
+            float d = Dist(center, e.GetPosition());
+            if (d < bestDist)
+            {
+                bestDist = d;
+                best = e;
+            }
+        }
+        return best;
+    }
+
+    void NeutralizeAI(EntityAI dog)
+    {
+        ref DayZAnimal animal = DayZAnimal.Cast(dog);
+        if (animal)
+            animal.DestroyAIAgent();
+    }
+
+    ref TamedDog OwnedDog(ref DayZPlayer player)
+    {
+        for (int i = 0; i < m_Tamed.Count(); i++)
+        {
+            ref TamedDog td = m_Tamed[i];
+            if (td.m_Owner == player)
+                return td;
+        }
+        return null;
+    }
+
+    bool IsAlreadyTamed(EntityAI dog)
+    {
+        for (int i = 0; i < m_Tamed.Count(); i++)
+        {
+            ref TamedDog td = m_Tamed[i];
+            if (td.m_Dog == dog)
+                return true;
+        }
+        return false;
+    }
+}
+
+// ---- global tick ----------------------------------------------------
+void TamerTick()
+{
+    if (g_Tamer)
+        g_Tamer.Tick();
+}
+
+
+// =====================================================================
+//  Vanilla mission (unchanged, plus the OnInit hook above)
+// =====================================================================
 void main()
 {
 	//INIT ECONOMY--------------------------------------
@@ -94,6 +372,17 @@ class CustomMission: MissionServer
 		player.GetStatWater().Set( 1000 );
 		player.GetStatEnergy().Set( 800 );
 	}
+
+	// ---- DogTamer v1 hook (merged from init.c_tameable) ----
+	override void OnInit()
+	{
+		super.OnInit();   // base MissionServer init (PlayerSpawnHandler, CfgGameplayHandler, etc.)
+		g_Tamer = new DogTamer();
+		g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(TamerTick,
+			DogTamerConstants.TICK_MS, true);
+		Print("[DogTamer] taming mechanic active (nasdara)");
+	}
+
 };
 
 Mission CreateCustomMission(string path)
