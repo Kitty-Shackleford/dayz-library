@@ -1,6 +1,5 @@
 // =====================================================================
-//  Nasadara mission init -- vanilla mission + Dog Tamer v1
-//
+//  Nasadara mission init -- vanilla mission + Dog Tamer v2 
 //
 //  Dog taming: stand within ~3 m of a wild guard dog -> it tames to you.
 //  Tamed dogs follow you (70 m leash) and bite nearby infected.
@@ -8,30 +7,38 @@
 
 class DogTamerConstants
 {
-    static const float TAME_RADIUS   = 3.0;
-    static const float FOLLOW_RADIUS = 20.0;
-    static const float LEASH_RADIUS  = 70.0;
-    static const float GUARD_RADIUS  = 12.0;
-    static const float BITE_RANGE    = 2.8;
-    static const float BITE_DAMAGE   = 3.0;
-    static const float FOLLOW_OFFSET = 1.6;
-    static const float FOLLOW_LERP   = 0.55;
-    static const int   TICK_MS       = 300;
-    static const int   SCAN_EVERY    = 3;
+    static const float TAME_RADIUS    = 3.0;
+    static const float FOLLOW_RADIUS  = 20.0;
+    static const float LEASH_RADIUS   = 70.0;
+    static const float GUARD_RADIUS   = 12.0;
+    static const float COMMAND_RADIUS = 15.0;
+    static const float BITE_RANGE     = 2.8;
+    static const float BITE_DAMAGE    = 3.0;
+    static const float FOLLOW_OFFSET  = 1.6;
+    static const float FOLLOW_LERP    = 0.55;
+    static const int   TICK_MS        = 300;
+    static const int   SCAN_EVERY     = 3;
+
+    // dog states
+    static const int STATE_FOLLOW = 0;
+    static const int STATE_STAY   = 1;
+    static const int STATE_ATTACK = 2;
 }
 
 class TamedDog
 {
     EntityAI   m_Dog;
-    DayZPlayer m_Owner;
+    PlayerBase m_Owner;
     string     m_OwnerName;
     string     m_Breed;
+    int        m_State;
 
-    void TamedDog(ref EntityAI dog, ref DayZPlayer owner, string breed)
+    void TamedDog(EntityAI dog, PlayerBase owner, string breed)
     {
         m_Dog = dog;
         m_Owner = owner;
         m_Breed = breed;
+        m_State = DogTamerConstants.STATE_FOLLOW;
         if (owner)
             m_OwnerName = owner.GetName();
         else
@@ -57,8 +64,8 @@ class DogTamer
         m_TickCount = 0;
     }
 
-    // identify breed by type cast (works for any variant subclass)
-    static string BreedOf(ref EntityAI e)
+    // ---- identification helpers -----------------------------------
+    static string BreedOf(EntityAI e)
     {
         if (Animal_CanisFamiliaris_Dobermann_ColorBase.Cast(e))
             return "Dobermann";
@@ -67,15 +74,75 @@ class DogTamer
         return "";
     }
 
+    static int CurrentEmote(PlayerBase player)
+    {
+        EmoteManager em = player.GetEmoteManager();
+        if (!em)
+            return -1;
+        if (!em.IsEmotePlaying())
+            return -1;
+        EmoteLauncher l = em.GetEmoteLauncher();
+        if (!l)
+            return -1;
+        return l.GetID();
+    }
+
+    static string HeldType(PlayerBase player)
+    {
+        ItemBase it = player.GetItemInHands();
+        if (!it)
+            return "";
+        return it.GetType();
+    }
+
+    static bool IsAnimalMeat(string cn)
+    {
+        if (cn == "ChickenBreastMeat")      return true;
+        if (cn == "CarpFilletMeat")         return true;
+        if (cn == "CatfishFilletMeat")      return true;
+        if (cn == "MackerelFilletMeat")     return true;
+        if (cn == "Carp")                   return true;
+        if (cn == "Catfish")                return true;
+        if (cn == "Mackerel")               return true;
+        if (cn == "Sardines")               return true;
+        if (cn == "Shrimp")                 return true;
+        if (cn == "RoundGoby")              return true;
+        if (cn == "Bitterlings")            return true;
+        if (cn == "SteelheadTrout")         return true;
+        if (cn == "WalleyePollock")         return true;
+        if (cn == "SteelheadTroutFilletMeat") return true;
+        if (cn == "WalleyePollockFilletMeat") return true;
+        if (cn == "BearSteakMeat")          return true;
+        if (cn == "BoarSteakMeat")          return true;
+        if (cn == "CowSteakMeat")           return true;
+        if (cn == "DeerSteakMeat")          return true;
+        if (cn == "DogSteakMeat")           return true;
+        if (cn == "FoxSteakMeat")           return true;
+        if (cn == "GoatSteakMeat")          return true;
+        if (cn == "MouflonSteakMeat")       return true;
+        if (cn == "PigSteakMeat")           return true;
+        if (cn == "RabbitLegMeat")          return true;
+        if (cn == "ReindeerSteakMeat")      return true;
+        if (cn == "SheepSteakMeat")         return true;
+        if (cn == "WolfSteakMeat")          return true;
+        if (cn == "LizardMeat")             return true;
+        return false;
+    }
+
+    static bool IsHumanMeat(string cn)
+    {
+        return cn == "HumanSteakMeat";
+    }
+
+    // ---- main tick ------------------------------------------------
     void Tick()
     {
         if (!g_Game || !g_Game.IsDedicatedServer())
             return;
 
         m_TickCount++;
-
-        // follow every tick (cheap); spatial scans throttled to every 3rd
         bool doScan = (m_TickCount % DogTamerConstants.SCAN_EVERY == 0);
+
         for (int i = 0; i < m_Tamed.Count(); i++)
         {
             ref TamedDog td = m_Tamed[i];
@@ -85,15 +152,79 @@ class DogTamer
             if (doScan)
                 Guard(td);
         }
-        if (doScan)
-            TameScan();
+
+        HandleEmotes();
     }
 
-    // ---------------- follow behavior --------------------------------
+    // ---- emote commands -------------------------------------------
+    void HandleEmotes()
+    {
+        ref array<Man> players = new array<Man>();
+        g_Game.GetPlayers(players);
+        for (int i = 0; i < players.Count(); i++)
+        {
+            PlayerBase player = PlayerBase.Cast(players[i]);
+            if (!player || !player.IsAlive())
+                continue;
+
+            int emote = CurrentEmote(player);
+            if (emote < 0)
+                continue;
+
+            vector pp = player.GetPosition();
+            ref TamedDog own = OwnedDog(player);
+
+            // TAME: GREETING + animal meat + no current dog + wild dog nearby
+            if (emote == EmoteConstants.ID_EMOTE_GREETING)
+            {
+                if (!own && IsAnimalMeat(HeldType(player)))
+                {
+                    ref EntityAI dog = NearestWildDog(pp, DogTamerConstants.TAME_RADIUS);
+                    if (dog)
+                    {
+                        NeutralizeAI(dog);
+                        ref TamedDog td = new TamedDog(dog, player, BreedOf(dog));
+                        m_Tamed.InsertAt(td, m_Tamed.Count());
+                        Print(string.Format("[DogTamer] %1 tamed a %2 (emote+meat)", player.GetName(), td.m_Breed));
+                    }
+                }
+                continue;
+            }
+
+            // COMMANDS on the player's own dog (must be within command radius)
+            if (!own)
+                continue;
+            float ownDist = Dist(pp, own.m_Dog.GetPosition());
+            if (ownDist > DogTamerConstants.COMMAND_RADIUS)
+                continue;
+
+            if (emote == EmoteConstants.ID_EMOTE_COME)
+            {
+                own.m_State = DogTamerConstants.STATE_FOLLOW;
+            }
+            else if (emote == EmoteConstants.ID_EMOTE_SILENT)
+            {
+                own.m_State = DogTamerConstants.STATE_STAY;
+            }
+            else if (emote == EmoteConstants.ID_EMOTE_TAUNT)
+            {
+                own.m_State = DogTamerConstants.STATE_ATTACK;
+            }
+            else if (emote == EmoteConstants.ID_EMOTE_SURRENDER && IsHumanMeat(HeldType(player)))
+            {
+                RemoveTamed(own);
+                Print(string.Format("[DogTamer] %1 untamed their dog (human meat)", player.GetName()));
+            }
+        }
+    }
+
+    // ---- follow behavior ------------------------------------------
     void Follow(ref TamedDog td)
     {
         if (!td.OwnerAlive())
             return;
+        if (td.m_State != DogTamerConstants.STATE_FOLLOW)
+            return;   // STAY / ATTACK: Guard() or no movement
 
         vector op = td.m_Owner.GetPosition();
         vector dp = td.m_Dog.GetPosition();
@@ -133,16 +264,29 @@ class DogTamer
         return Math.Sqrt(dx * dx + dy * dy + dz * dz);
     }
 
-    // ---------------- guard behavior (bite infected) -----------------
+    // ---- guard / attack -------------------------------------------
     void Guard(ref TamedDog td)
     {
         if (!td.OwnerAlive())
             return;
 
         vector dogPos = td.m_Dog.GetPosition();
+        bool wantsAttack = (td.m_State == DogTamerConstants.STATE_ATTACK);
+
+        if (!wantsAttack)
+        {
+            float ownerDist = Dist(dogPos, td.m_Owner.GetPosition());
+            if (ownerDist > DogTamerConstants.GUARD_RADIUS)
+                return;
+        }
+
         ref EntityAI target = NearestInfected(dogPos, DogTamerConstants.GUARD_RADIUS);
         if (!target)
+        {
+            if (wantsAttack)
+                td.m_State = DogTamerConstants.STATE_FOLLOW;
             return;
+        }
 
         float tdist = Dist(dogPos, target.GetPosition());
         if (tdist <= DogTamerConstants.BITE_RANGE)
@@ -184,29 +328,7 @@ class DogTamer
         return best;
     }
 
-    // ---------------- proximity taming -------------------------------
-    void TameScan()
-    {
-        ref array<Man> players = new array<Man>();
-        g_Game.GetPlayers(players);
-        for (int i = 0; i < players.Count(); i++)
-        {
-            ref DayZPlayer player = DayZPlayer.Cast(players[i]);
-            if (!player || !player.IsAlive())
-                continue;
-            if (OwnedDog(player))
-                continue;
-            ref EntityAI dog = NearestWildDog(player.GetPosition(), DogTamerConstants.TAME_RADIUS);
-            if (dog)
-            {
-                NeutralizeAI(dog);
-                ref TamedDog td = new TamedDog(dog, player, BreedOf(dog));
-                m_Tamed.InsertAt(td, m_Tamed.Count());
-                Print(string.Format("[DogTamer] %1 tamed a %2", player.GetName(), td.m_Breed));
-            }
-        }
-    }
-
+    // ---- taming / removal -----------------------------------------
     ref EntityAI NearestWildDog(vector center, float radius)
     {
         vector min = Vector(center[0] - radius, center[1] - radius, center[2] - radius);
@@ -242,7 +364,7 @@ class DogTamer
             animal.DestroyAIAgent();
     }
 
-    ref TamedDog OwnedDog(ref DayZPlayer player)
+    ref TamedDog OwnedDog(PlayerBase player)
     {
         for (int i = 0; i < m_Tamed.Count(); i++)
         {
@@ -263,6 +385,18 @@ class DogTamer
         }
         return false;
     }
+
+    void RemoveTamed(ref TamedDog target)
+    {
+        ref array<TamedDog> keep = new array<TamedDog>();
+        for (int i = 0; i < m_Tamed.Count(); i++)
+        {
+            ref TamedDog td = m_Tamed[i];
+            if (td != target)
+                keep.InsertAt(td, keep.Count());
+        }
+        m_Tamed = keep;
+    }
 }
 
 // ---- global tick ----------------------------------------------------
@@ -271,6 +405,8 @@ void TamerTick()
     if (g_Tamer)
         g_Tamer.Tick();
 }
+
+// ---- boundary marker (the merge cuts everything before this) --------
 
 
 // =====================================================================
