@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventgroupdef>    
+	<group name="SpookyCamp">
+		<child type="Bonfire" x="0" z="0" a="0"/>
+		<child type="Land_Misc_WoodenCrate_Spawn_DE" x="3.5" z="-2" a="20"/>
+		<child type="Land_Misc_WoodenCrate_Spawn_DE" x="-3" z="2.5" a="160"/>
+		<child type="Haybale" x="6" z="3.5" a="0"/>
+		<child type="Haybale" x="-6.5" z="-4" a="0"/>
+		<child type="Land_Wreck_Pickup01_Aban_Blue" x="12" z="8" a="35"/>
+		<child type="Land_Wreck_Ikarus_DE" x="-14" z="-9" a="150"/>
+	</group>
+</eventgroupdef>

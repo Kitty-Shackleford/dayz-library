@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventposdef>
+		<event name="StaticSpookyCamp">
+				<pos x="3714.200000" z="10925.500000" a="0" group="SpookyCamp" />
+				<pos x="7971.500000" z="8008.000000" a="45" group="SpookyCamp" />
+				<pos x="3531.400000" z="12815.000000" a="90" group="SpookyCamp" />
+				<pos x="11084.300000" z="7627.800000" a="135" group="SpookyCamp" />
+				<pos x="4414.100000" z="14461.200000" a="180" group="SpookyCamp" />
+				<pos x="13779.600000" z="12761.000000" a="270" group="SpookyCamp" />
+		</event>
+		<event name="StaticBonfire">
+				<pos x="8796.000000" z="9934.600000" />
+				<pos x="2696.300000" z="9692.600000" />
+				<pos x="5460.300000" z="6111.600000" />
+				<pos x="3435.600000" z="4933.100000" />
+		</event>
+		<event name="InfectedSpooky" />
+</eventposdef>

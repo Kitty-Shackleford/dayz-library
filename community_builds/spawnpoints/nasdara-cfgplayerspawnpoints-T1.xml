@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<playerspawnpoints>
+    <!--Spawn points settings for newly created player characters-->
+    <fresh>
+        <!--
+            Settings that are evaluated at runtime when a new character spawns in and needs a spawnpoint.
+            This is used to calculate a score, the higher the score, the more likely a character is to spawn there.
+            
+            distance:    0           min    mid    max          MAX
+                         |============|======|======|============|
+            score:      -1           0.1    1.1    0.1           0
+            
+            It is very little likely that a spawnpoint will be chosen if it is within the min distance of something.
+            Do note that the score is also influenced by weights and the static score calculated by generator_params.
+        -->
+        <spawn_params>
+            <!--Minimum distance from infected in meters (weight: 2x)-->
+            <min_dist_infected>30</min_dist_infected>
+            <!--Maximum distance from infected in meters (weight: 2x)-->
+            <max_dist_infected>70</max_dist_infected>
+            <!--Minimum distance from players in meters (weight: 3x)-->
+            <min_dist_player>65</min_dist_player>
+            <!--Maximum distance from players in meters (weight: 3x)-->
+            <max_dist_player>150</max_dist_player>
+            <!--Minimum distance from static objects in meters (weight: 1x)-->
+            <min_dist_static>0</min_dist_static>
+            <!--Maximum distance from static objects in meters (weight: 1x)-->
+            <max_dist_static>2</max_dist_static>
+            <!--Minimum distance from static objects in meters (weight: 6x)-->
+            <min_dist_trigger>50</min_dist_trigger>
+            <!--Maximum distance from static objects in meters (weight: 6x)-->
+            <max_dist_trigger>100</max_dist_trigger>
+        </spawn_params>
+        <!--
+            Spawn points are generated around <pos> child elements under the <generator_posbubbles> element.
+            A rectangle is created with the <pos> as the center and the provided grid dimensions.
+            This rectangle is then sampled for spawn point candidates in the form of a grid.
+            The points have a score assigned and the better score, the more likely it is to be chosen.
+            Generated spawn points which overlap with objects or water are discarded.
+        -->
+        <generator_params>
+            <!--
+                Density is sample frequency of created rectangle.
+                The value must be at least 1 and can't be larger than the smallest dimension.
+                When set to 0, it takes only the center point as the spawnpoint.
+                
+                example:                         example:
+                  density 4                        density 8
+                
+                grid will look like this:        grid will look like this:
+                
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                
+                Every 'O' represents a spawn point candidate.
+                Blank areas are space between each spawn point.
+                Width of each area is exactly width / density.
+                Height of each area is exactly height / density.
+            -->
+            <grid_density>4</grid_density>
+            <!--Total width of grid in metres (1 - 4096)-->
+            <grid_width>200</grid_width>
+            <!--Total height of grid in metres (1 - 4096)-->
+            <grid_height>200</grid_height>
+            <!--
+                Minimum distance from static objects
+                (points below this will be discarded during binarisation)
+            -->
+            <min_dist_static>0</min_dist_static>
+            <!--
+                Maximum distance from static objects
+                (points above this will just be less likely than those within the range)
+            -->
+            <max_dist_static>2</max_dist_static>
+            <!--
+                Minimum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <min_steepness>-45</min_steepness>
+            <!--
+                Maximum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <max_steepness>45</max_steepness>
+            <!--Enables spawnpoints in water (default: false)-->
+            <allow_in_water>false</allow_in_water>
+        </generator_params>
+        <!--Parameters controlling group spawning behaviour-->
+        <group_params>
+            <!--Enables the group spawning behaviour (default: false)-->
+            <enablegroups>true</enablegroups>
+            <!--Enables using spawn points listed in groups as regular spawn points when enablegroups is disabled (default: true)-->
+            <groups_as_regular>true</groups_as_regular>
+            <!--The default lifetime for a group in seconds, -1 means disabled (default: -1)-->
+            <lifetime>240</lifetime>
+            <!--The default counter for a group, -1 means disabled (default: -1)-->
+            <counter>-1</counter>
+        </group_params>
+        <!--Centers for grids of spawn points-->
+        <generator_posbubbles>
+            <!--
+                Spawn groups (<group>) are groups that will be selected for a certain period of time (lifetime) or spawns (counter).
+                Groups are chosen randomly, ignoring the current and the group which was selected most recently before it.
+                
+                When only lifetime is filled in, the group will be alive for the amount of seconds specified.
+                If a player logs in after the lifetime has run out, the group will automatically be swapped.
+                
+                When only counter is filled in, the group will only be active for that many logins.
+                The system will choose a new group once this counter has reached 0.
+                
+                When both are active, the lifetime will be ticking down, but when a player logs in, the lifetime will be refreshed.
+                As long as the counter is not 0, the lifetime will continue to be refreshed when a player logs in before the lifetime runs out.
+                
+                Be aware that this is only checked on player log in, so it will not swap for as long as nobody is logging in.
+            -->
+            <group name="AllSpawnpoints" lifetime="0">
+                <pos x="14069.808594" z="13083.109375" />
+                <pos x="13571.811523" z="12821.112305" />
+                <pos x="13400.915039" z="11966.529297" />
+                <pos x="13282.304688" z="12401.000977" />
+                <pos x="12512.414063" z="12863.467773" />
+                <pos x="11440.970703" z="12169.095703" />
+                <pos x="10862.637695" z="11663.675781" />
+                <pos x="10186.566406" z="12018.264648" />
+                <pos x="10262.566406" z="13160.295898" />
+                <pos x="8906.655273" z="12133.699219" />
+                <pos x="8681.69043" z="13286.759766" />
+                <pos x="8125.182617" z="13367.421875" />
+                <pos x="7776.975586" z="12732.59375" />
+                <pos x="7448.172363" z="13488.839844" />
+                <pos x="6898" z="13612.086914" />
+                <pos x="5478.358887" z="13765.376953" />
+                <pos x="5173.121094" z="13392.959961" />
+                <pos x="6173.647461" z="13440.870117" />
+                <pos x="8240.628906" z="12159.977539" />
+                <pos x="9705.84082" z="12237.535156" />
+            </group>
+            <!--TIER 1 — major cities (fresh-player spawn priority)-->
+            <group name="Ziarat District" lifetime="260" counter="-1">
+                <pos x="10316.5162" z="4168.4677" />
+                <pos x="10184.0169" z="4275.0964" />
+                <pos x="9965.6306" z="4341.2848" />
+                <pos x="9995.7563" z="4207.9314" />
+                <pos x="10002.7899" z="4001.0497" />
+                <pos x="10228.0065" z="4019.8989" />
+            </group>
+            <group name="Shah Yailaq" lifetime="260" counter="-1">
+                <pos x="10631.8502" z="8293.3236" />
+                <pos x="10460.8424" z="8575.6585" />
+                <pos x="10200.3040" z="8442.8663" />
+                <pos x="10046.6492" z="8274.9087" />
+                <pos x="10219.9962" z="7989.0600" />
+                <pos x="10398.5715" z="8042.7312" />
+            </group>
+            <group name="Dashtabad" lifetime="260" counter="-1">
+                <pos x="11030.3839" z="10815.0763" />
+                <pos x="10894.2307" z="11019.6342" />
+                <pos x="10489.1132" z="10913.9306" />
+                <pos x="10388.4413" z="10786.0184" />
+                <pos x="10545.1443" z="10656.4598" />
+                <pos x="10855.2334" z="10646.3557" />
+            </group>
+            <group name="Nasdara" lifetime="260" counter="-1">
+                <pos x="9950.9635" z="4037.9634" />
+                <pos x="9784.0827" z="4195.7703" />
+                <pos x="9414.1154" z="4189.6767" />
+                <pos x="9466.0260" z="4059.2619" />
+                <pos x="9481.8150" z="3974.8918" />
+                <pos x="9663.2350" z="3948.0434" />
+            </group>
+            <group name="Pesh Kuh" lifetime="260" counter="-1">
+                <pos x="4030.1068" z="10963.8316" />
+                <pos x="3816.5356" z="11151.2639" />
+                <pos x="3642.5209" z="11089.3058" />
+                <pos x="3380.8159" z="10944.7146" />
+                <pos x="3647.0738" z="10711.3276" />
+                <pos x="3801.3610" z="10714.3420" />
+            </group>
+            <group name="Dar-e Ardis" lifetime="260" counter="-1">
+                <pos x="3656.1494" z="4996.2758" />
+                <pos x="3482.0433" z="5046.7896" />
+                <pos x="3299.8120" z="5081.3248" />
+                <pos x="3154.9326" z="4995.6380" />
+                <pos x="3397.4103" z="4749.7085" />
+                <pos x="3492.4163" z="4797.1785" />
+            </group>
+            <group name="Kamar Zir" lifetime="260" counter="-1">
+                <pos x="9582.3741" z="11892.6907" />
+                <pos x="9563.2142" z="12225.3168" />
+                <pos x="9311.6405" z="12186.9658" />
+                <pos x="9230.5482" z="11830.3234" />
+                <pos x="9234.7263" z="11657.0028" />
+                <pos x="9587.8310" z="11829.0234" />
+            </group>
+            <group name="Gard Abad" lifetime="260" counter="-1">
+                <pos x="11244.0672" z="7679.5382" />
+                <pos x="11264.7948" z="7930.5819" />
+                <pos x="11040.4221" z="7822.3488" />
+                <pos x="10715.1147" z="7656.8674" />
+                <pos x="10966.6558" z="7394.8397" />
+                <pos x="11239.6143" z="7396.5492" />
+            </group>
+            <!--LOW LEVEL — starter villages (low loot, safe entry)-->
+            <group name="Bala Kalay" lifetime="260" counter="-1">
+                <pos x="4643.8239" z="7610.1447" />
+                <pos x="4590.3137" z="7945.7781" />
+                <pos x="4389.4622" z="7754.6980" />
+                <pos x="4236.1798" z="7634.3581" />
+                <pos x="4421.6757" z="7397.2112" />
+                <pos x="4533.0534" z="7464.0295" />
+            </group>
+            <group name="Bagh-e Mir" lifetime="260" counter="-1">
+                <pos x="4962.1348" z="5603.4041" />
+                <pos x="5016.4662" z="5719.1768" />
+                <pos x="4691.0440" z="5838.6323" />
+                <pos x="4406.0690" z="5637.4430" />
+                <pos x="4680.0878" z="5428.9429" />
+                <pos x="4765.7923" z="5394.3697" />
+            </group>
+            <group name="Pay-e Kuh" lifetime="260" counter="-1">
+                <pos x="6593.4007" z="5712.3346" />
+                <pos x="6395.2467" z="5908.6933" />
+                <pos x="6125.8643" z="5877.7379" />
+                <pos x="6166.8816" z="5705.5294" />
+                <pos x="6177.5417" z="5573.1277" />
+                <pos x="6380.7182" z="5477.4056" />
+            </group>
+            <group name="Mal Kalay" lifetime="260" counter="-1">
+                <pos x="9740.5771" z="8963.3659" />
+                <pos x="9693.3866" z="8991.9626" />
+                <pos x="9353.8780" z="9115.9202" />
+                <pos x="9392.9007" z="8912.0630" />
+                <pos x="9348.4192" z="8539.9441" />
+                <pos x="9872.8005" z="8646.0041" />
+            </group>
+            <group name="Tut Mian" lifetime="260" counter="-1">
+                <pos x="8278.8633" z="6715.0622" />
+                <pos x="8047.7849" z="6913.9353" />
+                <pos x="7850.6437" z="6881.7130" />
+                <pos x="7581.2283" z="6861.2848" />
+                <pos x="7885.5353" z="6498.9660" />
+                <pos x="7990.1750" z="6571.4559" />
+            </group>
+            <group name="Karizak" lifetime="260" counter="-1">
+                <pos x="3765.2767" z="12861.3056" />
+                <pos x="3617.5253" z="13155.4927" />
+                <pos x="3443.9451" z="13140.6926" />
+                <pos x="3273.1859" z="12803.3522" />
+                <pos x="3473.4433" z="12628.9694" />
+                <pos x="3783.6458" z="12487.9381" />
+            </group>
+            <group name="Sar-e Deh" lifetime="260" counter="-1">
+                <pos x="3158.5014" z="6333.5198" />
+                <pos x="3115.9246" z="6483.5397" />
+                <pos x="2774.2611" z="6396.5336" />
+                <pos x="2877.5272" z="6347.6963" />
+                <pos x="2862.1994" z="5981.3407" />
+                <pos x="3056.1562" z="6121.5066" />
+            </group>
+            <group name="Dahaneh-e Kavir" lifetime="260" counter="-1">
+                <pos x="11376.1850" z="2535.3672" />
+                <pos x="11386.3243" z="2879.6191" />
+                <pos x="11200.1331" z="2725.3488" />
+                <pos x="11096.4062" z="2446.5388" />
+                <pos x="11193.2885" z="2235.4337" />
+                <pos x="11285.7128" z="2333.9633" />
+            </group>
+
+        </generator_posbubbles>
+    </fresh>
+    <!--Spawn points settings for server hoppers-->
+    <hop>
+        <!--
+            Settings that are evaluated at runtime when a new character spawns in and needs a spawnpoint.
+            This is used to calculate a score, the higher the score, the more likely a character is to spawn there.
+            
+            distance:    0           min    mid    max          MAX
+                         |============|======|======|============|
+            score:      -1           0.1    1.1    0.1           0
+            
+            It is very little likely that a spawnpoint will be chosen if it is within the min distance of something.
+            Do note that the score is also influenced by weights and the static score calculated by generator_params.
+        -->
+        <spawn_params>
+            <!--Minimum distance from infected in meters (weight: 2x)-->
+            <min_dist_infected>30</min_dist_infected>
+            <!--Maximum distance from infected in meters (weight: 2x)-->
+            <max_dist_infected>70</max_dist_infected>
+            <!--Minimum distance from players in meters (weight: 3x)-->
+            <min_dist_player>65</min_dist_player>
+            <!--Maximum distance from players in meters (weight: 3x)-->
+            <max_dist_player>150</max_dist_player>
+            <!--Minimum distance from static objects in meters (weight: 1x)-->
+            <min_dist_static>0</min_dist_static>
+            <!--Maximum distance from static objects in meters (weight: 1x)-->
+            <max_dist_static>2</max_dist_static>
+            <!--Minimum distance from static objects in meters (weight: 6x)-->
+            <min_dist_trigger>50</min_dist_trigger>
+            <!--Maximum distance from static objects in meters (weight: 6x)-->
+            <max_dist_trigger>100</max_dist_trigger>
+        </spawn_params>
+        <!--
+            Spawn points are generated around <pos> child elements under the <generator_posbubbles> element.
+            A rectangle is created with the <pos> as the center and the provided grid dimensions.
+            This rectangle is then sampled for spawn point candidates in the form of a grid.
+            The points have a score assigned and the better score, the more likely it is to be chosen.
+            Generated spawn points which overlap with objects or water are discarded.
+        -->
+        <generator_params>
+            <!--
+                Density is sample frequency of created rectangle.
+                The value must be at least 1 and can't be larger than the smallest dimension.
+                When set to 0, it takes only the center point as the spawnpoint.
+                
+                example:                         example:
+                  density 4                        density 8
+                
+                grid will look like this:        grid will look like this:
+                
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                
+                Every 'O' represents a spawn point candidate.
+                Blank areas are space between each spawn point.
+                Width of each area is exactly width / density.
+                Height of each area is exactly height / density.
+            -->
+            <grid_density>4</grid_density>
+            <!--Total width of grid in metres (1 - 4096)-->
+            <grid_width>200</grid_width>
+            <!--Total height of grid in metres (1 - 4096)-->
+            <grid_height>200</grid_height>
+            <!--
+                Minimum distance from static objects
+                (points below this will be discarded during binarisation)
+            -->
+            <min_dist_static>0</min_dist_static>
+            <!--
+                Maximum distance from static objects
+                (points above this will just be less likely than those within the range)
+            -->
+            <max_dist_static>2</max_dist_static>
+            <!--
+                Minimum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <min_steepness>-45</min_steepness>
+            <!--
+                Maximum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <max_steepness>45</max_steepness>
+            <!--Enables spawnpoints in water (default: false)-->
+            <allow_in_water>false</allow_in_water>
+        </generator_params>
+        <!--Parameters controlling group spawning behaviour-->
+        <group_params>
+            <!--Enables the group spawning behaviour (default: false)-->
+            <enablegroups>true</enablegroups>
+            <!--Enables using spawn points listed in groups as regular spawn points when enablegroups is disabled (default: true)-->
+            <groups_as_regular>true</groups_as_regular>
+            <!--The default lifetime for a group in seconds, -1 means disabled (default: -1)-->
+            <lifetime>240</lifetime>
+            <!--The default counter for a group, -1 means disabled (default: -1)-->
+            <counter>-1</counter>
+        </group_params>
+        <!--Centers for grids of spawn points-->
+        <generator_posbubbles>
+            <!--
+                Spawn groups (<group>) are groups that will be selected for a certain period of time (lifetime) or spawns (counter).
+                Groups are chosen randomly, ignoring the current and the group which was selected most recently before it.
+                
+                When only lifetime is filled in, the group will be alive for the amount of seconds specified.
+                If a player logs in after the lifetime has run out, the group will automatically be swapped.
+                
+                When only counter is filled in, the group will only be active for that many logins.
+                The system will choose a new group once this counter has reached 0.
+                
+                When both are active, the lifetime will be ticking down, but when a player logs in, the lifetime will be refreshed.
+                As long as the counter is not 0, the lifetime will continue to be refreshed when a player logs in before the lifetime runs out.
+                
+                Be aware that this is only checked on player log in, so it will not swap for as long as nobody is logging in.
+            -->
+            <group name="AllSpawnpoints" lifetime="0">
+                <pos x="14069.808594" z="13083.109375" />
+                <pos x="13571.811523" z="12821.112305" />
+                <pos x="13400.915039" z="11966.529297" />
+                <pos x="13282.304688" z="12401.000977" />
+                <pos x="12512.414063" z="12863.467773" />
+                <pos x="11440.970703" z="12169.095703" />
+                <pos x="10862.637695" z="11663.675781" />
+                <pos x="10186.566406" z="12018.264648" />
+                <pos x="10262.566406" z="13160.295898" />
+                <pos x="8906.655273" z="12133.699219" />
+                <pos x="8681.69043" z="13286.759766" />
+                <pos x="8125.182617" z="13367.421875" />
+                <pos x="7776.975586" z="12732.59375" />
+                <pos x="7448.172363" z="13488.839844" />
+                <pos x="6898" z="13612.086914" />
+                <pos x="5478.358887" z="13765.376953" />
+                <pos x="5173.121094" z="13392.959961" />
+                <pos x="6173.647461" z="13440.870117" />
+                <pos x="8240.628906" z="12159.977539" />
+                <pos x="9705.84082" z="12237.535156" />
+            </group>
+        </generator_posbubbles>
+    </hop>
+    <!--Spawn points settings for travellers-->
+    <travel>
+        <!--
+            Settings that are evaluated at runtime when a new character spawns in and needs a spawnpoint.
+            This is used to calculate a score, the higher the score, the more likely a character is to spawn there.
+            
+            distance:    0           min    mid    max          MAX
+                         |============|======|======|============|
+            score:      -1           0.1    1.1    0.1           0
+            
+            It is very little likely that a spawnpoint will be chosen if it is within the min distance of something.
+            Do note that the score is also influenced by weights and the static score calculated by generator_params.
+        -->
+        <spawn_params>
+            <!--Minimum distance from infected in meters (weight: 2x)-->
+            <min_dist_infected>30</min_dist_infected>
+            <!--Maximum distance from infected in meters (weight: 2x)-->
+            <max_dist_infected>70</max_dist_infected>
+            <!--Minimum distance from players in meters (weight: 3x)-->
+            <min_dist_player>65</min_dist_player>
+            <!--Maximum distance from players in meters (weight: 3x)-->
+            <max_dist_player>150</max_dist_player>
+            <!--Minimum distance from static objects in meters (weight: 1x)-->
+            <min_dist_static>0</min_dist_static>
+            <!--Maximum distance from static objects in meters (weight: 1x)-->
+            <max_dist_static>2</max_dist_static>
+            <!--Minimum distance from static objects in meters (weight: 6x)-->
+            <min_dist_trigger>50</min_dist_trigger>
+            <!--Maximum distance from static objects in meters (weight: 6x)-->
+            <max_dist_trigger>100</max_dist_trigger>
+        </spawn_params>
+        <!--
+            Spawn points are generated around <pos> child elements under the <generator_posbubbles> element.
+            A rectangle is created with the <pos> as the center and the provided grid dimensions.
+            This rectangle is then sampled for spawn point candidates in the form of a grid.
+            The points have a score assigned and the better score, the more likely it is to be chosen.
+            Generated spawn points which overlap with objects or water are discarded.
+        -->
+        <generator_params>
+            <!--
+                Density is sample frequency of created rectangle.
+                The value must be at least 1 and can't be larger than the smallest dimension.
+                When set to 0, it takes only the center point as the spawnpoint.
+                
+                example:                         example:
+                  density 4                        density 8
+                
+                grid will look like this:        grid will look like this:
+                
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  |     |     |     |     |        O==O==O==O==O==O==O==O==O
+                  |     |     |     |     |        |  |  |  |  |  |  |  |  |
+                  O=====O=====O=====O=====O        O==O==O==O==O==O==O==O==O
+                
+                Every 'O' represents a spawn point candidate.
+                Blank areas are space between each spawn point.
+                Width of each area is exactly width / density.
+                Height of each area is exactly height / density.
+            -->
+            <grid_density>4</grid_density>
+            <!--Total width of grid in metres (1 - 4096)-->
+            <grid_width>200</grid_width>
+            <!--Total height of grid in metres (1 - 4096)-->
+            <grid_height>200</grid_height>
+            <!--
+                Minimum distance from static objects
+                (points below this will be discarded during binarisation)
+            -->
+            <min_dist_static>0</min_dist_static>
+            <!--
+                Maximum distance from static objects
+                (points above this will just be less likely than those within the range)
+            -->
+            <max_dist_static>2</max_dist_static>
+            <!--
+                Minimum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <min_steepness>-45</min_steepness>
+            <!--
+                Maximum terrain slope limit in degrees
+                (points not within range will be discarded during binarisation)
+            -->
+            <max_steepness>45</max_steepness>
+            <!--Enables spawnpoints in water (default: false)-->
+            <allow_in_water>false</allow_in_water>
+        </generator_params>
+        <!--Parameters controlling group spawning behaviour-->
+        <group_params>
+            <!--Enables the group spawning behaviour (default: false)-->
+            <enablegroups>true</enablegroups>
+            <!--Enables using spawn points listed in groups as regular spawn points when enablegroups is disabled (default: true)-->
+            <groups_as_regular>true</groups_as_regular>
+            <!--The default lifetime for a group in seconds, -1 means disabled (default: -1)-->
+            <lifetime>240</lifetime>
+            <!--The default counter for a group, -1 means disabled (default: -1)-->
+            <counter>-1</counter>
+        </group_params>
+        <!--Centers for grids of spawn points-->
+        <generator_posbubbles>
+            <!--
+                Spawn groups (<group>) are groups that will be selected for a certain period of time (lifetime) or spawns (counter).
+                Groups are chosen randomly, ignoring the current and the group which was selected most recently before it.
+                
+                When only lifetime is filled in, the group will be alive for the amount of seconds specified.
+                If a player logs in after the lifetime has run out, the group will automatically be swapped.
+                
+                When only counter is filled in, the group will only be active for that many logins.
+                The system will choose a new group once this counter has reached 0.
+                
+                When both are active, the lifetime will be ticking down, but when a player logs in, the lifetime will be refreshed.
+                As long as the counter is not 0, the lifetime will continue to be refreshed when a player logs in before the lifetime runs out.
+                
+                Be aware that this is only checked on player log in, so it will not swap for as long as nobody is logging in.
+            -->
+            <group name="AllSpawnpoints" lifetime="0">
+                <pos x="14069.808594" z="13083.109375" />
+                <pos x="13571.811523" z="12821.112305" />
+                <pos x="13400.915039" z="11966.529297" />
+                <pos x="13282.304688" z="12401.000977" />
+                <pos x="12512.414063" z="12863.467773" />
+                <pos x="11440.970703" z="12169.095703" />
+                <pos x="10862.637695" z="11663.675781" />
+                <pos x="10186.566406" z="12018.264648" />
+                <pos x="10262.566406" z="13160.295898" />
+                <pos x="8906.655273" z="12133.699219" />
+                <pos x="8681.69043" z="13286.759766" />
+                <pos x="8125.182617" z="13367.421875" />
+                <pos x="7776.975586" z="12732.59375" />
+                <pos x="7448.172363" z="13488.839844" />
+                <pos x="6898" z="13612.086914" />
+                <pos x="5478.358887" z="13765.376953" />
+                <pos x="5173.121094" z="13392.959961" />
+                <pos x="6173.647461" z="13440.870117" />
+                <pos x="8240.628906" z="12159.977539" />
+                <pos x="9705.84082" z="12237.535156" />
+            </group>
+        </generator_posbubbles>
+    </travel>
+</playerspawnpoints>
