@@ -52,6 +52,9 @@ class TamedDog
 }
 
 ref DogTamer g_Tamer;
+int g_TamerTickCount = 0;
+int g_EmoteDebugCount = 0;
+float g_TamerAccum = 0.0;
 
 class DogTamer
 {
@@ -76,15 +79,53 @@ class DogTamer
 
     static int CurrentEmote(PlayerBase player)
     {
+        g_EmoteDebugCount++;
         EmoteManager em = player.GetEmoteManager();
         if (!em)
             return -1;
-        if (!em.IsEmotePlaying())
+        bool playing = em.IsEmotePlaying();
+        if (!playing)
             return -1;
-        EmoteLauncher l = em.GetEmoteLauncher();
-        if (!l)
+
+        // Get the EmoteCB from the player's active command. GetEmoteLauncher()
+        // is only the script-queue path and is null for emote-menu emotes, so
+        // the real ID must be recovered from the running command callback.
+        HumanCommandActionCallback cmd = player.GetCommand_Action();
+        if (!cmd)
+            cmd = player.GetCommandModifier_Action();
+        if (!cmd)
+        {
+            if (g_EmoteDebugCount % 100 == 0)
+                Print(string.Format("[DogTamer-DBG] CE %1: no command while playing", player.GetName()));
             return -1;
-        return l.GetID();
+        }
+        EmoteCB ecb = EmoteCB.Cast(cmd);
+        if (!ecb)
+        {
+            if (g_EmoteDebugCount % 100 == 0)
+                Print(string.Format("[DogTamer-DBG] CE %1: active cmd is not an EmoteCB", player.GetName()));
+            return -1;
+        }
+        int cbId = ecb.m_callbackID;
+
+        // Map the callback UID to the emote ID via the EmoteBase registry.
+        map<int, ref EmoteBase> emoteMap = em.GetNameEmoteMap();
+        int count = emoteMap.Count();
+        for (int i = 0; i < count; i++)
+        {
+            EmoteBase eb = emoteMap.GetElement(i);
+            if (!eb)
+                continue;
+            if (eb.GetFullbodyCallbackUID() == cbId || eb.GetAdditiveCallbackUID() == cbId)
+            {
+                if (g_EmoteDebugCount % 100 == 0)
+                    Print(string.Format("[DogTamer-DBG] CE %1: emoteId=%2 (cb=%3)", player.GetName(), eb.GetID(), cbId));
+                return eb.GetID();
+            }
+        }
+        if (g_EmoteDebugCount % 100 == 0)
+            Print(string.Format("[DogTamer-DBG] CE %1: no EmoteBase matched cb=%2", player.GetName(), cbId));
+        return -1;
     }
 
     static string HeldType(PlayerBase player)
@@ -138,9 +179,19 @@ class DogTamer
     void Tick()
     {
         if (!g_Game || !g_Game.IsDedicatedServer())
+        {
+            if (m_TickCount % 20 == 0)
+                Print(string.Format("[DogTamer-DBG] Tick bail: g_Game=%1", g_Game != null));
             return;
+        }
 
         m_TickCount++;
+        if (m_TickCount % 10 == 1)
+        {
+            ref array<Man> pcount = new array<Man>();
+            g_Game.GetPlayers(pcount);
+            Print(string.Format("[DogTamer-DBG] Tick #%1: %2 players, %3 tamed", m_TickCount, pcount.Count(), m_Tamed.Count()));
+        }
         bool doScan = (m_TickCount % DogTamerConstants.SCAN_EVERY == 0);
 
         for (int i = 0; i < m_Tamed.Count(); i++)
@@ -168,8 +219,14 @@ class DogTamer
                 continue;
 
             int emote = CurrentEmote(player);
+            Print(string.Format("[DogTamer-DBG] emote-scan %1: emote=%2 held=%3", player.GetName(), emote, HeldType(player)));
             if (emote < 0)
                 continue;
+
+            // (diagnostic) log every emote event so we can see the live emote ID
+            Print(string.Format("[DogTamer-DBG] %1 emote=%2 (GREETING=%3) meat=%4 hasDog=%5",
+                player.GetName(), emote, EmoteConstants.ID_EMOTE_GREETING,
+                HeldType(player), OwnedDog(player) != null));
 
             vector pp = player.GetPosition();
             ref TamedDog own = OwnedDog(player);
@@ -182,11 +239,21 @@ class DogTamer
                     ref EntityAI dog = NearestWildDog(pp, DogTamerConstants.TAME_RADIUS);
                     if (dog)
                     {
+                        Print(string.Format("[DogTamer-DBG] tame check: wildDog=FOUND dist=%1", Dist(pp, dog.GetPosition())));
                         NeutralizeAI(dog);
                         ref TamedDog td = new TamedDog(dog, player, BreedOf(dog));
                         m_Tamed.InsertAt(td, m_Tamed.Count());
                         Print(string.Format("[DogTamer] %1 tamed a %2 (emote+meat)", player.GetName(), td.m_Breed));
                     }
+                    else
+                    {
+                        Print("[DogTamer-DBG] tame check: wildDog=NONE (no wild dog in radius)");
+                    }
+                }
+                else
+                {
+                    Print(string.Format("[DogTamer-DBG] tame skipped: hasDog=%1 meat=%2 isAnimalMeat=%3",
+                        own != null, HeldType(player), IsAnimalMeat(HeldType(player))));
                 }
                 continue;
             }
@@ -219,7 +286,7 @@ class DogTamer
     }
 
     // ---- follow behavior ------------------------------------------
-    void Follow(ref TamedDog td)
+    void Follow(TamedDog td)
     {
         if (!td.OwnerAlive())
             return;
@@ -265,7 +332,7 @@ class DogTamer
     }
 
     // ---- guard / attack -------------------------------------------
-    void Guard(ref TamedDog td)
+    void Guard(TamedDog td)
     {
         if (!td.OwnerAlive())
             return;
@@ -386,7 +453,7 @@ class DogTamer
         return false;
     }
 
-    void RemoveTamed(ref TamedDog target)
+    void RemoveTamed(TamedDog target)
     {
         ref array<TamedDog> keep = new array<TamedDog>();
         for (int i = 0; i < m_Tamed.Count(); i++)
@@ -402,6 +469,9 @@ class DogTamer
 // ---- global tick ----------------------------------------------------
 void TamerTick()
 {
+    g_TamerTickCount++;
+    if (g_TamerTickCount % 10 == 1)
+        Print(string.Format("[DogTamer-DBG] TamerTick fired #%1 (g_Tamer=%2)", g_TamerTickCount, g_Tamer != null));
     if (g_Tamer)
         g_Tamer.Tick();
 }
@@ -514,9 +584,21 @@ class CustomMission: MissionServer
 	{
 		super.OnInit();   // base MissionServer init (PlayerSpawnHandler, CfgGameplayHandler, etc.)
 		g_Tamer = new DogTamer();
-		g_Game.GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(TamerTick,
-			DogTamerConstants.TICK_MS, true);
 		Print("[DogTamer] taming mechanic active (nasdara)");
+	}
+
+	override void OnUpdate(float timeslice)
+	{
+		super.OnUpdate(timeslice);
+		if (g_Tamer)
+		{
+			g_TamerAccum += timeslice;
+			if (g_TamerAccum >= 0.3)
+			{
+				g_TamerAccum = 0.0;
+				g_Tamer.Tick();
+			}
+		}
 	}
 
 };
